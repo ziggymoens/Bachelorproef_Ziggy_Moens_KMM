@@ -1,0 +1,705 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Bishop2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c8dc21f318ea690af14c6c4cc96277a6}{%
+           family={{Bishop}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1a40f67fda12db0404dd9631aa82a3d}{%
+           family={{Horspool}},
+           familyi={H\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e3fa69dd4bd3e0f86c1ef12f0bb0c794}
+      \strng{fullhash}{e3fa69dd4bd3e0f86c1ef12f0bb0c794}
+      \strng{bibnamehash}{e3fa69dd4bd3e0f86c1ef12f0bb0c794}
+      \strng{authorbibnamehash}{e3fa69dd4bd3e0f86c1ef12f0bb0c794}
+      \strng{authornamehash}{e3fa69dd4bd3e0f86c1ef12f0bb0c794}
+      \strng{authorfullhash}{e3fa69dd4bd3e0f86c1ef12f0bb0c794}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The design of software that is easy to port or deliberately targeted for multiple platforms is a neglected area of software engineering. A promising solution is to link components and toolkits through XML and reflection. One of the more compelling definitions of software engineering is, the multiperson construction of multiversion software. The popular view of software engineering focuses on the first part of this definition - managing teams to produce a large product. But just as important is the view inherent in the second part of the definition - identifying specific parts of a product so that experts can design them and organizations can mass-produce them free of language and environment dependencies. Component-based software engineering has made tremendous strides toward satisfying both parts of the definition. Through the use of middleware constructed using reflection and controlled through XML specifications, it is possible to give the components in a large software system a high degree of platform and even language independence. The result is long lived software that can migrate gracefully as platforms improve and change}
+      \field{issn}{1558-0814}
+      \field{journaltitle}{Computer}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Cross-Platform Development: Software that Lasts}
+      \field{volume}{39}
+      \field{year}{2006}
+      \field{pages}{26\bibrangedash 35}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MC.2006.337
+      \endverb
+      \verb{urlraw}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf
+      \endverb
+      \verb{url}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf
+      \endverb
+      \keyw{formal specification;middleware;object-oriented programming;software maintenance;software portability;software tools;XML;cross-platform software development;software portability;software toolkits;XML specifications;software reflection;component-based software engineering;middleware;software migration;software change management;Operating systems;Software libraries;Software performance;Hardware;Java;Application software;Graphical user interfaces;Costs;Middleware;Reflection;software engineering;cross-platform development}
+    \endentry
+    \entry{FlutterWidgets}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c047b10eee763afb6164e077cf1cc268}{%
+           family={Flutter},
+           familyi={F\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c047b10eee763afb6164e077cf1cc268}{%
+           family={Flutter},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{fullhash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{bibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorbibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authornamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorfullhash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{editorbibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{editornamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{editorfullhash}{c047b10eee763afb6164e077cf1cc268}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to widgets}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://flutter.dev/docs/development/ui/widgets-intro
+      \endverb
+      \verb{url}
+      \verb https://flutter.dev/docs/development/ui/widgets-intro
+      \endverb
+    \endentry
+    \entry{Jemerov2011}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e832c0c2c67ac97095b81b527c2e84be}{%
+           family={Jemerov},
+           familyi={J\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e832c0c2c67ac97095b81b527c2e84be}{%
+           family={Jemerov},
+           familyi={J\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{fullhash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{bibnamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{authorbibnamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{authornamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{authorfullhash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{editorbibnamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{editornamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{editorfullhash}{e832c0c2c67ac97095b81b527c2e84be}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{journaltitle}{JetBrains Blog}
+      \field{month}{7}
+      \field{title}{Hello World}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.jetbrains.com/kotlin/2011/07/hello-world-2/
+      \endverb
+      \verb{url}
+      \verb https://blog.jetbrains.com/kotlin/2011/07/hello-world-2/
+      \endverb
+    \endentry
+    \entry{Jemerov2017}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e832c0c2c67ac97095b81b527c2e84be}{%
+           family={Jemerov},
+           familyi={J\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e832c0c2c67ac97095b81b527c2e84be}{%
+           family={Jemerov},
+           familyi={J\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{fullhash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{bibnamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{authorbibnamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{authornamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{authorfullhash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{editorbibnamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{editornamehash}{e832c0c2c67ac97095b81b527c2e84be}
+      \strng{editorfullhash}{e832c0c2c67ac97095b81b527c2e84be}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{11}
+      \field{title}{Kotlin 1.2 Released: Sharing Code between Platforms}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.jetbrains.com/kotlin/2017/11/kotlin-1-2-released/
+      \endverb
+      \verb{url}
+      \verb https://blog.jetbrains.com/kotlin/2017/11/kotlin-1-2-released/
+      \endverb
+    \endentry
+    \entry{JetBrains2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{fullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{bibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{editorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{editornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{editorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{11}
+      \field{title}{KMM plugin releases}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kotlinlang.org/docs/mobile/kmm-plugin-releases.html#update-to-the-new-release
+      \endverb
+      \verb{url}
+      \verb https://kotlinlang.org/docs/mobile/kmm-plugin-releases.html#update-to-the-new-release
+      \endverb
+    \endentry
+    \entry{KotlinKMMCaseStudies}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{fullhash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{bibnamehash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{authorbibnamehash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{authornamehash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{authorfullhash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{editorbibnamehash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{editornamehash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \strng{editorfullhash}{539a3a5859d24fb7b129e74d61f09ffa}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Case Studies}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kotlinlang.org/lp/mobile/case-studies/
+      \endverb
+      \verb{url}
+      \verb https://kotlinlang.org/lp/mobile/case-studies/
+      \endverb
+    \endentry
+    \entry{KotlinKMM}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{03112444578383897e5730b6070a3ebd}
+      \strng{fullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{bibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorfullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorfullhash}{03112444578383897e5730b6070a3ebd}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kotlin Multiplatform Mobile}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kotlinlang.org/lp/mobile/
+      \endverb
+      \verb{url}
+      \verb https://kotlinlang.org/lp/mobile/
+      \endverb
+    \endentry
+    \entry{Kotlin2020HandsOn}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{03112444578383897e5730b6070a3ebd}
+      \strng{fullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{bibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorfullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorfullhash}{03112444578383897e5730b6070a3ebd}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{11}
+      \field{title}{Kotlin Multiplatform Hands-on: Networking and Data Storage}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/kotlin-hands-on/kmm-networking-and-data-storage/tree/final
+      \endverb
+      \verb{url}
+      \verb https://github.com/kotlin-hands-on/kmm-networking-and-data-storage/tree/final
+      \endverb
+    \endentry
+    \entry{Kotlin2021}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{03112444578383897e5730b6070a3ebd}
+      \strng{fullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{bibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorfullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorfullhash}{03112444578383897e5730b6070a3ebd}
+      \field{extraname}{3}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{2}
+      \field{title}{Kotlin Multiplatform: Share code on platforms}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kotlinlang.org/docs/reference/mpp-share-on-platforms.html#share-code-on-similar-platforms
+      \endverb
+      \verb{url}
+      \verb https://kotlinlang.org/docs/reference/mpp-share-on-platforms.html#share-code-on-similar-platforms
+      \endverb
+    \endentry
+    \entry{Nivanaho2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eae7ff5c2a6983df72be4a71288f1581}{%
+           family={Nivanaho},
+           familyi={N\bibinitperiod},
+           given={Tommi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Lappeenranta-Lahti University of Technology LUT}%
+      }
+      \strng{namehash}{eae7ff5c2a6983df72be4a71288f1581}
+      \strng{fullhash}{eae7ff5c2a6983df72be4a71288f1581}
+      \strng{bibnamehash}{eae7ff5c2a6983df72be4a71288f1581}
+      \strng{authorbibnamehash}{eae7ff5c2a6983df72be4a71288f1581}
+      \strng{authornamehash}{eae7ff5c2a6983df72be4a71288f1581}
+      \strng{authorfullhash}{eae7ff5c2a6983df72be4a71288f1581}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the splintering of the mobile application market, a new demand has risen for technologies that allow mobile application development for multiple platforms simultaneously. The current market leading solution React Native framework was selected for further study. In the thesis mobile application development and React Native were studied by conducting a literary review into the subjects. A full featured React Native application was also produced with the aim of gaining insight into using the framework in a mobile application development. The literary review and implementation project proved that while React Native still has some lingering problems due to it still being an unfinished product, it is certainly a viable and usable solution for developing mobile applications.}
+      \field{day}{27}
+      \field{month}{5}
+      \field{title}{Developing a cross-platform mobile application with React Native}
+      \field{type}{mathesis}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://lutpub.lut.fi/handle/10024/159507
+      \endverb
+      \verb{url}
+      \verb http://lutpub.lut.fi/handle/10024/159507
+      \endverb
+    \endentry
+    \entry{Oliveira2020}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2deae122258f5fcb6603e3dc39523b8f}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c808e65de728ef16965202e35c933145}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f058120dc65e931792a4b353e2c438d9}{%
+           family={Ebert},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, ON, Canada}%
+      }
+      \strng{namehash}{fce3bf19ec0b2f45ee566985be8190b6}
+      \strng{fullhash}{ce7c9b20ea346a5bba2f7960d9a410f0}
+      \strng{bibnamehash}{ce7c9b20ea346a5bba2f7960d9a410f0}
+      \strng{authorbibnamehash}{ce7c9b20ea346a5bba2f7960d9a410f0}
+      \strng{authornamehash}{fce3bf19ec0b2f45ee566985be8190b6}
+      \strng{authorfullhash}{ce7c9b20ea346a5bba2f7960d9a410f0}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)}
+      \field{day}{18}
+      \field{month}{2}
+      \field{title}{On the Adoption of Kotlin on Android Development: A Triangulation Study}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{206\bibrangedash 216}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/SANER48275.2020.9054859
+      \endverb
+      \verb{urlraw}
+      \verb http://www.victorlaerte.com/doc/On_the_Adoption_of_Kotlin_on_Android_Development__a_Triangulation_Study.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.victorlaerte.com/doc/On_the_Adoption_of_Kotlin_on_Android_Development__a_Triangulation_Study.pdf
+      \endverb
+    \endentry
+    \entry{Oracle}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oracle}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{editorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{editornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{editorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oracle}
+      \field{title}{Moved by Java Timeline}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oracle.com/java/moved-by-java/timeline/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/java/moved-by-java/timeline/
+      \endverb
+    \endentry
+    \entry{OReilly2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=910f7483c58d6d05965315636884ec87}{%
+           family={O'Reilly},
+           familyi={O\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=910f7483c58d6d05965315636884ec87}{%
+           family={O'Reilly},
+           familyi={O\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{910f7483c58d6d05965315636884ec87}
+      \strng{fullhash}{910f7483c58d6d05965315636884ec87}
+      \strng{bibnamehash}{910f7483c58d6d05965315636884ec87}
+      \strng{authorbibnamehash}{910f7483c58d6d05965315636884ec87}
+      \strng{authornamehash}{910f7483c58d6d05965315636884ec87}
+      \strng{authorfullhash}{910f7483c58d6d05965315636884ec87}
+      \strng{editorbibnamehash}{910f7483c58d6d05965315636884ec87}
+      \strng{editornamehash}{910f7483c58d6d05965315636884ec87}
+      \strng{editorfullhash}{910f7483c58d6d05965315636884ec87}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{2}
+      \field{title}{PeopleInSpace}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/joreilly/PeopleInSpace
+      \endverb
+      \verb{url}
+      \verb https://github.com/joreilly/PeopleInSpace
+      \endverb
+    \endentry
+    \entry{Petrova2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29899aaeffc8d4196d368399d6b9a99a}{%
+           family={Petrova},
+           familyi={P\bibinitperiod},
+           given={Ekaterina},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=29899aaeffc8d4196d368399d6b9a99a}{%
+           family={Petrova},
+           familyi={P\bibinitperiod},
+           given={Ekaterina},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{fullhash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{bibnamehash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{authorbibnamehash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{authornamehash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{authorfullhash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{editorbibnamehash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{editornamehash}{29899aaeffc8d4196d368399d6b9a99a}
+      \strng{editorfullhash}{29899aaeffc8d4196d368399d6b9a99a}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{month}{8}
+      \field{title}{Kotlin Multiplatform Mobile Goes Alpha}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.jetbrains.com/kotlin/2020/08/kotlin-multiplatform-mobile-goes-alpha/
+      \endverb
+      \verb{url}
+      \verb https://blog.jetbrains.com/kotlin/2020/08/kotlin-multiplatform-mobile-goes-alpha/
+      \endverb
+    \endentry
+    \entry{Sells2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7867197bf9c303d5cab988ee31a61c8}{%
+           family={Sells},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7867197bf9c303d5cab988ee31a61c8}
+      \strng{fullhash}{a7867197bf9c303d5cab988ee31a61c8}
+      \strng{bibnamehash}{a7867197bf9c303d5cab988ee31a61c8}
+      \strng{authorbibnamehash}{a7867197bf9c303d5cab988ee31a61c8}
+      \strng{authornamehash}{a7867197bf9c303d5cab988ee31a61c8}
+      \strng{authorfullhash}{a7867197bf9c303d5cab988ee31a61c8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Medium.com}
+      \field{month}{10}
+      \field{title}{Announcing Flutter 1.22}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/flutter/announcing-flutter-1-22-44f146009e5f
+      \endverb
+      \verb{url}
+      \verb https://medium.com/flutter/announcing-flutter-1-22-44f146009e5f
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,93 @@
+%==============================================================================
+% Sjabloon onderzoeksvoorstel bachelorproef
+%==============================================================================
+% Gebaseerd op LaTeX-sjabloon ‘Stylish Article’ (zie voorstel.cls)
+% Auteur: Jens Buysse, Bert Van Vreckem
+%
+% Compileren in TeXstudio:
+%
+% - Zorg dat Biber de bibliografie compileert (en niet Biblatex)
+%   Options > Configure > Build > Default Bibliography Tool: "txs:///biber"
+% - F5 om te compileren en het resultaat te bekijken.
+% - Als de bibliografie niet zichtbaar is, probeer dan F5 - F8 - F5
+%   Met F8 compileer je de bibliografie apart.
+%
+% Als je JabRef gebruikt voor het bijhouden van de bibliografie, zorg dan
+% dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
+
+\documentclass{voorstel}
+
+\usepackage{lipsum}
+\usepackage{graphicx}
+
+%------------------------------------------------------------------------------
+% Metadata over het voorstel
+%------------------------------------------------------------------------------
+
+%---------- Titel & auteur ----------------------------------------------------
+
+% TODO: geef werktitel van je eigen voorstel op
+\PaperTitle{Kotlin Multiplatform Mobile als alternatief voor native applicaties: een vergelijkende studie en proof-of-concept}
+\PaperType{Onderzoeksvoorstel Bachelorproef 2020-2021} % Type document
+
+\Authors{Ziggy Moens\textsuperscript{1}} % Authors
+\CoPromotor{Kenneth Saey\textsuperscript{2} (Endare)}
+\affiliation{\textbf{Contact:}
+  \textsuperscript{1} \href{mailto:ziggy.moens@student.hogent.be}{ziggy.moens@student.hogent.be};
+  \textsuperscript{2} \href{mailto:kenneth.saey@endare.com}{kenneth.saey@endare.com};
+}
+
+%---------- Abstract ----------------------------------------------------------
+
+\Abstract{In deze bachelorproef zal de huidige stand van zaken omtrent de cross platform SDK Kotlin Multiplatform Mobile en de mogelijkheid om dit als sneller en efficiënter alternatief te gebruiken voor native applicatieontwikkeling toegelicht worden. Cross platform applicatieontwikkeling wordt de laatste tijd steeds populairder, dit kan onder andere verklaard worden door de kleinere impact op het ontwikkelingsbudget van bedrijven. Dit vooral omdat deze manier van werken minder lijnen code vereist en deze dus sneller kan geschreven worden. In dit onderzoek zullen twee native applicaties geschreven worden, één voor Android en één voor iOS. Er zal eveneens een Kotlin Multiplatform Mobile applicatie geschreven worden die op deze twee besturingssystemen werkt. Hierbij zal gebruik gemaakt worden van Android Studio en Xcode, deze software werkt voor zowel native als Kotlin Multiplatform Mobile applicaties mits dat de Kotlin Multiplatform Mobile plugin geïnstallerd is. Een belangrijke factor hierbij is dat deze applicaties dezelfde functionaliteiten zullen aanbieden aan de gebruiker. Voor dit onderzoek zullen de applicaties aan enkele testcriteria onderworpen worden namelijk: het aantal lijnen code, de kostprijs, de ontwikkeltijd, de compileersnelheid, de voetafdruk en de uitbreidingsmogelijkheden van de applicaties.  Verondersteld wordt dat dit onderzoek vooral op vlak van het aantal lijnen code, kostprijs, ontwikkeltijd en de uitbreidingsmogelijkheid in het voordeel zal zijn van Kotlin Multiplatform Mobile. De resultaten van de overige testcriteria zullen wellicht in het voordeel van de native applicaties zijn. Daarnaast zal ook bekeken worden of het huidig beeld op de SWOT-analyse van cross-platform applicaties nog steeds klopt. De verwachte resultaten in het voordeel van Kotlin Multiplatform Mobile zijn onder andere te verklaren doordat de gedeelde business logica een groot voordeel biedt in de omvang van de code. De criteria waar de native applicaties de bovenhand nemen is vooral omdat deze beter geoptimaliseerd zijn voor de specifieke toestellen. Verder kan dit ook verklaard worden doordat Kotlin Multiplatform Mobile momenteel nog in de kinderschoenen staat. Op basis van dit onderzoek zal een bedrijf kunnen evalueren wat de meest interessante optie is voor soortgelijke casussen. Naar de toekomst toe wordt verwacht dat de effectieve productieversie van Kotlin Multiplatform Mobile veel dichter zal liggen bij of zelfs efficiënter zal doen dan de native applicaties.}
+
+%---------- Onderzoeksdomein en sleutelwoorden --------------------------------
+%
+% Het eerste sleutelwoord beschrijft het onderzoeksdomein. Je kan kiezen uit
+% deze lijst:
+%
+% - Mobiele applicatieontwikkeling
+% - Webapplicatieontwikkeling
+% - Applicatieontwikkeling (andere)
+% - Systeembeheer
+% - Netwerkbeheer
+% - Mainframe
+% - E-business
+% - Databanken en big data
+% - Machineleertechnieken en kunstmatige intelligentie
+% - Andere (specifieer)
+%
+% De andere sleutelwoorden zijn vrij te kiezen
+
+\Keywords{Mobiele applicatieontwikkeling. Kotlin Multiplatform Mobile --- Cross platform --- Native} % Keywords
+\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
+
+%---------- Titel, inhoud -----------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+\maketitle % Print the title and abstract box
+\tableofcontents % Print the contents section
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%------------------------------------------------------------------------------
+% Hoofdtekst
+%------------------------------------------------------------------------------
+
+% De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
+% kan opgenomen worden in de bijlagen van de bachelorproef zelf.
+\input{voorstel-inhoud}
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+% TODO: de gerefereerde werken moeten in BibTeX-bestand ``voorstel.bib''
+% voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
+% om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
+% BibLaTeX mode)
+
+\phantomsection
+\printbibliography[heading=bibintoc]
+
+\end{document}

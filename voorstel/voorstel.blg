@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'voorstel.blg'
+[77] biber-darwin:322> INFO - === Thu Feb 11, 2021, 20:32:29
+[220] Utils.pm:320> ERROR - Cannot find 'voorstel.bcf'!
+[221] Biber.pm:132> INFO - ERRORS: 1

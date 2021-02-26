@@ -1,38 +1,13 @@
 % Encoding: UTF-8
-@book{Knuth1998,
- author = {Knuth, Donald E.},
- title = {The art of computer programming,  volume 3: (2nd ed.) sorting and searching},
- year = {1998},
- publisher = {Addison Wesley Longman Publishing Co., Inc.},
- address = {Redwood City, CA, USA}
-}
-
-@book{Pollefliet2011,
-  author = {Pollefliet, Leen},
-  title = {Schrijven van verslag tot eindwerk: do's en don'ts},
-  year = {2011},
-  publisher = {Academia Press},
-  address = {Gent}
-}
-
-@article{Creeger2009,
-  author = {Creeger, Mache},
-  journal = {Communications of the ACM},
-  number = {8},
-  pages = {50--56},
-  title = {{CTO Roundtable: Cloud Computing}},
-  volume = {52},
-  year = {2009}
-}
 
 @Electronic{Oracle,
-  author       = {Oracle},
-  editor       = {Oracle},
-  title        = {Moved by Java Timeline},
-  url          = {https://www.oracle.com/java/moved-by-java/timeline/},
-  urldate      = {2021-02-11},
-  journaltitle = {Oracle},
-  publisher    = {Oracle},
+  author    = {Oracle},
+  editor    = {Oracle},
+  title     = {Moved by Java Timeline},
+  url       = {https://www.oracle.com/java/moved-by-java/timeline/},
+  urldate   = {2021-02-11},
+  journal   = {Oracle},
+  publisher = {Oracle},
 }
 
 @Electronic{Jemerov2011,
@@ -119,18 +94,19 @@
 }
 
 @Article{Bishop2006,
-  author       = {J. {Bishop} and N. {Horspool}},
-  date         = {2006-10},
-  journaltitle = {Computer},
-  title        = {Cross-Platform Development: Software that Lasts},
-  doi          = {10.1109/MC.2006.337},
-  issn         = {1558-0814},
-  number       = {10},
-  pages        = {26-35},
-  url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf},
-  volume       = {39},
-  abstract     = {The design of software that is easy to port or deliberately targeted for multiple platforms is a neglected area of software engineering. A promising solution is to link components and toolkits through XML and reflection. One of the more compelling definitions of software engineering is, the multiperson construction of multiversion software. The popular view of software engineering focuses on the first part of this definition - managing teams to produce a large product. But just as important is the view inherent in the second part of the definition - identifying specific parts of a product so that experts can design them and organizations can mass-produce them free of language and environment dependencies. Component-based software engineering has made tremendous strides toward satisfying both parts of the definition. Through the use of middleware constructed using reflection and controlled through XML specifications, it is possible to give the components in a large software system a high degree of platform and even language independence. The result is long lived software that can migrate gracefully as platforms improve and change},
-  keywords     = {formal specification;middleware;object-oriented programming;software maintenance;software portability;software tools;XML;cross-platform software development;software portability;software toolkits;XML specifications;software reflection;component-based software engineering;middleware;software migration;software change management;Operating systems;Software libraries;Software performance;Hardware;Java;Application software;Graphical user interfaces;Costs;Middleware;Reflection;software engineering;cross-platform development},
+  author   = {J. {Bishop} and N. {Horspool}},
+  title    = {Cross-Platform Development: Software that Lasts},
+  doi      = {10.1109/MC.2006.337},
+  issn     = {1558-0814},
+  number   = {10},
+  pages    = {26-35},
+  url      = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf},
+  volume   = {39},
+  abstract = {The design of software that is easy to port or deliberately targeted for multiple platforms is a neglected area of software engineering. A promising solution is to link components and toolkits through XML and reflection. One of the more compelling definitions of software engineering is, the multiperson construction of multiversion software. The popular view of software engineering focuses on the first part of this definition - managing teams to produce a large product. But just as important is the view inherent in the second part of the definition - identifying specific parts of a product so that experts can design them and organizations can mass-produce them free of language and environment dependencies. Component-based software engineering has made tremendous strides toward satisfying both parts of the definition. Through the use of middleware constructed using reflection and controlled through XML specifications, it is possible to give the components in a large software system a high degree of platform and even language independence. The result is long lived software that can migrate gracefully as platforms improve and change},
+  journal  = {Computer},
+  keywords = {formal specification;middleware;object-oriented programming;software maintenance;software portability;software tools;XML;cross-platform software development;software portability;software toolkits;XML specifications;software reflection;component-based software engineering;middleware;software migration;software change management;Operating systems;Software libraries;Software performance;Hardware;Java;Application software;Graphical user interfaces;Costs;Middleware;Reflection;software engineering;cross-platform development},
+  month    = {10},
+  year     = {2006},
 }
 
 @Electronic{rspacex2020,
@@ -147,9 +123,9 @@
   date      = {2020-02-18},
   title     = {On the Adoption of Kotlin on Android Development: A Triangulation Study},
   doi       = {10.1109/SANER48275.2020.9054859},
-  location  = {London, ON, Canada},
   pages     = {206--216},
   url       = {http://www.victorlaerte.com/doc/On_the_Adoption_of_Kotlin_on_Android_Development__a_Triangulation_Study.pdf},
+  address   = {London, ON, Canada},
   year      = {2020},
 }
 
