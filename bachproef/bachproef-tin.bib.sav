@@ -1,29 +1,4 @@
 % Encoding: UTF-8
-@book{Knuth1998,
- author = {Knuth, Donald E.},
- title = {The art of computer programming,  volume 3: (2nd ed.) sorting and searching},
- year = {1998},
- publisher = {Addison Wesley Longman Publishing Co., Inc.},
- address = {Redwood City, CA, USA}
-}
-
-@book{Pollefliet2011,
-  author = {Pollefliet, Leen},
-  title = {Schrijven van verslag tot eindwerk: do's en don'ts},
-  year = {2011},
-  publisher = {Academia Press},
-  address = {Gent}
-}
-
-@article{Creeger2009,
-  author = {Creeger, Mache},
-  journal = {Communications of the ACM},
-  number = {8},
-  pages = {50--56},
-  title = {{CTO Roundtable: Cloud Computing}},
-  volume = {52},
-  year = {2009}
-}
 
 @Electronic{Oracle,
   author       = {Oracle},
@@ -98,6 +73,7 @@
   pages       = {40},
   url         = {https://www.diva-portal.org/smash/get/diva2:1368323/FULLTEXT01.pdf},
   abstract    = {The objective of this master’s thesis has been to evaluate the Kotlin Multiplatform feature for developing cross-platform mobile applications for Android and iOS. This has been done in comparison to natively developed applications for the two platforms. The method of evaluation has been to develop a sample application natively for Android and iOS, respectively. The same sample application has then been developed using the Kotlin Multiplatform feature. Finally, the multiplatform Android application has been compared to the natively developed Android application, and the multiplatform iOS application has been compared to the natively developed iOS application. The evaluation has focused on measuring the startup time of the applications, as well as the application size of the installed sample applications, comparing the native ones to the multiplatform ones. An attempt has also been made to try to determine if there can be any productivity gains in using the Kotlin Multiplatform feature instead of doing the development natively for each of the studied platforms. For productivity, the evaluation has included measuring number of lines of code, and build time (compilation time) for the applications. The results indicate that it is possible to write less code if making use of the Kotlin Multiplatform feature. However, the results also indicate an increased build time with Kotlin Multiplatform, for both Android and iOS, and an increased startup time for Android. No indication of an increased startup time for the multiplatform iOS application could be found. As for the application sizes, the results show an increased size for the multiplatform applications.},
+  file        = {:../bronnen/Evert2019.pdf:PDF},
 }
 
 @Electronic{JetBrains2020,
@@ -130,6 +106,7 @@
   url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf},
   volume       = {39},
   abstract     = {The design of software that is easy to port or deliberately targeted for multiple platforms is a neglected area of software engineering. A promising solution is to link components and toolkits through XML and reflection. One of the more compelling definitions of software engineering is, the multiperson construction of multiversion software. The popular view of software engineering focuses on the first part of this definition - managing teams to produce a large product. But just as important is the view inherent in the second part of the definition - identifying specific parts of a product so that experts can design them and organizations can mass-produce them free of language and environment dependencies. Component-based software engineering has made tremendous strides toward satisfying both parts of the definition. Through the use of middleware constructed using reflection and controlled through XML specifications, it is possible to give the components in a large software system a high degree of platform and even language independence. The result is long lived software that can migrate gracefully as platforms improve and change},
+  file         = {:../bronnen/Bishop2006.pdf:PDF},
   keywords     = {formal specification;middleware;object-oriented programming;software maintenance;software portability;software tools;XML;cross-platform software development;software portability;software toolkits;XML specifications;software reflection;component-based software engineering;middleware;software migration;software change management;Operating systems;Software libraries;Software performance;Hardware;Java;Application software;Graphical user interfaces;Costs;Middleware;Reflection;software engineering;cross-platform development},
 }
 
@@ -150,6 +127,7 @@
   location  = {London, ON, Canada},
   pages     = {206--216},
   url       = {http://www.victorlaerte.com/doc/On_the_Adoption_of_Kotlin_on_Android_Development__a_Triangulation_Study.pdf},
+  file      = {:../bronnen/Oliveira2020.pdf:PDF},
   year      = {2020},
 }
 
@@ -160,6 +138,7 @@
   title       = {From native to cross-platform hybrid development : CodeGT, design and development of a mobile app for ERP},
   url         = {http://hdl.handle.net/10071/17584},
   abstract    = {The current trend towards mobility of individuals, together with the exponential growth of the number of mobile devices led the market to a boom in the demand for the development of mobile applications. Moreover, with the expansion and heterogeneity of the mobile devices and platforms, software companies need to search for faster and cheaper ways to develop applications that can span as many devices as possible to capture the market. Currently, the Android and iOS Operating Systems roughly share and dominate the mobile market, with timid expressions of other competitors. Each of these mobile operating systems were developed using their own languages, strategy and SDKs for development of applications using their libraries – known as Native apps. On the other hand, the evolution of HTML5, CSS and JavaScript created generic alternatives to create mobile apps that run on devices on all operating systems, although lacking the capability to access the device’s full potential. Alongside came the new Hybrid cross-platform development frameworks, which try to take the best of both worlds. This dissertation describes the evolution of the different mobile app development approaches and the state-of-the-art in their development techniques, and compares them with the Hybrid app approach, then highlighting the trends in mobile app development using Hybrid platforms and their advantages. This research includes the development of a mobile Hybrid application, CodeGT, which interacts with an Enterprise Resource Planning (ERP) to access the Transport Documents registered in this ERP and access to the code transmitted by the Portuguese Tax Authority (AT), therefore not requiring the printing of documents and meeting a need of the business market. This application does already have customer industry companies interested in it.},
+  file        = {:../bronnen/Pinto2018.pdf:PDF},
 }
 
 @MastersThesis{Nivanaho2019,
@@ -169,6 +148,7 @@
   title       = {Developing a cross-platform mobile application with React Native},
   url         = {http://lutpub.lut.fi/handle/10024/159507},
   abstract    = {With the splintering of the mobile application market, a new demand has risen for technologies that allow mobile application development for multiple platforms simultaneously. The current market leading solution React Native framework was selected for further study. In the thesis mobile application development and React Native were studied by conducting a literary review into the subjects. A full featured React Native application was also produced with the aim of gaining insight into using the framework in a mobile application development. The literary review and implementation project proved that while React Native still has some lingering problems due to it still being an unfinished product, it is certainly a viable and usable solution for developing mobile applications.},
+  file        = {:../bronnen/Nivanaho2019.pdf:PDF},
 }
 
 @Electronic{Kotlin2021,
@@ -230,6 +210,20 @@
   title   = {Kotlin Multiplatform Hands-on: Networking and Data Storage},
   url     = {https://github.com/kotlin-hands-on/kmm-networking-and-data-storage/tree/final},
   urldate = {2021-02-11},
+}
+
+@Article{Mateus2019,
+  author       = {Bruno G{\'{o}}is Mateus and Matias Martinez},
+  date         = {2019-06},
+  journaltitle = {Empirical Software Engineering},
+  title        = {An empirical study on quality of Android applications written in Kotlin language},
+  doi          = {10.1007/s10664-019-09727-4},
+  number       = {6},
+  pages        = {3356--3393},
+  url          = {https://link.springer.com/article/10.1007/s10664-019-09727-4},
+  volume       = {24},
+  file         = {:../bronnen/Mateus2019.pdf:PDF},
+  publisher    = {Springer Science and Business Media {LLC}},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -232,4 +232,17 @@
   urldate = {2021-02-11},
 }
 
+@Article{Mateus2019,
+  author       = {Bruno G{\'{o}}is Mateus and Matias Martinez},
+  date         = {2019-06},
+  journaltitle = {Empirical Software Engineering},
+  title        = {An empirical study on quality of Android applications written in Kotlin language},
+  doi          = {10.1007/s10664-019-09727-4},
+  number       = {6},
+  pages        = {3356--3393},
+  volume       = {24},
+  file         = {../bronnen/Mateus2019.pdf},
+  publisher    = {Springer Science and Business Media {LLC}},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

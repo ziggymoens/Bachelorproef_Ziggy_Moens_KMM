@@ -5,39 +5,59 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Probleemstelling}{13}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{14}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Afbakening van het onderwerp}{14}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{14}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Onderzoeksvraag}{14}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{14}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Onderzoeksdoelstelling}{14}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}%
+\contentsline {section}{\numberline {1.5}Opzet van deze bachelorproef}{16}{section.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{19}{chapter.3}%
+\contentsline {chapter}{\numberline {2}Stand van zaken}{19}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{21}{chapter.4}%
+\contentsline {section}{\numberline {2.1}Kotlin}{19}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{23}{appendix.A}%
+\contentsline {section}{\numberline {2.2}Ontwikkelingsvormen}{20}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{23}{section.A.1}%
+\contentsline {subsection}{\numberline {2.2.1}Native ontwikkeling}{21}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{24}{section.A.2}%
+\contentsline {subsection}{\numberline {2.2.2}Cross-platform ontwikkeling}{21}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Kotlin}{24}{subsection.A.2.1}%
+\contentsline {section}{\numberline {2.3}Multiplatform}{21}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Cross-platform en native}{24}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {2.3.1}Kotlin Multiplatform}{21}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Kotlin Multiplatform}{25}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {2.3.2}Kotlin Multiplatform Mobile}{21}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Kotlin Multiplatform versus alternatieven}{26}{subsection.A.2.4}%
+\contentsline {section}{\numberline {2.4}Kotlin Multiplatform versus alternatieven}{21}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Testcriteria}{27}{subsection.A.2.5}%
+\contentsline {section}{\numberline {2.5}Testcriteria}{23}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{28}{section.A.3}%
+\contentsline {chapter}{\numberline {3}Methodologie}{25}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{29}{section.A.4}%
+\contentsline {chapter}{\numberline {4}Conclusie}{27}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{30}{section.A.5}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{29}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{31}{appendix*.6}%
+\contentsline {section}{\numberline {A.1}Introductie}{29}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{30}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Kotlin}{30}{subsection.A.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Cross-platform en native}{30}{subsection.A.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Kotlin Multiplatform}{31}{subsection.A.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Kotlin Multiplatform versus alternatieven}{32}{subsection.A.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Testcriteria}{33}{subsection.A.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{34}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{35}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{36}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{37}{appendix*.6}%
 \contentsfinish 
