@@ -238,6 +238,7 @@
 
 @InProceedings{Meijer2004,
   author       = {Meijer, Erik and Drayton, Peter},
+  booktitle    = {Intended for submission to the Revival of Dynamic Languages},
   date         = {2004},
   title        = {Static typing where possible, dynamic typing when needed: The end of the cold war between programming languages},
   organization = {Citeseer},
@@ -256,13 +257,18 @@
   year      = {2018},
 }
 
-@InProceedings{inproceedings,
-  author = {Flauzino, Matheus and Veríssimo, Júlio and Terra, Ricardo and Cirilo, Elder and Durelli, Vinicius and Durelli, Rafael},
-  title  = {Are you still smelling it?: A comparative study between Java and Kotlin language},
-  doi    = {10.1145/3267183.3267186},
-  pages  = {23-32},
-  month  = {09},
-  year   = {2018},
+@Conference{Flauzino2018,
+  author    = {Flauzino, Matheus and Veríssimo, Júlio and Terra, Ricardo and Cirilo, Elder and Durelli, Vinicius and Durelli, Rafael},
+  booktitle = {Conference: the VII Brazilian Symposium},
+  date      = {2018-09},
+  title     = {Are you still smelling it?: A comparative study between Java and Kotlin language},
+  doi       = {10.1145/3267183.3267186},
+  pages     = {23-32},
+  url       = {https://www.researchgate.net/publication/327568948_Are_you_still_smelling_it_A_comparative_study_between_Java_and_Kotlin_language},
+  urldate   = {2021-03-28},
+  file      = {:../bronnen/Flauzino2018.pdf:PDF},
+  month     = {09},
+  year      = {2018},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
