@@ -1,13 +1,14 @@
 \chapter{\IfLanguageName{dutch}{Stand van zaken}{State of the art}}
 \label{ch:stand-van-zaken}
 
-Binnen de stand van zaken zal er verder ingegaan worden op de theoretische kant van deze bachelorproef. Hierbij zullen volgende thema's aanbod komen: Kotlin, de mogelijke ontwikkelingsvormen, Kotlin Multiplatform Mobile, de vergelijking met andere alternatieven en de gekozen testcriteria voor deze bachelorproef. De stand van zaken bouwt verder op de informatie uit de inleiding en versterkt deze aan de hand van de literatuurstudie. 
+Binnen de stand van zaken zal er verder ingegaan worden op de theoretische kant van deze bachelorproef. Hierbij zullen volgende thema's aanbod komen: Kotlin, de mogelijke ontwikkelingsvormen voor mobiele applicaties, Kotlin Multiplatform en Kotlin Multiplatform Mobile, de vergelijking met andere alternatieven en de gekozen testcriteria voor deze bachelorproef. De stand van zaken bouwt verder op de informatie uit de inleiding en wordt versterkt aan de hand van de literatuurstudie. 
 
-% Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
-% dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het
-% bijzonder aan wat de link is met het vorige en volgende hoofdstuk.
 
-% Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
+%Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
+%dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het
+%bijzonder aan wat de link is met het vorige en volgende hoofdstuk.
+%
+%Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 %
 %Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
 %
@@ -15,22 +16,53 @@ Binnen de stand van zaken zal er verder ingegaan worden op de theoretische kant 
 %Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backslash${}autocite\{\}}. In de volgende paragraaf een voorbeeld van elk.
 %
 %\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
-%
+
 %\lipsum[7-20]
 
 \section{\IfLanguageName{dutch}{Kotlin}{Kotlin}}
 \label{sec:SVZkotlin}
 
+In het eerste deel van deze stand van zaken zal Kotlin besproken worden. Kotlin vormt de basis van Kotlin Multiplatform en het is dus interessant om dit verder te bekijken. Eerst zal kort de geschiedenis rond Kotlin bespreken en daarna kan de technische kant van de programmeertaal besproken worden.
+
+Kotlin is binnen de informaticawereld nog een vrij recente programmeertaal, de programmeertaal is uitgebracht in juli 2011 door JetBrains.\autocite{Jemerov2011} JetBrains is een software ontwikkelingsbedrijf dat afkomstig is uit Tsjechisch en is gekend voor hun applicaties zoals IntelliJ IDE, PyCharm... Het bedrijf heeft ondertussen al meer dan 30 producten en meer dan tien miljoen gebruikers.\autocite{JetBrains2021} In juli 2011 was Kotlin echter al meer dan een jaar in ontwikkeling en is tot de dag van vandaag nog steeds in ontwikkeling. JetBrains heeft dan ook beslist om van Kotlin een open-source project te maken. Dit zorgt ervoor dat iedereen de broncode kan bekijken en eventueel bewerken. Hierdoor hebben ze een zeer grote en actieve community gecreëerd rond Kotlin.  In 2017 werd Kotlin door Google als de hoofdtaal gekozen voor de ontwikkeling van Android applicaties.\autocite{Shafirov2017} Dit alles heeft ertoe geleid dat Kotlin de snelst groeiende programmeertaal was op Github in 2018, zoals te zien was in GitHubs The State of the Octoverse 2018.\autocite{GitHub2018} 
 
 
-In juli 2011 kwam JetBrains, de maker van onder andere IntelliJ IDEA, naar buiten met een nieuw project genaamd Kotlin.\autocite{Jemerov2011} Kotlin is een algemene, cross-platform en statische taal met type-inferentie. \autocite{Oliveira2020} Hierbij verwijst de term algemene naar het feit dat Kotlin is ontwikkeld is voor allerlei verschillende types van software en in verschillende situaties kan gebruikt worden. Cross-platform gaat over het gegeven dat software kan bestaan in verschillende versies op meer dan één platform. Ook is er vernoemd dat Kotlin statische typering gebruikt als taal, dit komt neer op het feit dat Kotlin de types van de objecten zal controleren tijdens het compileren van de code en niet tijdens het uitvoeren. Andere talen die dezelfde strategie volgen zijn Java en C. Alsook zal Kotlin gebruik maken van type-inferentie, hiermee zal de taal zelf onderscheid kunnen maken tussen datatypes van bepaalde expressies. 
+Na de korte geschiedenis rond Kotlin kan er nu overgegaan worden naar de technische zijde van Kotlin. Kotlin is een programmeertaal met een aantal typerende factoren zoals het feit dat Kotlin een algemene programmeertaal is. Daarnaast is Kotlin een statische programmeertaal met type-interferentie. Ook is deze programmeertaal gecreëerd met cross-platform in het achterhoofd.\autocite{Oliveira2020} Zoals hiervoor vermeld is Kotlin een algemene programmeertaal, hiermee wordt bedoeld dat Kotlin een programmeertaal is die ontwikkeld is voor allerlei verschillende soorten software en dat de programmeertaal gebruikt kan worden binnen verschillende situaties.\autocite{Skeen2018} Daarnaast is gezegd dat Kotlin een statische programmeertaal. Dit gegeven wijst op het feit dat de programmeertaal de types van de objecten zal controleren tijdens het compileren van de code en niet tijdens het uitvoeren. Andere voorbeelden van statische talen met type-interferentie zijn Java en C. Talen die geen statische typering gebruiken zijn dynamische typerende talen zoals Perl, PHP... Daarnaast gebruikt Kotlin type-interferentie daardoor zal Kotlin zelf onderscheid kunnen maken tussen de datatypes van bepaalde expressies.\autocite{Meijer2004} Een laatste punt is het cross-platform gegeven van de programmeertaal, hiermee wordt bedoeld dat de software kan bestaan en werken op verschillende versies. Deze versies kunnen ook draaien op verschillende platformen en is dus niet noodzakelijk gebonden aan één specifiek platform zoals bijvoorbeeld Android.\autocite{Bishop2006}
 
-\section{\IfLanguageName{dutch}{Ontwikkelingsvormen}{Forms of development}}
+
+
+\section{\IfLanguageName{dutch}{Platformen en hun ontwikkelingsvormen}{Platforms and thier forms of development}}
+\label{sec:SVZplatformen-ontwikkelingsvormen}
+
+
+Nadat de basis rond Kotlin is besproken kan bekeken worden wat de mogelijkheden binnen het ontwikkelen van mobiele applicaties. Allereerst zal besproken worden wat gezien word als een platform en daarna wat de ontwikkelingsmogelijkheden zijn voor dat specifieke platform of voor meerdere platformen tegelijk.
+
+\subsection{\IfLanguageName{dutch}{Platform}{Platform}}
+\label{sec:SVZplatform}
+
+Allereerst zal er bekeken worden wat de term platform inhoudt, daarvoor wordt gebruikt gemaakt van het artikel van \textcite{Bishop2006}. Allereerst moet vermeld worden dat de term platform nog niet strikt gedefinieerd is, echter kunnen er wel enkele zaken gelinkt worden aan de term. Een platform zal meestal een bepaalde programmeertaal, bepaald besturingssysteem of bepaalde hardware beschrijven. Hierbij is belangrijk te vermelden dat het niet enkel over een van deze zaken kan gaan maar ook over een combinatie van meerdere factoren. Hiervan een voorbeeld is bijvoorbeeld een platform dat beschreven word door een bepaald besturingssysteem in combinatie met specifieke hardware. Enkele voorbeelden van platformen in de praktijk:
+\begin{itemize}
+\item Programmeertaal als platform:
+Hierbij zal een specifieke programmeertaal en eventueel bijhorende libraries dienen als het platform waarvoor er bepaalde software voor gemaakt zal worden. Enkele voorbeelden hiervan zijn Java SE 16 \footnote{https://www.oracle.com/java/technologies/javase-downloads.html}, AdoptOpenJDK 11\footnote{https://adoptopenjdk.net/index.html}... Hiervan zijn nog vele voorbeelden op te sommen, ook de voorgaande versies van deze software worden als andere platformen gezien.
+\item Besturingssysteem als platform:
+Hierbij zal een bepaald besturingssysteem gebruikt worden als platform. Hierbij kunnen al 3 grote platformen worden opgehaald namelijk Windows, MacOs en Linux. Echter zijn deze te globaal en zullen hierbij bijvoorbeeld Windows 10\footnote{https://www.microsoft.com/nl-be/windows}, MacOs Big Sur\footnote{https://www.apple.com/benl/macos/big-sur/} en Ubuntu 20.04\footnote{https://ubuntu.com} gekozen worden als een platform voor ontwikkeling. Afhankelijk van de gekozen versie van het besturingssysteem als platform zal de ontwikkelde software bepaalde apparaten al dan niet ondersteunen.
+\item Hardware als platform:
+Hierbij zal een specifiek deel van de hardware binnenin bepaalde apparaten fungeren als platform. Dit kan echter zeer ruim bekeken worden. Een bepaalde processor of CPU (central processing unit), een grafische processor of GPU (graphics processing unit)... Dit zijn allemaal voorbeelden van hardware die gekozen kunnen worden als platform. Enkele praktijkvoorbeelden zijn ondere andere een bepaalde CPU van Intel\footnote{https://www.intel.com} of AMD\footnote{https://www.amd.com/} zoals de Intel Core i9 11900K\footnote{https://www.intel.com/content/www/us/en/products/sku/212325/intel-core-i911900k-processor-16m-cache-up-to-5-30-ghz/specifications.html} of de AMD Ryzen Threadripper 3970X\footnote{https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-3970x}.
+\item Combinatie van programmeertaal en/of besturingssysteem en/of hardware: 
+Een laatste mogelijkheid om een platform te beschrijven is door een combinatie van bovenstaande punten te gebruiken. Zo kan er specifiek op bepaalde platformen gericht worden die , dit kan voor bepaalde situaties zeer handig zijn. Een voorbeeld hiervan is een computer die uitgerust met een MacOs Big Sur besturingssysteem en een Intel processor. Indien bepaalde niche software enkel door zo een type toestel gebruikt zal worden kan het handig zijn om het platform zo gedetailleerd te beschrijven.
+\end{itemize}
+
+\subsection{\IfLanguageName{dutch}{Ontwikkelingsvormen}{Forms of development}}
 \label{sec:SVZontwikkelingsvormen}
 
 
-Allereerst moet de omschrijving van een platform besproken worden, een platform zal meestal een bepaalde programmeertaal, besturingssysteem of bepaalde hardware beschrijven. Dit kan ook een combinatie van meerdere zijn.\autocite{Bishop2006} Hiervan zijn enkele voorbeelden Java SE 15, hierbij wordt de taal bedoeld als platform. Een voorbeeld van een platform als besturingssysteem is bijvoorbeeld Windows 10 of MacOS Big Sur. Een voorbeeld hardware als platform is bijvoorbeeld een Intel of AMD processor. Uiteindelijk kan er ook gezegd worden dat een computer met als besturingssysteem Windows 10 en een laatste generatie Intel processor ook een specifiek platform is.
-\\ \\
+
+\subsubsection{\IfLanguageName{dutch}{Native ontwikkeling}{Native development}}
+\label{sec:SVZnative}
+
+\subsubsection{\IfLanguageName{dutch}{Cross-platform ontwikkeling}{Cross-platform development}}
+\label{sec:SVZcrossplatform}
+
 Eens de term platform duidelijker is, kan er makkelijker omschreven worden wat precies een cross-platform applicatie is en wat een native applicatie is. Een cross-platform applicatie is zoals de naam het al zegt een applicatie die op meerdere platformen zal werken. De software zal dus licht verschillende versies hebben die op hun beurt op allerlei verschillende platformen zullen werken. Native applicaties daarentegen zullen zich toespitsen op één bepaald platform.
 \\ \\
 Verder wordt er SWOT-analyse bekeken voor cross-platform applicaties. Deze sterkte-zwakteanalyse zal bekijken wat de sterktes en zwaktes zijn maar ook een beeld schetsen van de kansen en bedreigingen. Hiermee kunnen we een beeld schetsen wat de huidige positie is van cross-platform applicaties binnen de huidige markt. Uit onderzoek van Tommi Nivanaho naar cross-platform applicaties met React Native zijn een aantal factoren naar voor gekomen.\autocite{Nivanaho2019} Hier moet wel rekening gehouden worden met het feit dat sommige factoren niet toepasbaar zijn op alle cross-platform SDK’s en toolkits. Hieronder een overzicht van enkele punten uit de studie toepasbaar zijn op cross-platform applicaties in het algemeen.
@@ -57,13 +89,6 @@ Verder wordt er SWOT-analyse bekeken voor cross-platform applicaties. Deze sterk
         \item Updates aan het gekozen cross-platform systeem kunnen de reeds geschreven applicaties onbruikbaar maken
     \end{itemize}
 \end{itemize}
-
-
-\subsection{\IfLanguageName{dutch}{Native ontwikkeling}{Native development}}
-\label{sec:SVZnative}
-
-\subsection{\IfLanguageName{dutch}{Cross-platform ontwikkeling}{Cross-platform development}}
-\label{sec:SVZcrossplatform}
 
 \section{\IfLanguageName{dutch}{Multiplatform}{Multiplatform}}
 \label{sec:SVZmultiplatform}
@@ -114,7 +139,7 @@ Tijdens deze bachelorproef zullen van verschillende applicaties testcriteria ge�
     \end{itemize}
     \item Compileersnelheid
     \begin{itemize}
-        \item Dit is de snelheid waarmee de specifieke applicatie zal kunnen compileren en opstarten. Dit kan gemeten worden in de ontwikkelingssoftware voor de desbetreffende taal van de applicatie.
+        \item Dit is de snelheid waarmee de specifieke applicatie zal kunnen compileren en opstarten. Dit kan gemeten worden in de ontwikkelingssoftware voor de desbetreffende programmeertaal van de applicatie.
     \end{itemize}
     \item Voetafdruk
     \begin{itemize}

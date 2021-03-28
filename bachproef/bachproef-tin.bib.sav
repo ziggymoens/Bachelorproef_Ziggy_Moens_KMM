@@ -226,4 +226,49 @@
   publisher    = {Springer Science and Business Media {LLC}},
 }
 
+@Electronic{JetBrains2021,
+  author  = {JetBrains},
+  date    = {2021},
+  editor  = {JetBrains},
+  title   = {Corporate overview},
+  url     = {https://resources.jetbrains.com/storage/products/jetbrains/docs/corporate-overview/en-us/jetbrains_corporate_overview.pdf},
+  urldate = {2021-03-27},
+  file    = {:../bronnen/JetBrains2021.pdf:PDF},
+}
+
+@InProceedings{Meijer2004,
+  author       = {Meijer, Erik and Drayton, Peter},
+  booktitle    = {Intended for submission to the Revival of Dynamic Languages},
+  date         = {2004},
+  title        = {Static typing where possible, dynamic typing when needed: The end of the cold war between programming languages},
+  organization = {Citeseer},
+  url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.3818&rep=rep1&type=pdf},
+  file         = {:../bronnen/Meijer2004.pdf:PDF},
+  year         = {2004},
+}
+
+@Book{Skeen2018,
+  author    = {Skeen, Josh and Greenhalgh, David},
+  date      = {2018},
+  title     = {Kotlin Programming: The Big Nerd Ranch Guide},
+  publisher = {Pearson Technology Group},
+  url       = {https://books.google.be/books?hl=nl&lr=&id=Ol9qDwAAQBAJ&oi=fnd&pg=PT14&dq=General-purpose programming language kotlin&ots=iivTPTKZ50&sig=Der5JeIYFyHVC2JD6xCIx-gR0Mc&redir_esc=y#v=onepage&q=General-purpose programming language kotlin&f=false},
+  file      = {:../bronnen/Skeen2018.pdf:PDF},
+  year      = {2018},
+}
+
+@Conference{Flauzino2018,
+  author    = {Flauzino, Matheus and Veríssimo, Júlio and Terra, Ricardo and Cirilo, Elder and Durelli, Vinicius and Durelli, Rafael},
+  booktitle = {Conference: the VII Brazilian Symposium},
+  date      = {2018-09},
+  title     = {Are you still smelling it?: A comparative study between Java and Kotlin language},
+  doi       = {10.1145/3267183.3267186},
+  pages     = {23-32},
+  url       = {https://www.researchgate.net/publication/327568948_Are_you_still_smelling_it_A_comparative_study_between_Java_and_Kotlin_language},
+  urldate   = {2021-03-28},
+  file      = {:../bronnen/Flauzino2018.pdf:PDF},
+  month     = {09},
+  year      = {2018},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

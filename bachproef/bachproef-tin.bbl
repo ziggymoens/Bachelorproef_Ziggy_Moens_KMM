@@ -61,6 +61,9 @@
       \verb{doi}
       \verb 10.1109/MC.2006.337
       \endverb
+      \verb{file}
+      \verb :../bronnen/Bishop2006.pdf:PDF
+      \endverb
       \verb{urlraw}
       \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf
       \endverb
@@ -68,36 +71,6 @@
       \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.6&rep=rep1&type=pdf
       \endverb
       \keyw{formal specification;middleware;object-oriented programming;software maintenance;software portability;software tools;XML;cross-platform software development;software portability;software toolkits;XML specifications;software reflection;component-based software engineering;middleware;software migration;software change management;Operating systems;Software libraries;Software performance;Hardware;Java;Application software;Graphical user interfaces;Costs;Middleware;Reflection;software engineering;cross-platform development}
-    \endentry
-    \entry{Creeger2009}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e888aba3556efbb8063540e3e2ae69b4}{%
-           family={Creeger},
-           familyi={C\bibinitperiod},
-           given={Mache},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{fullhash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{bibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authorbibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authornamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authorfullhash}{e888aba3556efbb8063540e3e2ae69b4}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Communications of the ACM}
-      \field{number}{8}
-      \field{title}{{CTO Roundtable: Cloud Computing}}
-      \field{volume}{52}
-      \field{year}{2009}
-      \field{pages}{50\bibrangedash 56}
-      \range{pages}{7}
     \endentry
     \entry{FlutterWidgets}{online}{}
       \name{author}{1}{}{%
@@ -135,6 +108,47 @@
       \endverb
       \verb{url}
       \verb https://flutter.dev/docs/development/ui/widgets-intro
+      \endverb
+    \endentry
+    \entry{GitHub2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={GitHub},
+           familyi={G\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={GitHub},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{editorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{editornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{editorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The State of the Octoverse}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://octoverse.github.com/2018
+      \endverb
+      \verb{url}
+      \verb https://octoverse.github.com/2018
       \endverb
     \endentry
     \entry{Jemerov2011}{online}{}
@@ -254,11 +268,11 @@
       \strng{editorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
       \strng{editornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
       \strng{editorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \field{extraname}{1}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{23}
@@ -277,36 +291,49 @@
       \verb https://kotlinlang.org/docs/mobile/kmm-plugin-releases.html#update-to-the-new-release
       \endverb
     \endentry
-    \entry{Knuth1998}{book}{}
+    \entry{JetBrains2021}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec08e6f01da5f3814f28a70c89c64656}{%
-           family={Knuth},
-           familyi={K\bibinitperiod},
-           given={Donald\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Redwood City, CA, USA}%
+      \name{editor}{1}{}{%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Addison Wesley Longman Publishing Co., Inc.}%
-      }
-      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \strng{namehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{fullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{bibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{editorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{editornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{editorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The art of computer programming, volume 3: (2nd ed.) sorting and searching}
-      \field{year}{1998}
+      \field{title}{Corporate overview}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb :../bronnen/JetBrains2021.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://resources.jetbrains.com/storage/products/jetbrains/docs/corporate-overview/en-us/jetbrains_corporate_overview.pdf
+      \endverb
+      \verb{url}
+      \verb https://resources.jetbrains.com/storage/products/jetbrains/docs/corporate-overview/en-us/jetbrains_corporate_overview.pdf
+      \endverb
     \endentry
     \entry{KotlinKMMCaseStudies}{online}{}
       \name{author}{1}{}{%
@@ -490,6 +517,51 @@
       \verb https://kotlinlang.org/docs/reference/mpp-share-on-platforms.html#share-code-on-similar-platforms
       \endverb
     \endentry
+    \entry{Meijer2004}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=900d6a577075a7cf7f2e6591ee25000b}{%
+           family={Meijer},
+           familyi={M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c6d3f4bf2f65e9e6be6d6c653004971}{%
+           family={Drayton},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{661d524641e611f4c23c7be91cc54608}
+      \strng{fullhash}{661d524641e611f4c23c7be91cc54608}
+      \strng{bibnamehash}{661d524641e611f4c23c7be91cc54608}
+      \strng{authorbibnamehash}{661d524641e611f4c23c7be91cc54608}
+      \strng{authornamehash}{661d524641e611f4c23c7be91cc54608}
+      \strng{authorfullhash}{661d524641e611f4c23c7be91cc54608}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intended for submission to the Revival of Dynamic Languages}
+      \field{title}{Static typing where possible, dynamic typing when needed: The end of the cold war between programming languages}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :../bronnen/Meijer2004.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.3818&rep=rep1&type=pdf
+      \endverb
+      \verb{url}
+      \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.3818&rep=rep1&type=pdf
+      \endverb
+    \endentry
     \entry{Nivanaho2019}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=eae7ff5c2a6983df72be4a71288f1581}{%
@@ -522,6 +594,9 @@
       \field{type}{mathesis}
       \field{year}{2019}
       \field{dateera}{ce}
+      \verb{file}
+      \verb :../bronnen/Nivanaho2019.pdf:PDF
+      \endverb
       \verb{urlraw}
       \verb http://lutpub.lut.fi/handle/10024/159507
       \endverb
@@ -576,6 +651,9 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1109/SANER48275.2020.9054859
+      \endverb
+      \verb{file}
+      \verb :../bronnen/Oliveira2020.pdf:PDF
       \endverb
       \verb{urlraw}
       \verb http://www.victorlaerte.com/doc/On_the_Adoption_of_Kotlin_on_Android_Development__a_Triangulation_Study.pdf
@@ -722,37 +800,6 @@
       \verb https://blog.jetbrains.com/kotlin/2020/08/kotlin-multiplatform-mobile-goes-alpha/
       \endverb
     \endentry
-    \entry{Pollefliet2011}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7ca343ebcc6de1727ac22a1a847c21e5}{%
-           family={Pollefliet},
-           familyi={P\bibinitperiod},
-           given={Leen},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Gent}%
-      }
-      \list{publisher}{1}{%
-        {Academia Press}%
-      }
-      \strng{namehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{bibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorbibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authornamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
-      \field{year}{2011}
-    \endentry
     \entry{Sells2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a7867197bf9c303d5cab988ee31a61c8}{%
@@ -790,6 +837,98 @@
       \endverb
       \verb{url}
       \verb https://medium.com/flutter/announcing-flutter-1-22-44f146009e5f
+      \endverb
+    \endentry
+    \entry{Shafirov2017}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c530d2867fbc7a902ec1ac64a7b6fb3f}{%
+           family={Shafirov},
+           familyi={S\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c530d2867fbc7a902ec1ac64a7b6fb3f}{%
+           family={Shafirov},
+           familyi={S\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{fullhash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{bibnamehash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{authorbibnamehash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{authornamehash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{authorfullhash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{editorbibnamehash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{editornamehash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \strng{editorfullhash}{c530d2867fbc7a902ec1ac64a7b6fb3f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{5}
+      \field{title}{Kotlin on Android. Now official}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.jetbrains.com/kotlin/2017/05/kotlin-on-android-now-official/
+      \endverb
+      \verb{url}
+      \verb https://blog.jetbrains.com/kotlin/2017/05/kotlin-on-android-now-official/
+      \endverb
+    \endentry
+    \entry{Skeen2018}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8bbd1aa0ed3903e7a1757b54294e85bc}{%
+           family={Skeen},
+           familyi={S\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e32b1e53ddb81d00dceebf4ada153c50}{%
+           family={Greenhalgh},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Technology Group}%
+      }
+      \strng{namehash}{4972c0ea2abce8b00b98e7c65a42fe67}
+      \strng{fullhash}{4972c0ea2abce8b00b98e7c65a42fe67}
+      \strng{bibnamehash}{4972c0ea2abce8b00b98e7c65a42fe67}
+      \strng{authorbibnamehash}{4972c0ea2abce8b00b98e7c65a42fe67}
+      \strng{authornamehash}{4972c0ea2abce8b00b98e7c65a42fe67}
+      \strng{authorfullhash}{4972c0ea2abce8b00b98e7c65a42fe67}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kotlin Programming: The Big Nerd Ranch Guide}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :../bronnen/Skeen2018.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://books.google.be/books?hl=nl&lr=&id=Ol9qDwAAQBAJ&oi=fnd&pg=PT14&dq=General-purpose programming language kotlin&ots=iivTPTKZ50&sig=Der5JeIYFyHVC2JD6xCIx-gR0Mc&redir_esc=y#v=onepage&q=General-purpose programming language kotlin&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?hl=nl&lr=&id=Ol9qDwAAQBAJ&oi=fnd&pg=PT14&dq=General-purpose%20programming%20language%20kotlin&ots=iivTPTKZ50&sig=Der5JeIYFyHVC2JD6xCIx-gR0Mc&redir_esc=y#v=onepage&q=General-purpose%20programming%20language%20kotlin&f=false
       \endverb
     \endentry
   \enddatalist
