@@ -4,30 +4,15 @@
 Binnen de stand van zaken zal er verder ingegaan worden op de theoretische kant van deze bachelorproef. Hierbij zullen volgende thema's aanbod komen: Kotlin, de mogelijke ontwikkelingsvormen voor mobiele applicaties, Kotlin Multiplatform en Kotlin Multiplatform Mobile, de vergelijking met andere alternatieven en de gekozen testcriteria voor deze bachelorproef. De stand van zaken bouwt verder op de informatie uit de inleiding en wordt versterkt aan de hand van de literatuurstudie. 
 
 
-%Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
-%dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het
-%bijzonder aan wat de link is met het vorige en volgende hoofdstuk.
-%
-%Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
-%
-%Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
-%
-%Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz. naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\LaTeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin, gebruik je \texttt{$\backslash${}textcite\{\}}.
-%Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backslash${}autocite\{\}}. In de volgende paragraaf een voorbeeld van elk.
-%
-%\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
-
-%\lipsum[7-20]
-
 \section{\IfLanguageName{dutch}{Kotlin}{Kotlin}}
 \label{sec:SVZkotlin}
 
-In het eerste deel van deze stand van zaken zal Kotlin besproken worden. Kotlin vormt de basis van Kotlin Multiplatform en het is dus interessant om dit verder te bekijken. Eerst zal kort de geschiedenis rond Kotlin bespreken en daarna kan de technische kant van de programmeertaal besproken worden.
+In het eerste deel van deze stand van zaken zal Kotlin besproken worden. Kotlin vormt de basis van Kotlin Multiplatform en het is dus interessant om dit verder te bekijken. Eerst zal kort de geschiedenis rond Kotlin bespreken om vervolgens over te gaan naar de technische kant van de programmeertaal.
 
-Kotlin is binnen de informaticawereld nog een vrij recente programmeertaal, de programmeertaal is uitgebracht in juli 2011 door JetBrains.\autocite{Jemerov2011} JetBrains is een software ontwikkelingsbedrijf dat afkomstig is uit Tsjechisch en is gekend voor hun applicaties zoals IntelliJ IDE, PyCharm... Het bedrijf heeft ondertussen al meer dan 30 producten en meer dan tien miljoen gebruikers.\autocite{JetBrains2021} In juli 2011 was Kotlin echter al meer dan een jaar in ontwikkeling en is tot de dag van vandaag nog steeds in ontwikkeling. JetBrains heeft dan ook beslist om van Kotlin een open-source project te maken. Dit zorgt ervoor dat iedereen de broncode kan bekijken en eventueel bewerken. Hierdoor hebben ze een zeer grote en actieve community gecreëerd rond Kotlin.  In 2017 werd Kotlin door Google als de hoofdtaal gekozen voor de ontwikkeling van Android applicaties.\autocite{Shafirov2017} Dit alles heeft ertoe geleid dat Kotlin de snelst groeiende programmeertaal was op Github in 2018, zoals te zien was in GitHubs The State of the Octoverse 2018.\autocite{GitHub2018} 
+Kotlin is binnen de informaticawereld een vrij recente programmeertaal, de programmeertaal is uitgebracht in juli 2011 door JetBrains.\autocite{Jemerov2011} JetBrains is een software ontwikkelingsbedrijf dat afkomstig is uit Tsjechië  en is gekend voor hun applicaties zoals IntelliJ IDE, PyCharm... Het bedrijf heeft ondertussen al meer dan 30 producten en meer dan tien miljoen gebruikers.\autocite{JetBrains2021} In juli 2011 was Kotlin echter al meer dan een jaar in ontwikkeling en is tot de dag van vandaag nog steeds in ontwikkeling. JetBrains heeft dan ook beslist om van Kotlin een open-source project te maken. Dit zorgt ervoor dat iedereen de broncode kan bekijken en eventueel bewerken. Hierdoor hebben ze een zeer grote en actieve community gecreëerd rond Kotlin.  In 2017 werd Kotlin door Google als de hoofdtaal gekozen voor de ontwikkeling van Android applicaties.\autocite{Shafirov2017} Dit alles heeft ertoe geleid dat Kotlin de snelst groeiende programmeertaal was op Github in 2018, zoals te zien was in GitHubs The State of the Octoverse 2018.\autocite{GitHub2018} 
 
 
-Na de korte geschiedenis rond Kotlin kan er nu overgegaan worden naar de technische zijde van Kotlin. Kotlin is een programmeertaal met een aantal typerende factoren zoals het feit dat Kotlin een algemene programmeertaal is. Daarnaast is Kotlin een statische programmeertaal met type-interferentie. Ook is deze programmeertaal gecreëerd met cross-platform in het achterhoofd.\autocite{Oliveira2020} Zoals hiervoor vermeld is Kotlin een algemene programmeertaal, hiermee wordt bedoeld dat Kotlin een programmeertaal is die ontwikkeld is voor allerlei verschillende soorten software en dat de programmeertaal gebruikt kan worden binnen verschillende situaties.\autocite{Skeen2018} Daarnaast is gezegd dat Kotlin een statische programmeertaal. Dit gegeven wijst op het feit dat de programmeertaal de types van de objecten zal controleren tijdens het compileren van de code en niet tijdens het uitvoeren. Andere voorbeelden van statische talen met type-interferentie zijn Java en C. Talen die geen statische typering gebruiken zijn dynamische typerende talen zoals Perl, PHP... Daarnaast gebruikt Kotlin type-interferentie daardoor zal Kotlin zelf onderscheid kunnen maken tussen de datatypes van bepaalde expressies.\autocite{Meijer2004} Een laatste punt is het cross-platform gegeven van de programmeertaal, hiermee wordt bedoeld dat de software kan bestaan en werken op verschillende versies. Deze versies kunnen ook draaien op verschillende platformen en is dus niet noodzakelijk gebonden aan één specifiek platform zoals bijvoorbeeld Android.\autocite{Bishop2006}
+Na de korte geschiedenis rond Kotlin wordt er nu overgegaan naar de technische zijde van Kotlin. Kotlin is een programmeertaal met een aantal typerende factoren zoals het feit dat het een algemene programmeertaal is. Daarnaast is Kotlin een statische programmeertaal met type-interferentie. Ook is deze programmeertaal gecreëerd met cross-platform in het achterhoofd.\autocite{Oliveira2020} Zoals hiervoor vermeld is Kotlin een algemene programmeertaal, hiermee wordt bedoeld dat Kotlin een programmeertaal is die ontwikkeld is voor allerlei verschillende soorten software en dat de programmeertaal gebruikt kan worden binnen verschillende situaties.\autocite{Skeen2018} Daarnaast is gezegd dat Kotlin een statische programmeertaal. Dit gegeven wijst op het feit dat de programmeertaal de types van de objecten zal controleren tijdens het compileren van de code en niet tijdens het uitvoeren. Andere voorbeelden van statische talen met type-interferentie zijn Java en C. Talen die geen statische typering gebruiken zijn dynamische typerende talen zoals Perl, PHP... Daarnaast gebruikt Kotlin type-interferentie daardoor zal Kotlin zelf onderscheid kunnen maken tussen de datatypes van bepaalde expressies.\autocite{Meijer2004} Een laatste punt is het cross-platform gegeven van de programmeertaal, hiermee wordt bedoeld dat de software kan bestaan en werken op verschillende versies. Deze versies kunnen ook draaien op verschillende platformen en zijn dus niet noodzakelijk gebonden aan één specifiek platform zoals bijvoorbeeld Android.\autocite{Bishop2006}
 
 
 
@@ -35,38 +20,104 @@ Na de korte geschiedenis rond Kotlin kan er nu overgegaan worden naar de technis
 \label{sec:SVZplatformen-ontwikkelingsvormen}
 
 
-Nadat de basis rond Kotlin is besproken kan bekeken worden wat de mogelijkheden binnen het ontwikkelen van mobiele applicaties. Allereerst zal besproken worden wat gezien word als een platform en daarna wat de ontwikkelingsmogelijkheden zijn voor dat specifieke platform of voor meerdere platformen tegelijk.
+Nadat de basis rond Kotlin is besproken, zullen de mogelijkheden binnen het ontwikkelen van mobiele applicaties besproken worden. Allereerst wat gezien wordt als een platform en daarna wat de ontwikkelingsmogelijkheden zijn voor dat specifieke platform of voor meerdere platformen tegelijk.
 
 \subsection{\IfLanguageName{dutch}{Platform}{Platform}}
 \label{sec:SVZplatform}
 
-Allereerst zal er bekeken worden wat de term platform inhoudt, daarvoor wordt gebruikt gemaakt van het artikel van \textcite{Bishop2006}. Allereerst moet vermeld worden dat de term platform nog niet strikt gedefinieerd is, echter kunnen er wel enkele zaken gelinkt worden aan de term. Een platform zal meestal een bepaalde programmeertaal, bepaald besturingssysteem of bepaalde hardware beschrijven. Hierbij is belangrijk te vermelden dat het niet enkel over een van deze zaken kan gaan maar ook over een combinatie van meerdere factoren. Hiervan een voorbeeld is bijvoorbeeld een platform dat beschreven word door een bepaald besturingssysteem in combinatie met specifieke hardware. Enkele voorbeelden van platformen in de praktijk:
+Eerst zal er bekeken worden wat de term platform inhoudt, daarvoor wordt gebruikt gemaakt van het artikel van \textcite{Bishop2006}. Belangrijk te vermelden is dat de term platform nog niet strikt gedefinieerd is, er kunnen echter wel enkele zaken gelinkt worden aan de term. Een platform zal meestal een bepaalde programmeertaal, bepaald besturingssysteem of bepaalde hardware beschrijven. Hierbij is belangrijk te vermelden dat het niet enkel over een van deze zaken kan gaan maar ook over een combinatie van meerdere factoren. Een voorbeeld hiervan is een platform dat beschreven wordt door een bepaald besturingssysteem in combinatie met specifieke hardware. Enkele voorbeelden van platformen in de praktijk:
 \begin{itemize}
-\item Programmeertaal als platform:
-Hierbij zal een specifieke programmeertaal en eventueel bijhorende libraries dienen als het platform waarvoor er bepaalde software voor gemaakt zal worden. Enkele voorbeelden hiervan zijn Java SE 16 \footnote{https://www.oracle.com/java/technologies/javase-downloads.html}, AdoptOpenJDK 11\footnote{https://adoptopenjdk.net/index.html}... Hiervan zijn nog vele voorbeelden op te sommen, ook de voorgaande versies van deze software worden als andere platformen gezien.
-\item Besturingssysteem als platform:
-Hierbij zal een bepaald besturingssysteem gebruikt worden als platform. Hierbij kunnen al 3 grote platformen worden opgehaald namelijk Windows, MacOs en Linux. Echter zijn deze te globaal en zullen hierbij bijvoorbeeld Windows 10\footnote{https://www.microsoft.com/nl-be/windows}, MacOs Big Sur\footnote{https://www.apple.com/benl/macos/big-sur/} en Ubuntu 20.04\footnote{https://ubuntu.com} gekozen worden als een platform voor ontwikkeling. Afhankelijk van de gekozen versie van het besturingssysteem als platform zal de ontwikkelde software bepaalde apparaten al dan niet ondersteunen.
-\item Hardware als platform:
+\item Programmeertaal als platform:\\
+Hierbij zal een specifieke programmeertaal en eventueel bijhorende libraries dienen als het platform waarvoor er bepaalde software voor gemaakt wordt. Enkele voorbeelden hiervan zijn Java SE 16 \footnote{https://www.oracle.com/java/technologies/javase-downloads.html}, AdoptOpenJDK 11\footnote{https://adoptopenjdk.net/index.html}... Hiervan zijn nog vele voorbeelden op te sommen, ook de voorgaande versies van deze software worden als andere platformen gezien.
+\\
+
+\item Besturingssysteem als platform:\\
+Hierbij zal een bepaald besturingssysteem gebruikt worden als platform. Hierbij kunnen al 3 grote platformen worden opgehaald namelijk Windows, MacOs en Linux. Deze zijn echter te globaal en zullen hierbij bijvoorbeeld Windows 10\footnote{https://www.microsoft.com/nl-be/windows}, MacOs Big Sur\footnote{https://www.apple.com/benl/macos/big-sur/} en Ubuntu 20.04\footnote{https://ubuntu.com} gekozen worden als een platform voor ontwikkeling. Afhankelijk van de gekozen versie van het besturingssysteem als platform zal de ontwikkelde software bepaalde apparaten al dan niet ondersteunen.
+\\
+
+\item Hardware als platform:\\
 Hierbij zal een specifiek deel van de hardware binnenin bepaalde apparaten fungeren als platform. Dit kan echter zeer ruim bekeken worden. Een bepaalde processor of CPU (central processing unit), een grafische processor of GPU (graphics processing unit)... Dit zijn allemaal voorbeelden van hardware die gekozen kunnen worden als platform. Enkele praktijkvoorbeelden zijn ondere andere een bepaalde CPU van Intel\footnote{https://www.intel.com} of AMD\footnote{https://www.amd.com/} zoals de Intel Core i9 11900K\footnote{https://www.intel.com/content/www/us/en/products/sku/212325/intel-core-i911900k-processor-16m-cache-up-to-5-30-ghz/specifications.html} of de AMD Ryzen Threadripper 3970X\footnote{https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-3970x}.
-\item Combinatie van programmeertaal en/of besturingssysteem en/of hardware: 
+\item Combinatie van programmeertaal en/of besturingssysteem en/of hardware: \\
+\\
+
 Een laatste mogelijkheid om een platform te beschrijven is door een combinatie van bovenstaande punten te gebruiken. Zo kan er specifiek op bepaalde platformen gericht worden die , dit kan voor bepaalde situaties zeer handig zijn. Een voorbeeld hiervan is een computer die uitgerust met een MacOs Big Sur besturingssysteem en een Intel processor. Indien bepaalde niche software enkel door zo een type toestel gebruikt zal worden kan het handig zijn om het platform zo gedetailleerd te beschrijven.
 \end{itemize}
 
 \subsection{\IfLanguageName{dutch}{Ontwikkelingsvormen}{Forms of development}}
 \label{sec:SVZontwikkelingsvormen}
 
-
+Nu duidelijk is wat de term platform allemaal kan omvatten en wat hierbij de mogelijke scenario's zijn, kan er gekeken worden naar verschillende vormen van ontwikkeling en hun relatie met bepaalde platformen. De ontwikkelingsvormen die besproken zullen worden zijn native en cross-platform applicatieontwikkeling. Andere vormen van applicatieontwikkeling zullen niet besproken worden omdat deze geen meerwaarde bieden binnen deze bachelorproef.
 
 \subsubsection{\IfLanguageName{dutch}{Native ontwikkeling}{Native development}}
 \label{sec:SVZnative}
+De eerste ontwikkelingsvorm die zal bekeken worden is native applicatieontwikkeling. Deze vorm van ontwikkeling gaat zich toespitsen op een specifiek platform. Deze vorm van ontwikkelen bied aan de applicatie volledige toegang tot de platform specifieke zaken zoals hardware van het platform of specifieke features die het platform aanbiedt.\autocite{RahulRaj2012} Deze applicaties zullen dus ook maar op één platform werken. Native talen zijn meestal specifiek per platform. Enkele van deze talen zijn onder andere Swift\footnote{https://developer.apple.com/swift/} deze taal zal gebruikt worden voor de platformen van Apple. Echter moet hierin wel nog onderscheid gemaakt worden tussen ontwikkeling voor iPhone, iPad... En andere native taal is Kotlin\footnote{https://kotlinlang.org} deze taal zal vooral gebruikt worden voor native Android. 
+Het grote nadeel aan een native applicatie is dus het feit dat elke applicatie moet ontwikkeld worden per platform, wat dus meer tijd zal kosten.
+
+%TODO: verder uitwerken
 
 \subsubsection{\IfLanguageName{dutch}{Cross-platform ontwikkeling}{Cross-platform development}}
 \label{sec:SVZcrossplatform}
+Als tweede vorm van applicatieontwikkeling zal er gekeken worden naar cross-platform applicatieontwikkeling. Deze ontwikkelingsvorm wordt echter door veel software toolkits en omgevingen aangeboden. Voor deze bespreking zal cross-platform in het algemeen bekijken en in een verder stadium zal er toegespitst worden op Kotlin Multiplatform Mobile.
 
-Eens de term platform duidelijker is, kan er makkelijker omschreven worden wat precies een cross-platform applicatie is en wat een native applicatie is. Een cross-platform applicatie is zoals de naam het al zegt een applicatie die op meerdere platformen zal werken. De software zal dus licht verschillende versies hebben die op hun beurt op allerlei verschillende platformen zullen werken. Native applicaties daarentegen zullen zich toespitsen op één bepaald platform.
-\\ \\
-Verder wordt er SWOT-analyse bekeken voor cross-platform applicaties. Deze sterkte-zwakteanalyse zal bekijken wat de sterktes en zwaktes zijn maar ook een beeld schetsen van de kansen en bedreigingen. Hiermee kunnen we een beeld schetsen wat de huidige positie is van cross-platform applicaties binnen de huidige markt. Uit onderzoek van Tommi Nivanaho naar cross-platform applicaties met React Native zijn een aantal factoren naar voor gekomen.\autocite{Nivanaho2019} Hier moet wel rekening gehouden worden met het feit dat sommige factoren niet toepasbaar zijn op alle cross-platform SDK’s en toolkits. Hieronder een overzicht van enkele punten uit de studie toepasbaar zijn op cross-platform applicaties in het algemeen.
-\\
+Cross-platform ontwikkeling is echter een zeer ruim gegeven en kan opgesplitst worden in een aantal categorieën. Uit de studie van \textcite{Xanthopoulos2013} komen volgende categorieen:
+\begin{itemize}
+    \item Web applicaties\\
+    Web applicaties zijn applicaties die gebruikers kunnen gebruiken binnen de webbrowser en maken gebruik van HTML\footnote{https://html.spec.whatwg.org} en JavaScript\footnote{https://developer.mozilla.org/en-US/docs/Web/JavaScript}. Een groot voordeel aan dit soort applicaties is dat deze geen installatie vereisen wat het makkelijker maakt voor de eindgebruiker. Daaraan hangt wel een nadeel aan vast, aangezien de applicaties niet geïnstalleerd worden op het toestel kunnen ze geen gebruik maken van de hardware van het platform. Een ander belangrijk gegeven is dat deze applicaties vereisen dat de eindgebruiker een internetverbinding heeft. Recente technologieën probeert aan de hand van APIs de ontwikkelaar toch de mogelijkheid te geven om bepaalde platform specifieke hardware of software te gebruiken.Door deze oplossing wordt deze variant al veel interessanter voor potentiële gebruikers en ontwikkelaars.
+    \\
+     
+    \item Hybride applicaties\\
+    Deze applicaties zijn een combinatie van native applicaties en we applicaties. Voor deze applicaties wordt er meestal gebruik gemaakt van een HTML5 web applicatie in combinatie met JavaScript. Deze applicatie zal dan in een native container dat de webpagina zal verwerken. Doordat deze vorm van applicaties geïnstalleerd worden op het platform is het wel mogelijk om bepaalde platform specifieke hardware of software aan te spreken en te gebruiken.
+    \\
+    
+    \item Geïnterpreteerde applicaties\\
+    Dit soort applicaties maakt gebruik van een platform onafhankelijke bedrijfslogica met daar bovenop een native user interface. Deze aanpak is efficiënt op het vlak van de user interface maar kan nadelig zijn op vlak van de bedrijfslogica. Hierbij kan het probleem ontstaan dat de applicatie te afhankelijk word van de gekozen technologie van de bedrijfslogica. Een voorbeeld van een probleem dat dit kan creëren is dat bepaalde nieuwe features die beschikbaar komen voor een platform niet kunnen geïmplementeerd worden, dit omdat de technologie van de bedrijfslogica dit niet ondersteunt.
+    \\
+    
+    \item Gegenereerde applicaties\\
+    Gegenereerde applicaties zijn cross-platform applicaties die per platform een native applicatie creëren die dan op het toestel native kan verwerkt worden. Deze applicaties zijn zeer performant aangezien deze in de native programmeertaal voor het platform gegenereerd zijn. Deze versies zullen dus het dichtste aanleunen tegen de effectieve native applicaties. Deze applicaties zijn echter niet perfect aangezien het proces dat de native code genereert niet altijd zonder problemen verloopt.
+\end{itemize}
+
+Uit het onderzoek van \textcite{Xanthopoulos2013} kan volgende tabel gehaald worden, zie tabel  \ref{tab:svzCP},  die bovenstaande informatie kort samenvat. De tabel omvat volgende factoren:
+\begin{itemize}
+    \item Heeft de applicatie een marktplaats-implementatie of kan deze enkel via de browser worden gebruikt/gedownload?
+    \item Is de technologie die gebruikt wordt een veelgebruikte technologie?
+    \item Is de platform specifieke hardware en software bereikbaar voor de applicatie?
+    \item Hoe zal de user interface eruitzien voor de gebruiker?
+    \item Hoe zal de performatie van de applicatie zijn?
+\end{itemize}
+
+\begin{table}[h!]
+    \caption{Vergelijking en samenvatting van de verschillende cross-platform categorieën}
+    \begin{tabular}{ |c||c|c| }
+        \hline
+        factor&Web applicatie&Hybride applicatie\\
+        \hline
+        Marktplaats-implementatie&Nee&Ja, maar niet altijd\\
+        Veel gebruikte technologie&Ja&Ja\\
+        Platform hardware en software toegang&Beperkt&Beperkt\\
+        User interface&Simulatie&Simulatie\\
+        Performantie&Laag&Gemiddeld\\
+        \hline
+        \hline
+        factor&Geïnterpreteerde applicatie&Gegenereerde applicatie\\
+        \hline
+        Marktplaats-implementatie&Ja&Ja\\
+        Veel gebruikte technologie&Ja&Nee\\
+        Platform hardware en software toegang&Beperkt&Volledige toegang\\
+        User interface&Native&Native\\
+        Performantie&Gemiddeld&Hoog\\
+        \hline
+    \end{tabular}
+    \label{tab:svzCP}
+\end{table}
+
+Na dit overzicht van de verschillende versies van cross-platform applicaties kan de term cross-platform algemeen omschreven worden. Cross-platform applicaties zijn applicaties die zich richten op verschillende platformen tegelijk. Dezelfde applicatie of varianten van die applicatie werken op alle vooraf gekozen platformen tegelijk. 
+
+Voor het onderzoek zal er gekeken worden naar de SWOT-analyse voor cross-platform applicaties. Deze analyse schetst een beeld over de sterktes (Strengths) en zwaktes (Weaknesses) en over de kansen (Opportunities) en Bedreigingen (Threats). Binnen deze analyse zijn de sterktes en zwaktes de interne factoren en kansen en bedreigingen de externe factoren.\autocite{Leigh2010} De SWOT-analyse is een veel gebruikte sterkte-zwakteanalyse en is daardoor ideaal om dit onderzoek te ondersteunen.
+
+In het onderzoek van \textcite{Nivanaho2019} kan er een SWOT-analyse gevonden worden voor cross-platform applicaties. Uit deze SWOT-analyse kunnen de factoren die specifiek voor React Native eruit gefilterd worden en dan wordt volgende SWOT-analyse voor cross-platform applicaties in het algemeen bekomen. Dit geeft een beeld over de positie van cross-platform applicaties binnen het huidige landschap van applicatieontwikkeling.
+
+Een overzicht van de SWOT-analyse voor cross-platform applicaties:
 \begin{itemize}
     \item Sterktes of Strengths
     \begin{itemize}
@@ -90,44 +141,75 @@ Verder wordt er SWOT-analyse bekeken voor cross-platform applicaties. Deze sterk
     \end{itemize}
 \end{itemize}
 
+Na het overzicht van de SWOT-analyse zal elke element nog even besproken worden. 
+\begin{itemize}
+    \item Sterktes of Strengths:\\
+    De eerste factor die hier werd aangehaald was dat cross-platform applicaties sneller te ontwikkelen zijn. Zoals eerder vermeld wordt bij de ontwikkeling van deze soort applicaties direct ontwikkeld voor verschillende platformen tegelijk. Hierdoor zal het ontwikkelproces dus veel sneller zijn. . Vanuit dit punt kan er direct doorgegaan worden naar het volgende punt. Deze applicaties zijn dus sneller te ontwikkelen  en daardoor zal de ontwikkelingskosten ook lager liggen. Hierbij wordt vooral gedacht aan projecten die een prijsberekening doen op basis van het aantal gepresteerde uren van de ontwikkelaars. De laatste sterkte van de dit soort applicaties is dat deze direct verschillende platformen zullen ondersteunen. Dit is een logisch gevolg aangezien deze van de eerste fase al ontwikkeld zijn voor deze verschillende platformen.Dit voordeel is vooral interessant wanneer bepaalde software direct een groot doelpubliek moet aanspreken dat men niet kan dekken met één platform.
+    \\
+    
+    \item Zwaktes of Weaknesses:\\
+    Binnen de huidige markt van de cross-platform software toolkits of omgevingen zullen deze allemaal nog steeds nood hebben aan bepaalde stukken van native code. Aangezien dit nog nodig is zullen de ontwikkelaars van de applicaties nog steeds kennis moeten hebben van de native talen voor de platformen in kwestie. Gezien niet alle delen van de code gedeeld zijn over alle platformen kan het updaten van de code minder vlot verlopen. Hierbij is vooral het risico dat bepaalde zaken voor bepaalde platformen vergeten worden of verkeerd geïmplementeerd worden. Anderzijds kan dit, indien goed uitgevoerd, wel een sterkte zijn omdat alle platformen waarvoor de software ontwikkeld is de update gelijktijdig zullen krijgen.
+    \\
+    
+    \item Kansen of Opportunities:\\
+    Bepaalde kansen die cross-platform applicaties hebben is dat door recente technologieën de applicaties nog sneller ontwikkeld kunnen worden voor verschillende platformen tegelijk. Hierdoor zullen deze applicaties steeds interessanter worden voor potentiële gebruikers. Een andere punt is het feit dat de meeste technologieën het zeer makkelijk maken voor de ontwikkelaars on de applicaties om te vormen naar een cross-platform applicatie. Hierdoor kunnen geïnteresseerde gebruikers met een reeds bestaande native applicatie toch de overstap maken. Native ontwikkelen is dus niet iets dat vastligt of wat de ontwikkelaar strikt moet blijven volgens eens dat gekozen is. Cross-platform is dus voor bijna alle applicaties een optie. 
+    \\
+    
+    \item Bedreigingen of Threats:
+    Een van de grote bedreigingen voor cross-platform applicaties is de afhankelijkheid van de gekozen software toolkit of omgeving. Indien door updates binnen deze toolkits of omgevingen bepaalde code niet meer zou werken, zullen alle platformen daar de problemen ondervinden. Dit is een gegeven dat binnen native applicaties geen probleem aangezien elke applicatie voor elk platform een eigen afzonderlijk geheel vormt los van de andere platformen en hun applicaties. 
+\end{itemize}
+
+Hierbij moet nogmaals vermeld worden dat deze factoren gelden voor cross-platform applicaties in het algemeen. Hierdoor kunnen sommige factoren niet van toepassing zijn voor bepaalde software toolkits of omgevingen. 
+
+
 \section{\IfLanguageName{dutch}{Multiplatform}{Multiplatform}}
 \label{sec:SVZmultiplatform}
 
+%TODO: aanvullen
 
-Kotlin Multiplatform is de nieuwe cross platform software development kit (SDK) van JetBrains. Ook werd een SDK uitgebracht specifiek gericht op de mobiele toestellen namelijk Kotlin Multiplatform Mobile (KMM). Kotlin Multiplatform werd voor het eerst verwerkt in Kotlin 1.2 in november 2017 als experimentele functie.\autocite{Jemerov2017} 
-Ondertussen heeft de ontwikkeling van KMM niet stil gestaan en is in augustus 2020 de alpha versie van deze SDK uitgebracht voor het grote publiek.\autocite{Petrova2020} In november 2020 werd de 0.2.0 versie uitgebracht, deze is verwerkt in Kotlin 1.4.20.\autocite{JetBrains2020} Enkele delen van deze SDK en bijhorende componenten zijn nog steeds in de experimentele fase van ontwikkeling, maar JetBrains geeft aan dat het nu al een ideaal moment is om deze software te testen.\autocite{Petrova2020} De community achter KMM en het open source verhaal spelen hier een grote rol en zullen ook zorgen voor een snellere ontwikkeling van deze software. Bedrijven kunnen dus momenteel al experimenteel aan de slag met deze nieuwe software en voorbeelden van enkele bedrijven die de stap al hebben gezet naar KMM zijn onder andere Netflix, VMware en Autodesk.\autocite{KotlinKMMCaseStudies}
+%Kotlin Multiplatform is de nieuwe cross platform software development kit (SDK) van JetBrains. Ook werd een SDK uitgebracht specifiek gericht op de mobiele toestellen namelijk Kotlin Multiplatform Mobile (KMM). Kotlin Multiplatform werd voor het eerst verwerkt in Kotlin 1.2 in november 2017 als experimentele functie.\autocite{Jemerov2017} 
+%Ondertussen heeft de ontwikkeling van KMM niet stil gestaan en is in augustus 2020 de alpha versie van deze SDK uitgebracht voor het grote publiek.\autocite{Petrova2020} In november 2020 werd de 0.2.0 versie uitgebracht, deze is verwerkt in Kotlin 1.4.20.\autocite{JetBrains2020} Enkele delen van deze SDK en bijhorende componenten zijn nog steeds in de experimentele fase van ontwikkeling, maar JetBrains geeft aan dat het nu al een ideaal moment is om deze software te testen.\autocite{Petrova2020} De community achter KMM en het open source verhaal spelen hier een grote rol en zullen ook zorgen voor een snellere ontwikkeling van deze software. Bedrijven kunnen dus momenteel al experimenteel aan de slag met deze nieuwe software en voorbeelden van enkele bedrijven die de stap al hebben gezet naar KMM zijn onder andere Netflix, VMware en Autodesk.\autocite{KotlinKMMCaseStudies}
 
 \subsection{\IfLanguageName{dutch}{Kotlin Multiplatform}{Kotlin Multiplatform}}
 \label{sec:SVZKM}
 
+%TODO: aanvullen
+
 \subsection{\IfLanguageName{dutch}{Kotlin Multiplatform Mobile}{Kotlin Multiplatform Mobile}}
 \label{sec:SVZKMM}
 
+%TODO: aanvullen
+
+
 \section{\IfLanguageName{dutch}{Kotlin Multiplatform versus alternatieven}{Kotlin Multiplatform versus alternatives}}
 \label{sec:SVZKMMvsandere}
-Kotlin Multiplatform (KM) zal het concept van cross-platform anders aanpakken dan andere alternatieven op de markt vandaag. Hierbij zit het verschil vooral in welke code van de applicatie zal gedeeld worden tussen de verschillende platformen. In de Kotlin documentatie staat beschreven hoe bepaalde delen van de code correct kunnen gedeeld worden tussen verschillende platformen. KM zal anders dan alternatieven de business logica delen tussen de verschillende platformen.\autocite{Kotlin2021} Hierbij wordt ook vermeld dat men enkel de business logica moet delen die gebruikt kan worden op alle platformen. 
+%TODO: aanvullen
 
-\begin{figure}
-    \includegraphics[width=\linewidth]{kmm.jpg}
-    \caption{Grafische voorstelling Kotlin Multiplatform Mobile \autocite{KotlinKMM}}
-    \label{fig:kmm}
-\end{figure}
-
-Figuur \ref{fig:kmm} geeft een goed algemeen beeld van de structuur van Kotlin Multiplatform Mobile. De ‘shared code’ in de figuur \ref{fig:kmm} verwijst hier naar Common Kotlin of CommonMain, dit is het gedeelde binnenin KM dat de gedeelde logica zal bevatten. Daarnaast zal er nog per platform een aparte main zijn die de code zal implementeren. Hier in de figuur \ref{fig:kmm} zal het project ook nog een iosMain en een kotlinMain, deze kunnen later ook nog uitgebreid worden met bijvoorbeeld een macosX64Main. De specifieke situatie in figuur \ref{fig:kmm} is een applicatie waar Kotlin Multiplatform Mobile gebruikt wordt. Deze zal zich speciaal richten op applicaties voor iOS en Android.
-Voor de communicatie tussen het common deel en de platform specifieke delen zal Kotlin gebruik maken van het expected/actual systeem. Hierbij worden binnenin de CommonMain elementen gedeclareerd met expect en de platform specifieke delen zullen dezelfde elementen declareren met actual. Deze structuur kan gebruikt worden voor functies, klassen, interfaces, enumeraties, properties en annotaties. 
-\\ \\
-Nu er een beter beeld is geschetst van hoe KM, werkt zal er gekeken worden naar een mogelijk alternatief met een andere aanpak voor de gedeelde code, bijvoorbeeld Flutter. Flutter is een user interface toolkit ontwikkeld door Google en zit momenteel aan versie 1.22 sinds oktober 2020.\autocite{Sells2020} De toolkit richt zich op mobile, web en desktop applicaties en zal de code native compileren. Zoals reeds beschreven is Flutter een user interface toolkit en zal dus de user interface delen over de verschillende platformen. Hiervoor zal Flutter widgets gebruiken die geïnspireerd zijn door React.\autocite{FlutterWidgets} Dit impliceert dus dat hierbij de business logica zal moeten verwerkt worden per platform.
-\\ \\
-De developer kan dus kiezen om de user interface te delen onder de platformen en een toolkit te gebruiken zoals Flutter. Anderzijds kan er gekozen worden voor het delen van de business logica onder de platformen en dan kan KM gebruikt worden. Het delen van de user interface zal als voordeel hebben dat alle applicaties op de verschillende platformen dezelfde look en feel zullen hebben, echter is een nadeel dat de business logica per platform verwerkt zal moeten worden. Aan de kant van de gedeelde business logica is er het voordeel dat deze gedeeld is dus dat alle applicaties dezelfde logica hebben en implementeren, alsook kan er voor de user interface gebruik gemaakt worden van de platform specifieke frameworks. Er is echter ook een nadeel, hierbij kan gedacht worden aan het feit dat de user interface niet overal exact dezelfde zal zijn. 
+%Kotlin Multiplatform (KM) zal het concept van cross-platform anders aanpakken dan andere alternatieven op de markt vandaag. Hierbij zit het verschil vooral in welke code van de applicatie gedeeld wordt tussen de verschillende platformen. In de Kotlin documentatie staat beschreven hoe bepaalde delen van de code correct kunnen gedeeld worden tussen verschillende platformen. KM zal anders dan alternatieven de business logica delen tussen de verschillende platformen.\autocite{Kotlin2021} Hierbij wordt ook vermeld dat men enkel de business logica moet delen die gebruikt kan worden op alle platformen. 
+%
+%\begin{figure}
+%    \includegraphics[width=\linewidth]{kmm.jpg}
+%    \caption{Grafische voorstelling Kotlin Multiplatform Mobile \autocite{KotlinKMM}}
+%    \label{fig:kmm}
+%\end{figure}
+%
+%Figuur \ref{fig:kmm} geeft een goed algemeen beeld van de structuur van Kotlin Multiplatform Mobile. De ‘shared code’ in de figuur \ref{fig:kmm} verwijst hier naar Common Kotlin of CommonMain, dit is het gedeelde binnenin KM dat de gedeelde logica zal bevatten. Daarnaast zal er nog per platform een aparte main zijn die de code zal implementeren. Hier in de figuur \ref{fig:kmm} zal het project ook nog een iosMain en een kotlinMain, deze kunnen later ook nog uitgebreid worden met bijvoorbeeld een macosX64Main. De specifieke situatie in figuur \ref{fig:kmm} is een applicatie waar Kotlin Multiplatform Mobile gebruikt wordt. Deze zal zich speciaal richten op applicaties voor iOS en Android.
+%Voor de communicatie tussen het common deel en de platform specifieke delen zal Kotlin gebruik maken van het expected/actual systeem. Hierbij worden binnenin de CommonMain elementen gedeclareerd met expect en de platform specifieke delen zullen dezelfde elementen declareren met actual. Deze structuur kan gebruikt worden voor functies, klassen, interfaces, enumeraties, properties en annotaties. 
+%\\ \\
+%Nu er een beter beeld is geschetst van hoe KM, werkt zal er gekeken worden naar een mogelijk alternatief met een andere aanpak voor de gedeelde code, zoals Flutter. Flutter is een user interface toolkit ontwikkeld door Google en zit momenteel aan versie 1.22 sinds oktober 2020.\autocite{Sells2020} De toolkit richt zich op mobile, web en desktop applicaties en zal de code native compileren. Zoals reeds beschreven is Flutter een user interface toolkit en zal dus de user interface delen over de verschillende platformen. Hiervoor zal Flutter widgets gebruiken die geïnspireerd zijn door React.\autocite{FlutterWidgets} Dit impliceert dus dat hierbij de business logica zal moeten verwerkt worden per platform.
+%\\ \\
+%De developer kan dus kiezen om de user interface te delen onder de platformen en een toolkit te gebruiken zoals Flutter. Anderzijds kan er gekozen worden voor het delen van de business logica onder de platformen en dan kan KM gebruikt worden. Het delen van de user interface zal als voordeel hebben dat alle applicaties op de verschillende platformen dezelfde look en feel zullen hebben, een nadeel is echter dat de business logica per platform verwerkt zal moeten worden. Aan de kant van de gedeelde business logica is er het voordeel dat deze gedeeld is dus dat alle applicaties dezelfde logica hebben en implementeren, alsook kan er voor de user interface gebruik gemaakt worden van de platform specifieke frameworks. Er is echter ook een nadeel, hierbij kan gedacht worden aan het feit dat de user interface niet overal exact dezelfde zal zijn. 
 
 
 \section{Testcriteria}
 \label{sec:SVZtestcriteria}
-Tijdens deze bachelorproef zullen van verschillende applicaties testcriteria geëvalueerd worden. Deze zullen ons vertellen in welke mate de cross-platform applicaties beter zijn dan de native. Volgende testcriteria werden gekozen voor deze vergelijkende studie.
+%TODO: aanvullen
+
+Tijdens deze bachelorproef zullen van verschillende applicaties testcriteria geëvalueerd worden. Deze zullen zullen een indicatie geven over hoe de cross-platform applicaties presteren ten opzichte van native applicaties. Volgende testcriteria werden gekozen voor deze vergelijkende studie.
 \begin{itemize}
     \item Aantal lijnen code
     \begin{itemize}
-        \item Het totaal aantal lijnen code van een applicatie zal geëvalueerd worden over het gehele project. In het geval van native applicaties zullen deze opgeteld worden met elkaar.
+        \item Het totaal aantal lijnen code van een applicatie zal geëvalueerd worden over het gehele project. In het geval van native applicaties zullen deze opgeteld worden bij elkaar.
     \end{itemize}
     \item Kostprijs
     \begin{itemize}
@@ -135,7 +217,7 @@ Tijdens deze bachelorproef zullen van verschillende applicaties testcriteria ge�
     \end{itemize}
     \item Ontwikkeltijd
     \begin{itemize}
-        \item Deze tijd beschrijft het aantal werkuren dat een ontwikkelaar nodig heeft om een specifieke applicatie te schrijven. Hierbij kan onder andere gebruik gemaakt worden van platformen zoals GitHub om deze tijd te gaan meten of inschatten.
+        \item Deze tijd beschrijft het aantal werkuren dat een ontwikkelaar nodig heeft om een specifieke applicatie te schrijven. Hierbij kan onder andere gebruik gemaakt worden van platformen zoals GitHub om deze tijd te meten of inschatten.
     \end{itemize}
     \item Compileersnelheid
     \begin{itemize}
@@ -147,6 +229,6 @@ Tijdens deze bachelorproef zullen van verschillende applicaties testcriteria ge�
     \end{itemize}
     \item Uitbreiding van de applicatie
     \begin{itemize}
-        \item Dit criterium kan geëvalueerd worden door vooraf bepaalde features van de applicatie weg te laten. Eens de applicatie klaar is voor productie kunnen deze features terug toegevoegd worden. Om de uitbreidbaarheid van de applicatie te gaan staven kan gebruik gemaakt worden van voorgaande testcriteria.
+        \item Dit criterium kan geëvalueerd worden door vooraf bepaalde features van de applicatie weg te laten. Eens de applicatie klaar is voor productie kunnen deze features terug toegevoegd worden. Om de uitbreidbaarheid van de applicatie te staven kan gebruik gemaakt worden van voorgaande testcriteria.
     \end{itemize}
 \end{itemize}
