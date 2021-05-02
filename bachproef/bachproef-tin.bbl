@@ -72,6 +72,49 @@
       \endverb
       \keyw{formal specification;middleware;object-oriented programming;software maintenance;software portability;software tools;XML;cross-platform software development;software portability;software toolkits;XML specifications;software reflection;component-based software engineering;middleware;software migration;software change management;Operating systems;Software libraries;Software performance;Hardware;Java;Application software;Graphical user interfaces;Costs;Middleware;Reflection;software engineering;cross-platform development}
     \endentry
+    \entry{Evert2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db4cfd21c28db4f18db17d72f7638dfc}{%
+           family={Evert},
+           familyi={E\bibinitperiod},
+           given={Anna-Karin},
+           giveni={A\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {KTH, School of Electrical Engineering}%
+        {Computer Science (EECS)}%
+      }
+      \strng{namehash}{db4cfd21c28db4f18db17d72f7638dfc}
+      \strng{fullhash}{db4cfd21c28db4f18db17d72f7638dfc}
+      \strng{bibnamehash}{db4cfd21c28db4f18db17d72f7638dfc}
+      \strng{authorbibnamehash}{db4cfd21c28db4f18db17d72f7638dfc}
+      \strng{authornamehash}{db4cfd21c28db4f18db17d72f7638dfc}
+      \strng{authorfullhash}{db4cfd21c28db4f18db17d72f7638dfc}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The objective of this master’s thesis has been to evaluate the Kotlin Multiplatform feature for developing cross-platform mobile applications for Android and iOS. This has been done in comparison to natively developed applications for the two platforms. The method of evaluation has been to develop a sample application natively for Android and iOS, respectively. The same sample application has then been developed using the Kotlin Multiplatform feature. Finally, the multiplatform Android application has been compared to the natively developed Android application, and the multiplatform iOS application has been compared to the natively developed iOS application. The evaluation has focused on measuring the startup time of the applications, as well as the application size of the installed sample applications, comparing the native ones to the multiplatform ones. An attempt has also been made to try to determine if there can be any productivity gains in using the Kotlin Multiplatform feature instead of doing the development natively for each of the studied platforms. For productivity, the evaluation has included measuring number of lines of code, and build time (compilation time) for the applications. The results indicate that it is possible to write less code if making use of the Kotlin Multiplatform feature. However, the results also indicate an increased build time with Kotlin Multiplatform, for both Android and iOS, and an increased startup time for Android. No indication of an increased startup time for the multiplatform iOS application could be found. As for the application sizes, the results show an increased size for the multiplatform applications.}
+      \field{title}{Cross-Platform Smartphone Application Development with Kotlin Multiplatform : Possible Impacts on Development Productivity, Application Size and Startup Time}
+      \field{type}{mathesis}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{40}
+      \range{pages}{1}
+      \verb{file}
+      \verb :../bronnen/Evert2019.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.diva-portal.org/smash/get/diva2:1368323/FULLTEXT01.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.diva-portal.org/smash/get/diva2:1368323/FULLTEXT01.pdf
+      \endverb
+    \endentry
     \entry{FlutterWidgets}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c047b10eee763afb6164e077cf1cc268}{%
@@ -461,6 +504,9 @@
       \field{year}{2020}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb :../bronnen/Lim2015.pdf:PDF
+      \endverb
       \verb{urlraw}
       \verb https://github.com/kotlin-hands-on/kmm-networking-and-data-storage/tree/final
       \endverb
@@ -497,6 +543,7 @@
       \field{extraname}{3}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -515,6 +562,56 @@
       \endverb
       \verb{url}
       \verb https://kotlinlang.org/docs/reference/mpp-share-on-platforms.html#share-code-on-similar-platforms
+      \endverb
+    \endentry
+    \entry{Kotlin2021MP}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=539a3a5859d24fb7b129e74d61f09ffa}{%
+           family={Kotlin},
+           familyi={K\bibinitperiod}}}%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{03112444578383897e5730b6070a3ebd}
+      \strng{fullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{bibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{authorfullhash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorbibnamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editornamehash}{03112444578383897e5730b6070a3ebd}
+      \strng{editorfullhash}{03112444578383897e5730b6070a3ebd}
+      \field{extraname}{4}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{2}
+      \field{title}{Multiplatform programming﻿}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kotlinlang.org/docs/multiplatform.html
+      \endverb
+      \verb{url}
+      \verb https://kotlinlang.org/docs/multiplatform.html
       \endverb
     \endentry
     \entry{Leigh2010}{book}{}
@@ -564,6 +661,57 @@
       \endverb
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470592663.ch24
+      \endverb
+    \endentry
+    \entry{Lim2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e87bb742ddbaeb2c751b6d9fb4169e79}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Seung-Ho},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Global Vision Press}%
+      }
+      \strng{namehash}{e87bb742ddbaeb2c751b6d9fb4169e79}
+      \strng{fullhash}{e87bb742ddbaeb2c751b6d9fb4169e79}
+      \strng{bibnamehash}{e87bb742ddbaeb2c751b6d9fb4169e79}
+      \strng{authorbibnamehash}{e87bb742ddbaeb2c751b6d9fb4169e79}
+      \strng{authornamehash}{e87bb742ddbaeb2c751b6d9fb4169e79}
+      \strng{authorfullhash}{e87bb742ddbaeb2c751b6d9fb4169e79}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Multimedia and Ubiquitous Engineering}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Experimental Comparison of Hybrid and Native Applications for Mobile Systems}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb http://dx.doi.org/10.14257/ijmue.2015.10.3.01
+      \endverb
+      \verb{file}
+      \verb :../bronnen/Lim2015.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://gvpress.com/journals/IJMUE/vol10_no3/1.pdf
+      \endverb
+      \verb{url}
+      \verb https://gvpress.com/journals/IJMUE/vol10_no3/1.pdf
       \endverb
     \endentry
     \entry{Meijer2004}{inproceedings}{}
@@ -799,6 +947,56 @@
       \endverb
       \verb{url}
       \verb https://github.com/joreilly/PeopleInSpace
+      \endverb
+    \endentry
+    \entry{Osmani2015}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d44fced3055604fd09c4e99476a58f00}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={Addy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d44fced3055604fd09c4e99476a58f00}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={Addy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Google}%
+      }
+      \strng{namehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{fullhash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{bibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorbibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authornamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorfullhash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{editorbibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{editornamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{editorfullhash}{d44fced3055604fd09c4e99476a58f00}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Getting Started with Progressive Web Apps}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/updates/2015/12/getting-started-pwa
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/updates/2015/12/getting-started-pwa
       \endverb
     \endentry
     \entry{Petrova2020}{online}{}
