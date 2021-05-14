@@ -5,17 +5,47 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform en de verschillende platformen \autocite {Kotlin2021MP}}}{28}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform en de verschillende platformen \autocite {Kotlin2021MP}\relax }}{28}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}}}{29}{figure.2.2}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{29}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Grafische voorstelling van de code binnen KMM met iOS en Android als voorbeeld \autocite {Kotlin2021MP}}}{30}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Grafische voorstelling van de code binnen KMM met iOS en Android als voorbeeld \autocite {Kotlin2021MP}\relax }}{30}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces De ADV Manager in Android Studio met de Pixel 4a emulator geïnstalleerd\relax }}{35}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces De opties voor een nieuw project binnen Android Studio, hierbij is een KMM applicatie ook beschikbaar\relax }}{36}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces De standaard instellingen voor een KMM project\relax }}{37}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces De instellingen van een KMM project voor de gedeelde logica en de native iOS en Android delen\relax }}{37}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces De plug-in geïnstalleerd binnen Android Studio\relax }}{38}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces De Xcode Command Line Tools correct geconfigureerd binnen Xcode\relax }}{39}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces De terminal bevestigd dat Java SE 16 correct is geïnstalleerd op de betreffende computer\relax }}{40}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Proces voor het opzetten van een KMM project\relax }}{41}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.1}{\ignorespaces {\centering Startscherm Android Studio}}}{41}{subfigure.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.2}{\ignorespaces {\centering Nieuw project met de KMM application optie}}}{41}{subfigure.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.3}{\ignorespaces {\centering Standaard instellingen Android Project}}}{41}{subfigure.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.4}{\ignorespaces {\centering Specifieke KMM project instellingen}}}{41}{subfigure.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Android en iOS emulators binnen Android Studio\relax }}{42}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.9.1}{\ignorespaces {\centering Instellingen Android emulator}}}{42}{subfigure.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.9.2}{\ignorespaces {\centering Instellingen iOS emulator}}}{42}{subfigure.9.2}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}}}{40}{figure.A.1}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{48}{figure.caption.21}%
 \contentsfinish 

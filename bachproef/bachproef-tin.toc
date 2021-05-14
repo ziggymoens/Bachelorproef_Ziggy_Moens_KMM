@@ -35,29 +35,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{33}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{35}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Installatie}{33}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{37}{appendix.A}%
+\contentsline {subsection}{\numberline {3.1.1}Hardware}{33}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{37}{section.A.1}%
+\contentsline {subsection}{\numberline {3.1.2}Android Studio}{34}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{38}{section.A.2}%
+\contentsline {subsection}{\numberline {3.1.3}Xcode}{38}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Kotlin}{38}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {3.1.4}JDK}{39}{subsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Cross-platform en native}{38}{subsection.A.2.2}%
+\contentsline {section}{\numberline {3.2}Eerste Kotlin Multiplatform Mobile applicatie}{40}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Kotlin Multiplatform}{39}{subsection.A.2.3}%
+\contentsline {chapter}{\numberline {4}Conclusie}{43}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Kotlin Multiplatform versus alternatieven}{40}{subsection.A.2.4}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{45}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Testcriteria}{41}{subsection.A.2.5}%
+\contentsline {section}{\numberline {A.1}Introductie}{45}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{42}{section.A.3}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{46}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{43}{section.A.4}%
+\contentsline {subsection}{\numberline {A.2.1}Kotlin}{46}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{44}{section.A.5}%
+\contentsline {subsection}{\numberline {A.2.2}Cross-platform en native}{46}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{45}{appendix*.8}%
+\contentsline {subsection}{\numberline {A.2.3}Kotlin Multiplatform}{47}{subsection.A.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Kotlin Multiplatform versus alternatieven}{48}{subsection.A.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Testcriteria}{49}{subsection.A.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{51}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{52}{section.A.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{53}{appendix*.22}%
 \contentsfinish 

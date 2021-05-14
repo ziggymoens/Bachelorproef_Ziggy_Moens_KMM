@@ -5,19 +5,19 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
 \label{ch:inleiding}
 
-Cross-platform ontwikkeling is een gegeven dat in de laatste jaren aan populariteit wint. Dit komt vooral omdat er een paar voordelen aan verbonden zijn die, voor bedrijven gespecialiseerd in software voor verschillende platformen, zeer interessant kunnen zijn. Hierbij treden vooral de snellere ontwikkelingstijd en de lagere ontwikkelingskosten naar de voorgrond. Deze twee zaken spelen dus voor die bedrijven een grote rol binnen hun dagdagelijkse werking. Losstaand van deze voordelen is nog niet elk bedrijf te vinden voor cross-platform ontwikkeling. Het beeld dat deze cross-platform applicaties `beter' zouden zijn dan de native oplossingen op de markt is nog niet overal aanvaard. Kotlin Multiplatform Mobile\footnote{kotlinlang.org/lp/mobile/} (KMM), de nieuwe cross-platform software development kit van JetBrains\footnote{jetbrains.com}, zou hier verandering in kunnen brengen. KMM gaat voor een andere aanpak voor hun cross-platform applicaties en zal vooral focussen op een gedeelde business logica en een platformafhankelijke en dus native user interface. 
+Cross-platform ontwikkeling is een gegeven dat in de laatste jaren aan populariteit wint. Dit komt vooral omdat er voordelen aan verbonden zijn die, voor bedrijven gespecialiseerd in software voor verschillende platformen, zeer interessant kunnen zijn. Hierbij treden vooral de snellere ontwikkelingstijd en de lagere ontwikkelingskosten naar de voorgrond. Deze twee zaken spelen voor die bedrijven een grote rol binnen hun dagdagelijkse werking. Ondanks deze voordelen is nog niet elk bedrijf te vinden voor cross-platform ontwikkeling. Het beeld dat deze cross-platform applicaties `beter' zouden zijn dan de native oplossingen op de markt is nog niet overal aanvaard. Kotlin Multiplatform Mobile\footnote{kotlinlang.org/lp/mobile/} (KMM), de nieuwe cross-platform software development kit van JetBrains\footnote{jetbrains.com}, zou hier verandering in kunnen brengen. KMM gaat voor een andere aanpak voor hun cross-platform applicaties en zal vooral focussen op een gedeelde business logica en een platformafhankelijke en dus native user interface. 
 
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-Veel bedrijven die zich specialiseren in applicatieontwikkeling voor mobile toestellen zoals Android\footnote{android.com/} en iOS\footnote{apple.com/benl/ios/ios-14/} toestellen hebben verschillende mogelijkheden om dit aan te pakken. Zo is er bijvoorbeeld de keuze tussen een native applicatie of een cross-platform-applicatie. Anderzijds zijn er nog mogelijkheden zoals een progressive web application (PWA) geschreven in React\footnote{reactjs.org/}, Angular\footnote{angular.io/}, Vue.JS\footnote{vuejs.org/}... De PWA's vallen echter buiten de scope van deze bachelorproef. Er zal dus vooral gefocust worden op bedrijven die momenteel native applicaties ontwikkelen en eventueel willen overschakelen naar cross-platform mochten zij hier grote voordelen uithalen.
+Veel bedrijven die zich specialiseren in applicatieontwikkeling voor mobile toestellen zoals Android\footnote{android.com/} en iOS\footnote{apple.com/benl/ios/ios-14/} toestellen hebben verschillende mogelijkheden om dit aan te pakken. Zo is er bijvoorbeeld de keuze tussen een native applicatie of een cross-platform-applicatie. Anderzijds zijn er nog mogelijkheden zoals een progressive web application (PWA) geschreven in React\footnote{reactjs.org/}, Angular\footnote{angular.io/}, Vue.JS\footnote{vuejs.org/}... De PWA's vallen echter buiten de scope van deze bachelorproef. Er zal dus vooral gefocust worden op bedrijven die momenteel native applicaties ontwikkelen en eventueel willen overschakelen naar cross-platform.
 
 
 \section{\IfLanguageName{dutch}{Afbakening van het onderwerp}{Demarcation of the subject}}
 \label{sec:afbakening}
 
-JetBrains heeft Kotlin Multiplatform\footnote{kotlinlang.org/docs/mpp-intro.html} (KM) uitgebracht met Kotlin Multiplatform Mobile (KMM) als specialisatie voor de mobile toestellen. KMM is vooral gericht op iOS en Android in tegenstelling tot KM dat zich ook zal gaan toespitsen op macOS\footnote{apple.com/benl/macos/big-sur/}, Windows\footnote{microsoft.com/nl-be/windows} ... Voor deze bachelorproef zal er dus vooral gefocust worden op KMM aangezien de onderzoeksvraag zich toespitst op de mobiele toestellen. KMM biedt ook dezelfde functies die KM zal aanbieden aan de ontwikkelaars aangezien KMM een aftakking is van KM. Voor besturingssystemen van mobile toestellen zal er vooral gekeken worden naar Android en iOS aangezien deze de meest gebruikte besturingssystemen zijn op de markt.
+JetBrains heeft Kotlin Multiplatform\footnote{kotlinlang.org/docs/mpp-intro.html} (KM) uitgebracht met Kotlin Multiplatform Mobile (KMM) als specialisatie voor de mobile toestellen. KMM is vooral gericht op iOS en Android in tegenstelling tot KM dat zich ook zal toespitsen op macOS\footnote{apple.com/benl/macos/big-sur/}, Windows\footnote{microsoft.com/nl-be/windows}... Voor deze bachelorproef zal er dus vooral gefocust worden op KMM aangezien de onderzoeksvraag zich toespitst op de mobiele toestellen. KMM heeft dezelfde functies van KM aangezien KMM een aftakking is van KM. Voor besturingssystemen van mobile toestellen zal er vooral gekeken worden naar Android en iOS aangezien deze de meest gebruikte besturingssystemen zijn op de markt.
 
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
@@ -61,7 +61,7 @@ Hardware:
     \item iPhone 11 Pro Max uit 2019\footnote{support.apple.com/kb/SP806?viewlocale=nl\_NL\&locale=en\_US}
     \item Huawei P9 lite uit 2016\footnote{consumer.huawei.com/be/support/phones/p9-lite/}
 \end{itemize}
-Deze laatste twee toestellen zijn echter minder van belang en komen enkel ter sprake komen indien er testen gebeuren op fysieke toestellen. Voor het grotere deel van de testen worden uitgevoerd op emulators die ingebouwd zijn in de gekozen ontwikkelingssoftware.\\
+Deze laatste twee toestellen zijn echter minder van belang en komen enkel ter sprake indien er testen gebeuren op fysieke toestellen. Voor het grotere deel van de testen worden uitgevoerd op emulators die ingebouwd zijn in de gekozen ontwikkelingssoftware.\\
 \\
 Software:
 \begin{itemize}

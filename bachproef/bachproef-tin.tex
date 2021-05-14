@@ -8,6 +8,8 @@
 \usepackage{hogent-thesis-titlepage} % Titelpagina conform aan HOGENT huisstijl
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{subfig}
+
 
 
 %%---------- Documenteigenschappen ---------------------------------------------
@@ -75,6 +77,14 @@
 %
 % De korte beschrijving wordt gebruikt voor deze lijst, de uitgebreide staat bij
 % de figuur of tabel zelf.
+
+\renewcommand{\thesubfigure}{\thefigure.\arabic{subfigure}}
+\captionsetup[subfigure]{labelformat=simple,labelsep=colon,
+    listofformat=subsimple}
+\captionsetup{lofdepth=2}
+\makeatletter
+\renewcommand{\p@subfigure}{}
+\makeatother
 
 \listoffigures
 \listoftables
