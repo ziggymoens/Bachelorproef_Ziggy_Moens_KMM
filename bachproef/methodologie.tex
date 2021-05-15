@@ -26,7 +26,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
 
     \subsection{\IfLanguageName{dutch}{Hardware}{Hardware}}
     \label{sec:I-hardware}
-    Voor de installatie van deze software is het belangrijk te weten dat een computer of laptop die draait op macOS\footnote{apple.com/benl/macos}noodzakelijk is. Hierbij is het ook belangrijk te controleren dat de geïnstalleerde versie minstens macOs Big Sur\footnote{apple.com/benl/macos/big-sur} 11.3.1 is. Dit zal later van belang zijn gezien de testen gedraaid worden op emulators met  iOS 14.5\footnote{apple.com/benl/ios/ios-14} en hiervoor macOS 11.3.1 vereist is. De software kan echter ook geïnstalleerd worden op een computer of laptop die draait op Windows\footnote{microsoft.com/nl-be/windows} maar dan kunnen geen applicaties, noch native noch cross-platform, gemaakt worden voor iOS\footnote{apple.com/benl/ios}.
+    Voor de installatie van deze software is het belangrijk te weten dat een computer of laptop die draait op macOS\footnote{apple.com/benl/macos}noodzakelijk is. Hierbij is het ook belangrijk te controleren dat de geïnstalleerde versie minstens macOs Big Sur\footnote{apple.com/benl/macos/big-sur} 11.3.1 is. Dit zal later van belang zijn gezien de testen gedraaid worden op emulators met  iOS 14.3\footnote{apple.com/benl/ios/ios-14} en hiervoor macOS 11.3.1 vereist is. De software kan echter ook geïnstalleerd worden op een computer of laptop die draait op Windows\footnote{microsoft.com/nl-be/windows} maar dan kunnen geen applicaties, noch native noch cross-platform, gemaakt worden voor iOS\footnote{apple.com/benl/ios}.
     \\ \\
     Een ander belangrijk gegeven is dat nog niet alle software, voornamelijk Android Studio\footnote{developer.android.com/studio}, de laatste Apple Silicon\footnote{developer.apple.com/documentation/apple-silicon} processors niet ondersteunen. Een eventuele omweg kan gebeuren via Apple Rosetta 2\footnote{developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment} maar dit lost niet alle problemen op. Indien er toch op een Apple Silicon toestel gewerkt zou willen worden, wordt er aanbevolen de websites van de desbetreffende software te controleren voor compatibiliteit.  
     \\ \\
@@ -115,7 +115,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
    
     \subsection{\IfLanguageName{dutch}{Xcode}{Xcode}}
     \label{sec:I-Xcode}
-    Het tweede deel van software dat dient geïnstalleerd te worden is Xcode\footnote{developer.apple.com/xcode}, de softwareontwikkeling omgeving van Apple\footnote{apple.com} voor toestellen die draaien op iOS, iPadOS\footnote{apple.com/benl/ipados}, macOS...  Deze software is uitsluitend beschikbaar voor toestellen die draaien op macOS. De laatste beschikbare versie is Xcode 12.5, deze ondersteunt het bouwen applicaties voor iOS 14.5, iPadOS 14.5\footnote{apple.com/benl/ipados/ios-14}, watchOS 7.4\footnote{apple.com/benl/watchos/watchos-7}... 
+    Het tweede deel van software dat dient geïnstalleerd te worden is Xcode\footnote{developer.apple.com/xcode}, de softwareontwikkeling omgeving van Apple\footnote{apple.com} voor toestellen die draaien op iOS, iPadOS\footnote{apple.com/benl/ipados}, macOS...  Deze software is uitsluitend beschikbaar voor toestellen die draaien op macOS. De laatste beschikbare versie is Xcode 12.5, deze ondersteunt het bouwen applicaties tot iOS 14.3, iPadOS 14.3\footnote{apple.com/benl/ipados/ios-14}, watchOS 7.4\footnote{apple.com/benl/watchos/watchos-7}... 
     \\ \\ 
     De laatste versie van \textbf{Xcode} kan geïnstalleerd worden via de Apple Developer website of via de App Store\footnote{apple.com/benl/app-store} op macOS: \\
     \verb*|https://developer.apple.com/xcode/|
@@ -135,7 +135,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
         \label{fig:M-xcode-locations}
     \end{figure}
     
-    Tijdens de installatie van Xcode worden alle emulators al voorzien waardoor er hier geen extra instellingen moeten aan gebeuren. Voor deze studie zal gebruik gemaakt worden van een iPhone 12\footnote{apple.com/benl/iphone-12} emulator met iOS 14.5.
+    Tijdens de installatie van Xcode worden alle emulators al voorzien waardoor er hier geen extra instellingen moeten aan gebeuren. Voor deze studie zal gebruik gemaakt worden van een iPhone 12\footnote{apple.com/benl/iphone-12} emulator met iOS 14.3.
     \\ \\
     Naast de installatie van Xcode zal ook CocoaPods geïnstalleerd moeten worden om de KMM plugin correct te laten werken. CocoaPods kan geinstalleerd worden aan de hand van onderstaand commando.
     
@@ -197,8 +197,89 @@ Eens het project correct is ingeladen en geïndexeerd kan gezien worden dat het 
     \label{fig:M-as-emulators}
 \end{figure}
 
+Eens de emulators ingesteld zijn kan het project voor iOS en Android worden opgestart. Na 8 s 8374 ms was de Android applicatie voor de eerste keer opgestart en na 6 s 202 ms was de iOS applicatie opgestart. Hieronder een beeld van beide applicaties in actie.
 
+\begin{figure}
+    \centering
+    \subfloat[\centering Android applicatie]{{\includegraphics[width=4cm]{img/kmm-basic-android} }}
+    \qquad
+    \subfloat[\centering iOS applicatie]{{\includegraphics[width=4cm]{img/kmm-basic-ios} }}
+    \caption{KMM basic applicatie op Android en iOS}
+    \label{fig:M-kmm-basic}%
+\end{figure}
 
+Binnen het project kan de expect/actual structuur duidelijk teruggevonden worden. Binnen de shared-map bevindt zich de commonMain-map. Hierin zitten volgende twee bestanden.
 
+\begin{lstlisting}
+    //Greeting.kt
+    
+    class Greeting {
+        fun greeting(): String {
+            return "Hello, ${Platform().platform}!"
+        }
+    }
+\end{lstlisting}
+\begin{lstlisting}
+    //Platform.kt
+    
+    expect class Platform() {
+        val platform: String
+    }
+\end{lstlisting}
 
+Ook in de shared-map kan de iosMain-map gevonden worden. Hierin komt het Platform.kt bestand nogmaals terug. Hierbij wordt echter de `expect' geïmplementeerd en verwerkt in de `actual'. 
+
+\begin{lstlisting}
+    //Platform.kt
+    
+    actual class Platform actual constructor() {
+        actual val platform: String = 
+            UIDevice.currentDevice.systemName() + 
+            " " + 
+            UIDevice.currentDevice.systemVersion
+    }
+\end{lstlisting}
+
+De laatste map binnen de shared-map die interessant is voor deze studie is de androidMain-map en hierin wordt ook de Platform.kt verwerkt.
+
+\begin{lstlisting}
+    //Platform.kt
+    
+    actual class Platform actual constructor() {
+        actual val platform: String = 
+            "Android ${android.os.Build.VERSION.SDK_INT}"
+    }
+\end{lstlisting}
+
+Zoals duidelijk zichtbaar zal in de shared-map de globale structuur worden vastgelegd en deze zal dan verwerkt worden binnen de platform specifieke delen.
+
+Uiteindelijk zal de Greetings klasse worden opgeroepen binnen de Android en iOS applicaties zoals hieronder geïllustreerd
+\begin{lstlisting}
+    //Android - MainActivity.kt
+    
+    fun greet(): String {
+        return Greeting().greeting()
+    }
+\end{lstlisting}
+\begin{lstlisting}
+    //iOS - ContentView.swift
+    
+    struct ContentView: View {
+       let greet = Greeting().greeting()
+       
+       var body: some View {
+           Text(greet)
+       }
+    }
+   
+\end{lstlisting}
+
+\section{\IfLanguageName{dutch}{Eerste native applicaties}{First natove applications}}
+\label{sec:M-first-native}
+
+\subsection{\IfLanguageName{dutch}{Android}{Android}}
+\label{sec:M-first-native-android}
+
+\subsection{\IfLanguageName{dutch}{iOS}{iOS}}
+\label{sec:M-first-native-ios}
 
