@@ -27,21 +27,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.7}{\ignorespaces De terminal bevestigd dat Java SE 16 correct is geïnstalleerd op de betreffende computer\relax }}{42}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Proces voor het opzetten van een KMM project\relax }}{43}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Proces voor het opzetten van een KMM project\relax }}{44}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.1}{\ignorespaces {\centering Startscherm Android Studio}}}{43}{subfigure.8.1}%
+\contentsline {subfigure}{\numberline {3.8.1}{\ignorespaces {\centering Startscherm Android Studio}}}{44}{subfigure.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.2}{\ignorespaces {\centering Nieuw project met de KMM application optie}}}{43}{subfigure.8.2}%
+\contentsline {subfigure}{\numberline {3.8.2}{\ignorespaces {\centering Nieuw project met de KMM application optie}}}{44}{subfigure.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.3}{\ignorespaces {\centering Standaard instellingen Android Project}}}{43}{subfigure.8.3}%
+\contentsline {subfigure}{\numberline {3.8.3}{\ignorespaces {\centering Standaard instellingen Android Project}}}{44}{subfigure.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.4}{\ignorespaces {\centering Specifieke KMM project instellingen}}}{43}{subfigure.8.4}%
+\contentsline {subfigure}{\numberline {3.8.4}{\ignorespaces {\centering Specifieke KMM project instellingen}}}{44}{subfigure.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Android en iOS emulators binnen Android Studio\relax }}{44}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Android en iOS emulators binnen Android Studio\relax }}{45}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.9.1}{\ignorespaces {\centering Instellingen Android emulator}}}{44}{subfigure.9.1}%
+\contentsline {subfigure}{\numberline {3.9.1}{\ignorespaces {\centering Instellingen Android emulator}}}{45}{subfigure.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.9.2}{\ignorespaces {\centering Instellingen iOS emulator}}}{44}{subfigure.9.2}%
+\contentsline {subfigure}{\numberline {3.9.2}{\ignorespaces {\centering Instellingen iOS emulator}}}{45}{subfigure.9.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces KMM basic applicatie op Android en iOS\relax }}{45}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
@@ -49,9 +49,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {3.10.2}{\ignorespaces {\centering iOS applicatie}}}{45}{subfigure.10.2}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Interface van de basic Android applicatie\relax }}{47}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface van de basic iOS applicatie\relax }}{49}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{52}{figure.caption.22}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{56}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \contentsfinish 

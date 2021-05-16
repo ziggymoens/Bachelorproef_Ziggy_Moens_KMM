@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.26)  14 MAY 2021 16:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.26)  16 MAY 2021 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,6 +1291,142 @@ Package caption Info: rotating package is loaded.
 \sf@top=\skip170
 \sf@bottom=\skip171
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen297
+\c@pgfplots@coordindex=\count483
+\c@pgfplots@scanlineindex=\count484
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count485
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count486
+\t@pgfplotstable@a=\toks53
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count487
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-xetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count488
+))))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen298
+\pgfdecoratedremainingdistance=\dimen299
+\pgfdecoratedinputsegmentcompleteddistance=\dimen300
+\pgfdecoratedinputsegmentremainingdistance=\dimen301
+\pgf@decorate@distancetomove=\dimen302
+\pgf@decorate@repeatstate=\count489
+\pgfdecorationsegmentamplitude=\dimen303
+\pgfdecorationsegmentlength=\dimen304
+)
+\tikz@lib@dec@box=\box72
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count490
+\pgfplots@xmin@reg=\dimen305
+\pgfplots@xmax@reg=\dimen306
+\pgfplots@ymin@reg=\dimen307
+\pgfplots@ymax@reg=\dimen308
+\pgfplots@zmin@reg=\dimen309
+\pgfplots@zmax@reg=\dimen310
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip172
+\LTright=\skip173
+\LTpre=\skip174
+\LTpost=\skip175
+\LTchunksize=\count491
+\LTcapwidth=\dimen311
+\LT@head=\box73
+\LT@firsthead=\box74
+\LT@foot=\box75
+\LT@lastfoot=\box76
+\LT@cols=\count492
+\LT@rows=\count493
+\c@LT@tables=\count494
+\c@LT@chunks=\count495
+\LT@p@ftn=\toks54
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -1302,33 +1438,33 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 (./bachproef-tin.aux)
 \openout1 = `bachproef-tin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+3.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 69
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 73
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -1368,9 +1504,9 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count483
+\c@lstlisting=\count496
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 69.
+LaTeX Info: Redefining \microtypecontext on input line 73.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1380,8 +1516,8 @@ Package microtype Info: No adjustment of kerning.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 69.
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring OFF on input line 73.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1393,11 +1529,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count484
+\c@section@level=\count497
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
@@ -1451,11 +1587,20 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
 
 (./bachproef-tin.bbl)
-Package biblatex Info: Reference section=0 on input line 69.
-Package biblatex Info: Reference segment=0 on input line 69.
+Package biblatex Info: Reference section=0 on input line 73.
+Package biblatex Info: Reference segment=0 on input line 73.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
+
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.17} (current compat level: 1.9).
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1490,7 +1635,6 @@ Package caption Info: End \AtBeginDocument code.
 
 File: img/HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img/HOGENT_Logo_Pos_rgb.png>
-
 (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
@@ -1635,7 +1779,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 
 Overfull \hbox (12.0pt too wide) detected at line 32
- []\T1/ptm/m/n/12 43
+ []\T1/ptm/m/n/12 44
  []
 
 
@@ -1645,27 +1789,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Overfull \hbox (12.0pt too wide) detected at line 34
- []\T1/ptm/m/n/12 43
+ []\T1/ptm/m/n/12 44
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 36
- []\T1/ptm/m/n/12 43
+ []\T1/ptm/m/n/12 44
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 38
- []\T1/ptm/m/n/12 43
+ []\T1/ptm/m/n/12 44
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 42
- []\T1/ptm/m/n/12 44
+ []\T1/ptm/m/n/12 45
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 44
- []\T1/ptm/m/n/12 44
+ []\T1/ptm/m/n/12 45
  []
 
 
@@ -1963,6 +2107,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--154
 [41]
 File: img/jdk-version.png Graphic file (type bmp)
 <img/jdk-version.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--177
+
+ []
+
+[42]
 File: img/kmm-start-1.png Graphic file (type bmp)
 <img/kmm-start-1.png>
 File: img/kmm-start-2.png Graphic file (type bmp)
@@ -1973,9 +2128,8 @@ File: img/kmm-start-4.png Graphic file (type bmp)
 <img/kmm-start-4.png>
 
 
-LaTeX Warning: Float too large for page by 40.06789pt on input line 186.
+LaTeX Warning: Float too large for page by 40.06789pt on input line 189.
 
-[42] [43]
 File: img/as-emulators-1.png Graphic file (type bmp)
 <img/as-emulators-1.png>
 File: img/as-emulators-2.png Graphic file (type bmp)
@@ -1985,32 +2139,59 @@ File: img/kmm-basic-android.png Graphic file (type bmp)
 File: img/kmm-basic-ios.png Graphic file (type bmp)
 <img/kmm-basic-ios.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-Overfull \hbox (0.1403pt too wide) in paragraph at lines 243--244
+Overfull \hbox (0.1403pt too wide) in paragraph at lines 246--247
 []\T1/ptm/m/n/12 De laat-ste map bin-nen de shared-map die in-te-res-sant is vo
 or deze stu-die is de androidMain-
  []
 
+[43] [44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 282--292
 
-Underfull \vbox (badness 4621) has occurred while \output is active []
+ []
 
- [45])
-(./conclusie.tex [46]
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--292
+
+ []
+
+File: img/android-basic.png Graphic file (type bmp)
+<img/android-basic.png>
+[46]
+Underfull \vbox (badness 6204) has occurred while \output is active []
+
+ [47]
+File: img/ios-basic.png Graphic file (type bmp)
+<img/ios-basic.png>
+)
+(./conclusie.tex [48] [49] [50
+
+]
 Hoofdstuk 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
-
-])
-[48]
+ [51])
+[52]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [49
+ [53
 
 ]
 Missing character: There is no ’ in font ptmr8t!
@@ -2024,7 +2205,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--29
 
  []
 
-[50]
+[54]
 Overfull \hbox (2.62503pt too wide) in paragraph at lines 43--44
 []\T1/ptm/m/n/12 Native ap-pli-ca-ties kun-nen re-la-tief vlot om-ge-vormd wor-
 den naar cross-platform
@@ -2033,7 +2214,7 @@ den naar cross-platform
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [55]
 File: img/kmm.jpg Graphic file (type bmp)
 <img/kmm.jpg>
 Missing character: There is no ‘ in font ptmr8t!
@@ -2051,8 +2232,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--75
 
 Underfull \vbox (badness 4582) has occurred while \output is active []
 
- [52]
-[53]
+ [56]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 111--122
 
  []
@@ -2078,7 +2259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--122
 
  []
 
-[54]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 126--130
 
  []
@@ -2089,32 +2270,50 @@ Overfull \hbox (0.66943pt too wide) in paragraph at lines 149--150
 n de-len, wordt
  []
 
-[55]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
-) [56] [57
+) (./resultaten-builds.tex [60]
+B"ylage B.
+[61
+
+] [62])
+Overfull \hbox (1.13043pt too wide) in paragraph at lines 461--163
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--163
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+[64] [65
 
 ]
 Missing character: There is no ﻿ in font ptmri8t!
- [58] [59]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+ [66] [67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./bachproef-tin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36471 strings out of 479418
- 664680 string characters out of 5884585
- 1575636 words of memory out of 5000000
- 53322 multiletter control sequences out of 15000+600000
+ 46923 strings out of 479418
+ 1014237 string characters out of 5884585
+ 2017143 words of memory out of 5000000
+ 63631 multiletter control sequences out of 15000+600000
  586593 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,12n,85p,2530b,7163s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,15n,98p,2530b,7163s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (61 pages).
+Output written on bachproef-tin.pdf (69 pages).

@@ -166,10 +166,13 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
         \label{fig:M-jdk-version}
     \end{figure}
 
-\section{\IfLanguageName{dutch}{Eerste Kotlin Multiplatform Mobile applicatie}{First Kotlin MultiPlatforn Mobile application}}
+\section{\IfLanguageName{dutch}{Basis Kotlin Multiplatform Mobile applicatie}{Basic Kotlin MultiPlatforn Mobile application}}
 \label{sec:M-first-app}
-Nadat alle software is geïnstalleerd kan er overgegaan worden naar de eerste Kotlin Multiplatform Mobile applicatie (KMM). De eerste applicatie zal een kleine applicatie zijn die aan de gebruiker zal tonen welke software versie op het toestel geïnstalleerd staat. 
-
+Nadat alle software is geïnstalleerd kan er overgegaan worden naar de eerste Kotlin Multiplatform Mobile applicatie (KMM). De eerste applicatie zal een kleine applicatie zijn die aan de gebruiker zal tonen welke software versie op het toestel geïnstalleerd staat.
+\\ \\
+De geschreven applicatie kan ook op GitHub\footnote{github.com} teruggevonden worden. Dit kan via volgende link:\\
+\verb*|https://github.com/ziggymoens/KMM_Application_Basic|
+\\ \\
 Bij het opstarten van Android Studio geeft deze de optie om een nieuw project te starten, eens dat is aangeklikt wordt er gekozen voor de optie `KMM Application'. Als naam wordt `Basic KMM Application' gekozen en hierbij wordt de minimum SDK op level 28 gezet (Android 9.0\footnote{android.com/versions/pie-9-0})
 
 \begin{figure}
@@ -274,12 +277,92 @@ Uiteindelijk zal de Greetings klasse worden opgeroepen binnen de Android en iOS 
    
 \end{lstlisting}
 
-\section{\IfLanguageName{dutch}{Eerste native applicaties}{First natove applications}}
+\section{\IfLanguageName{dutch}{Basis native applicaties}{Basic native applications}}
 \label{sec:M-first-native}
+Nu de KMM applicatie gemaakt is, kan de native variant voor Android en iOS gemaakt worden. Hierbij zal geprobeerd worden deze zo goed mogelijk op elkaar af te stemmen.
+\\ \\
+De geschreven applicaties kunnen ook op GitHub\footnote{github.com} teruggevonden worden. Dit kan via volgende links:\\
+\textbf{Android}:
+\\ \\
+\verb*|https://github.com/ziggymoens/Android_Native_Basic|
+\\ \\
+\textbf{iOS}:\\
+\verb*|https://github.com/ziggymoens/iOS_Native_Basic|
+\\ \\
 
 \subsection{\IfLanguageName{dutch}{Android}{Android}}
 \label{sec:M-first-native-android}
 
+
+ \begin{figure}
+    \centering
+    \includegraphics[width=7cm]{img/android-basic.png}
+    \caption{Interface van de basic Android applicatie}
+    \label{fig:M-basic-android}
+\end{figure}
+
+\begin{lstlisting}
+    //MainActivity.kt
+    
+    class MainActivity : AppCompatActivity() {
+        
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            setContentView(R.layout.activity_main)
+            
+            val tv: TextView = findViewById(R.id.text_view)
+            tv.text = "Hello, Android ${android.os.Build.VERSION.SDK_INT}!"
+        }
+    }
+    
+    
+    //activity_main.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:id="@+id/main_view"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    
+       <TextView
+           android:id="@+id/text_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           tools:text="Hello World!" />
+                
+    </androidx.constraintlayout.widget.ConstraintLayout>
+\end{lstlisting}
+
 \subsection{\IfLanguageName{dutch}{iOS}{iOS}}
 \label{sec:M-first-native-ios}
+
+ \begin{figure}
+    \centering
+    \includegraphics[width=7cm]{img/ios-basic.png}
+    \caption{Interface van de basic iOS applicatie}
+    \label{fig:M-basic-ios}
+\end{figure}
+
+
+\begin{lstlisting}
+    // ViewController.swift
+    
+    class ViewController: UIViewController {
+        
+        @IBOutlet weak var label: UILabel!
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            label.text = "Hello, " + UIDevice.current.systemName + " " + UIDevice.current.systemVersion
+        }
+    }
+    
+\end{lstlisting}
 
