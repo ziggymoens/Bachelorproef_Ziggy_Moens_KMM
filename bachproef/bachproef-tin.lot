@@ -5,7 +5,31 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Vergelijking en samenvatting van de verschillende cross-platform categorieën\relax }}{27}{table.caption.8}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Vergelijking en samenvatting van de verschillende cross-platform categorieën\relax }}{29}{table.caption.8}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Resulaten van de statistiek voor het Android project\relax }}{56}{table.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Resulaten van de statistiek voor het iOS project\relax }}{57}{table.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Resulaten van de statistiek voor het KMM project\relax }}{57}{table.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Resulaten van de compileertijden voor het Android project\relax }}{59}{table.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Resulaten van de compileertijden voor het iOS project\relax }}{59}{table.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.6}{\ignorespaces Resulaten van de compileertijden voor het KMM project in Android Studio\relax }}{59}{table.caption.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.7}{\ignorespaces Resulaten van de compileertijden voor het KMM project in Xcode\relax }}{59}{table.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.8}{\ignorespaces Resulaten van de compileertijden overzicht\relax }}{60}{table.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.9}{\ignorespaces Overzicht van de voetafdruk van de applicaties\relax }}{62}{table.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.10}{\ignorespaces Overzicht van de ontwikkeltijd van de applicaties\relax }}{64}{table.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.11}{\ignorespaces Overzicht van de ontwikkeltijd van de applicaties\relax }}{64}{table.caption.53}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -13,7 +37,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Compileersnelheid resultaten van native en KMM projecten\relax }}{77}{table.B.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces Build resultaten van native en KMM projecten\relax }}{61}{table.B.1}%
+\addvspace {10\p@ }
 \contentsfinish 

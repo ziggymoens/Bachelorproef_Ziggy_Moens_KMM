@@ -11,6 +11,9 @@
 \usepackage{subfig}
 \usepackage{pgfplots}
 \usepackage{longtable}
+\usepackage{adjustbox}
+\usepackage{eurosym}
+
 
 \pgfplotsset{width=15cm,compat=1.9}
 
@@ -34,6 +37,9 @@
     breakatwhitespace=true,
     tabsize=3
 }
+
+\newcommand{\hd}{\rotatebox{90}}
+
 
 
 
@@ -160,6 +166,7 @@ Het onderwerp van deze bachelorproef is gebaseerd op een onderzoeksvoorstel dat 
 % TODO: Voeg hier eventuele andere bijlagen toe
 %\input{...}
 \input{resultaten-builds}
+\input{resultaten-aantal-lijnen}
 
 %%---------- Referentielijst --------------------------------------------------
 \printbibliography[heading=bibintoc]

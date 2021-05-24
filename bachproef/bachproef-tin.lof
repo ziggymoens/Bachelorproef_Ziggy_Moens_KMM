@@ -5,59 +5,89 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform en de verschillende platformen \autocite {Kotlin2021MP}\relax }}{30}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform en de verschillende platformen \autocite {Kotlin2021MP}\relax }}{32}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{31}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{33}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Grafische voorstelling van de code binnen KMM met iOS en Android als voorbeeld \autocite {Kotlin2021MP}\relax }}{32}{figure.caption.11}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces De ADV Manager in Android Studio met de Pixel 4a emulator geïnstalleerd\relax }}{37}{figure.caption.12}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces De opties voor een nieuw project binnen Android Studio, hierbij is een KMM applicatie ook beschikbaar\relax }}{38}{figure.caption.13}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces De standaard instellingen voor een KMM project\relax }}{39}{figure.caption.14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces De instellingen van een KMM project voor de gedeelde logica en de native iOS en Android delen\relax }}{39}{figure.caption.15}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces De plug-in geïnstalleerd binnen Android Studio\relax }}{40}{figure.caption.16}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces De Xcode Command Line Tools correct geconfigureerd binnen Xcode\relax }}{41}{figure.caption.17}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces De terminal bevestigd dat Java SE 16 correct is geïnstalleerd op de betreffende computer\relax }}{42}{figure.caption.18}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Proces voor het opzetten van een KMM project\relax }}{44}{figure.caption.19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.1}{\ignorespaces {\centering Startscherm Android Studio}}}{44}{subfigure.8.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.2}{\ignorespaces {\centering Nieuw project met de KMM application optie}}}{44}{subfigure.8.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.3}{\ignorespaces {\centering Standaard instellingen Android Project}}}{44}{subfigure.8.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.8.4}{\ignorespaces {\centering Specifieke KMM project instellingen}}}{44}{subfigure.8.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Android en iOS emulators binnen Android Studio\relax }}{45}{figure.caption.20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.9.1}{\ignorespaces {\centering Instellingen Android emulator}}}{45}{subfigure.9.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.9.2}{\ignorespaces {\centering Instellingen iOS emulator}}}{45}{subfigure.9.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces KMM basic applicatie op Android en iOS\relax }}{45}{figure.caption.21}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.10.1}{\ignorespaces {\centering Android applicatie}}}{45}{subfigure.10.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.10.2}{\ignorespaces {\centering iOS applicatie}}}{45}{subfigure.10.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Interface van de basic Android applicatie\relax }}{47}{figure.caption.22}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface van de basic iOS applicatie\relax }}{49}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Grafische voorstelling van de code binnen KMM met iOS en Android als voorbeeld \autocite {Kotlin2021MP}\relax }}{34}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces De ADV Manager in Android Studio met de Pixel 4a emulator geïnstalleerd\relax }}{39}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces De opties voor een nieuw project binnen Android Studio, hierbij is een KMM applicatie ook beschikbaar\relax }}{40}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces De standaard instellingen voor een KMM project\relax }}{41}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces De instellingen van een KMM project voor de gedeelde logica en de native iOS en Android delen\relax }}{41}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces De plug-in geïnstalleerd binnen Android Studio\relax }}{42}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces De Xcode Command Line Tools correct geconfigureerd binnen Xcode\relax }}{43}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces De terminal bevestigd dat Java SE 16 correct is geïnstalleerd op de betreffende computer\relax }}{44}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Proces voor het opzetten van een KMM project\relax }}{46}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.1}{\ignorespaces {\centering Startscherm Android Studio}}}{46}{subfigure.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.2}{\ignorespaces {\centering Nieuw project met de KMM application optie}}}{46}{subfigure.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.3}{\ignorespaces {\centering Standaard instellingen Android Project}}}{46}{subfigure.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.8.4}{\ignorespaces {\centering Specifieke KMM project instellingen}}}{46}{subfigure.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Android en iOS emulators binnen Android Studio\relax }}{47}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.9.1}{\ignorespaces {\centering Instellingen Android emulator}}}{47}{subfigure.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.9.2}{\ignorespaces {\centering Instellingen iOS emulator}}}{47}{subfigure.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces KMM basic applicatie op Android en iOS\relax }}{47}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.10.1}{\ignorespaces {\centering Android applicatie}}}{47}{subfigure.10.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.10.2}{\ignorespaces {\centering iOS applicatie}}}{47}{subfigure.10.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Instelling voor het native Android project\relax }}{49}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface van de basic native Android applicatie\relax }}{51}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces De optie voor een nieuwe iOS App binnen Xcode\relax }}{52}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Instelling voor het native iOS project\relax }}{52}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface van de basic native iOS applicatie\relax }}{54}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Instellingen voor de Statics plug-in\relax }}{56}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Voetafdruk van de native Android applicatie\relax }}{61}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.17.1}{\ignorespaces {\centering Voetafdruk van de native Android met cache en lokale opslag}}}{61}{subfigure.17.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.17.2}{\ignorespaces {\centering Voetafdruk van de native Android zonder cache en met lokale opslag}}}{61}{subfigure.17.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.17.3}{\ignorespaces {\centering Voetafdruk van de native Android zonder cache en lokale opslag}}}{61}{subfigure.17.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Voetafdruk van de native iOS applicatie\relax }}{62}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Voetafdruk van de KMM applicaties\relax }}{63}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.19.1}{\ignorespaces {\centering Voetafdruk van KMM Android met cache en lokale opslag}}}{63}{subfigure.19.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.19.2}{\ignorespaces {\centering Voetafdruk van KMM Android zonder cache en met lokale opslag}}}{63}{subfigure.19.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.19.3}{\ignorespaces {\centering Voetafdruk van KMM Android zonder cache en lokale opslag}}}{63}{subfigure.19.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.19.4}{\ignorespaces {\centering Voetafdruk van KMM iOS kmm}}}{63}{subfigure.19.4}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{56}{figure.caption.24}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{72}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

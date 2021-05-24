@@ -26,11 +26,11 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
 
     \subsection{\IfLanguageName{dutch}{Hardware}{Hardware}}
     \label{sec:I-hardware}
-    Voor de installatie van deze software is het belangrijk te weten dat een computer of laptop die draait op macOS\footnote{apple.com/benl/macos}noodzakelijk is. Hierbij is het ook belangrijk te controleren dat de geïnstalleerde versie minstens macOs Big Sur\footnote{apple.com/benl/macos/big-sur} 11.3.1 is. Dit zal later van belang zijn gezien de testen gedraaid worden op emulators met  iOS 14.3\footnote{apple.com/benl/ios/ios-14} en hiervoor macOS 11.3.1 vereist is. De software kan echter ook geïnstalleerd worden op een computer of laptop die draait op Windows\footnote{microsoft.com/nl-be/windows} maar dan kunnen geen applicaties, noch native noch cross-platform, gemaakt worden voor iOS\footnote{apple.com/benl/ios}.
+    Vooraleer deze software te installeren is het belangrijk te weten dat een computer of laptop die draait op macOS\footnote{apple.com/benl/macos}noodzakelijk is. Hierbij is het ook aangeraden te controleren dat de geïnstalleerde versie minstens macOs Big Sur\footnote{apple.com/benl/macos/big-sur} 11.3.1 is. Dit zal later van belang zijn gezien de testen gedraaid worden op emulators met  iOS 14.3\footnote{apple.com/benl/ios/ios-14} en hiervoor macOS 11.3.1 vereist is. De software kan echter ook geïnstalleerd worden op een computer of laptop die draait op Windows\footnote{microsoft.com/nl-be/windows} maar dan kunnen geen applicaties, noch native noch cross-platform, gemaakt worden voor iOS\footnote{apple.com/benl/ios}.
     \\ \\
-    Een ander belangrijk gegeven is dat nog niet alle software, voornamelijk Android Studio\footnote{developer.android.com/studio}, de laatste Apple Silicon\footnote{developer.apple.com/documentation/apple-silicon} processors niet ondersteunen. Een eventuele omweg kan gebeuren via Apple Rosetta 2\footnote{developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment} maar dit lost niet alle problemen op. Indien er toch op een Apple Silicon toestel gewerkt zou willen worden, wordt er aanbevolen de websites van de desbetreffende software te controleren voor compatibiliteit.  
+    Een ander gegeven is dat nog niet alle software, voornamelijk Android Studio\footnote{developer.android.com/studio}, de laatste Apple Silicon\footnote{developer.apple.com/documentation/apple-silicon} processors niet ondersteunen. Een eventuele omweg kan gebeuren via Apple Rosetta 2\footnote{developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment} maar dit lost niet alle problemen op.Indien er toch op een Apple Silicon toestel dient gewerkt te worden, is het aanbevolen de websites van de desbetreffende software te controleren voor compatibiliteit.  
     \\ \\
-    Voor dit onderzoek zal dus ook een laptop gebruikt worden die draait op macOs. Het toestel in kwestie is een MacBook Pro 16 inch uit 2019.
+    Voor dit onderzoek zal bijgevolg een laptop gebruikt worden die draait op macOs. Het toestel in kwestie is een MacBook Pro 16 inch uit 2019.
     Meer technische informatie over dit toestel kan op volgende link teruggevonden worden:\\
     \verb*|https://support.apple.com/kb/SP809|
     \\ \\
@@ -39,7 +39,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
 
     \subsection{\IfLanguageName{dutch}{Android Studio}{Android Studio}}
     \label{sec:I-AS}
-    Android Studio is het eerste deel van de vereiste software, deze software wordt aangeboden door JetBrains\footnote{jetbrains.com} en door Google\footnote{about.google} als software voor de ontwikkeling van Android\footnote{android.com} applicaties. Android Studio is gebaseerd op IntelliJ IDEA\footnote{jetbrains.com/idea} van JetBrains. De laatste stabiele versie van Android Studio voor macOS is 4.2.  Afhankelijk van het project dat gebruikt wordt, kunnen er echter nog enkele problemen optreden met de versie van Android Jetpack\footnote{developer.android.com/jetpack}. Dit kan opgelost worden door de Canary build van Android studio te downloaden. De laatste versie van Android Studio Canary build\footnote{developer.android.com/studio/preview} is Artic Fox (2020.3.1) Canary 15.
+    Android Studio is het eerste deel van de vereiste software, en wordt aangeboden door JetBrains\footnote{jetbrains.com} en door Google\footnote{about.google} als software voor de ontwikkeling van Android\footnote{android.com} applicaties. Android Studio is gebaseerd op IntelliJ IDEA\footnote{jetbrains.com/idea} van JetBrains. De laatste stabiele versie van Android Studio voor macOS is 4.2.  Afhankelijk van het project dat gebruikt wordt, kunnen er echter nog enkele problemen optreden met de versie van Android Jetpack\footnote{developer.android.com/jetpack}. Dit kan opgelost worden door de Canary build van Android studio te downloaden. De laatste versie van Android Studio Canary build\footnote{developer.android.com/studio/preview} is Artic Fox (2020.3.1) Canary 15.
     \\ \\
     De laatste versie van \textbf{Android Studio} kan hier teruggevonden worden:\\
     \verb*|https://developer.android.com/studio|
@@ -49,7 +49,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
     \\ \\
     Oudere versies van Android Studio ondersteunen de recentste plug-ins voor Kotlin Multiplatform Mobile (KMM) niet. Hierbij is het dus belangrijk dat de versie die geïnstalleerd wordt 4.2 of recenter is.
     \\ \\ 
-    Tijdens de installatie zal Android Studio kan er best geopteerd worden on de standaard instellingen te nemen. Daarnaast zullen verschillende zaken geinstalleerd worden namelijk:
+    Tijdens de installatie van Android Studio kan er best geopteerd worden om de standaard instellingen te gebruiken. Daarnaast zullen verschillende zaken geïnstalleerd worden namelijk:
     \begin{itemize}
         \item Android Emulator
         \item Android SDK Build Tools 30.0.3
@@ -61,7 +61,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
         \item SDK Patch Applier v4
         \item Sources for Android 30
     \end{itemize}
-    Deze zijn allemaal van belang voor zowel de native Android ontwikkeling als de KMM cross-platform ontwikkeling. Eens de installatie voltooid is kan via de AVD manager een emulator geïnstalleerd worden. Voor deze studie zal er een Pixel 4a\footnote{store.google.com/us/product/pixel\_4a?hl=en-US} geïnstalleerd worden met Android 11\footnote{android.com/android-11} (API Level 30). Deze emulator zal gebruikt worden voor de native Android en de KMM cross-platform applicatie te testen. Eens deze emulator correct is geïnstalleerd kan deze teruggevonden worden in de ADV Manager zoals op figuur \ref{fig:M-as-adv-manager}
+    Deze zijn allemaal van belang voor zowel de native Android ontwikkeling als de KMM cross-platform ontwikkeling. Eens de installatie voltooid is kan via de AVD manager een emulator geïnstalleerd worden. Voor deze studie zal er een Pixel 4a\footnote{store.google.com/us/product/pixel\_4a?hl=en-US} geïnstalleerd worden met Android 11\footnote{android.com/android-11} (API Level 30). Deze emulator zal gebruikt worden om de native Android en de KMM cross-platform applicatie te testen. Eens deze emulator correct is geïnstalleerd kan deze teruggevonden worden in de ADV Manager zoals op figuur \ref{fig:M-as-adv-manager}
     \begin{figure}
         \centering
         \includegraphics[width=10cm]{img/as-adv-manager.png}
@@ -102,7 +102,7 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
 
     Indien er problemen zouden zijn met de KMM plug-in kan er via de instellingen van Android Studio gecontroleerd worden of de plug-in goed geïnstalleerd is en actief staat.
     \\ \\
-    Android Studio -> Voorkeuren -> Plugins -> Kotlin Multiplatform Mobile
+    \underline{Android Studio -> Voorkeuren -> Plugins -> Kotlin Multiplatform Mobile}
     \\ \\
     De plug-in zou bij de geïnstalleerde plug-ins moeten staan en moet actief staan.
     \begin{figure}
@@ -127,7 +127,9 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
         //Terminal.app
         xcode-select --install
     \end{lstlisting}
-    Eens deze installatie voltooid is dient er nog binnen Xcode een aanpassing gemaakt te worden zodat de Command Line Tools actief zijn. Via Xcode -> Voorkeuren -> Locaties, moeten de Command Line Tools ingesteld worden op `Xcode 12.5 (12E262)' deze optie zou beschikbaar moeten zijn in de selectielijst. Figuur \ref{fig:M-xcode-locations} toont het instellingenmenu voor Locaties met de correcte waarden. 
+    Eens deze installatie voltooid is, dient er nog binnen Xcode een aanpassing gemaakt te worden zodat de Command Line Tools actief zijn. Via \\
+    \underline{Xcode -> Voorkeuren -> Locaties}, \\
+    moeten de Command Line Tools ingesteld worden op `Xcode 12.5 (12E262)' deze optie zou beschikbaar moeten zijn in de selectielijst. Figuur \ref{fig:M-xcode-locations} toont het instellingenmenu voor Locaties met de correcte waarden. 
     \begin{figure}
         \centering
         \includegraphics[width=10cm]{img/xcode-locations}
@@ -152,12 +154,12 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
     \verb*|https://www.oracle.com/java/technologies/javase-jdk16-downloads.html|
     \\
     
-    Eens de installatie is voltooid kan de gebruiker controleren of de installatie geslaagd is door onderstaand commando uit te voeren.
+    Eens de installatie voltooid is, kan de gebruiker controleren of de installatie geslaagd is door onderstaand commando uit te voeren.
     \begin{lstlisting}
         //Terminal.app
         java --version
     \end{lstlisting}
-    Indien de installatie geslaagd is en Java SE 16 correct is geïnstalleerd zal de gebruiker volgende output krijgen zoals in figuur \ref{fig:M-jdk-version} 
+    Indien de installatie geslaagd is en Java SE 16 correct is geïnstalleerd, zal de gebruiker volgende output krijgen zoals in figuur \ref{fig:M-jdk-version} 
     
     \begin{figure}
         \centering
@@ -168,12 +170,12 @@ Binnen dit deel van de methodologie zullen per deel de vereiste stappen besproke
 
 \section{\IfLanguageName{dutch}{Basis Kotlin Multiplatform Mobile applicatie}{Basic Kotlin MultiPlatforn Mobile application}}
 \label{sec:M-first-app}
-Nadat alle software is geïnstalleerd kan er overgegaan worden naar de eerste Kotlin Multiplatform Mobile applicatie (KMM). De eerste applicatie zal een kleine applicatie zijn die aan de gebruiker zal tonen welke software versie op het toestel geïnstalleerd staat.
+Nadat alle software is geïnstalleerd kan er overgegaan worden naar de eerste Kotlin Multiplatform Mobile applicatie (KMM). De eerste applicatie zal een kleine applicatie zijn die aan de gebruiker toont welke software versie op het toestel geïnstalleerd staat.
 \\ \\
 De geschreven applicatie kan ook op GitHub\footnote{github.com} teruggevonden worden. Dit kan via volgende link:\\
 \verb*|https://github.com/ziggymoens/KMM_Application_Basic|
 \\ \\
-Bij het opstarten van Android Studio geeft deze de optie om een nieuw project te starten, eens dat is aangeklikt wordt er gekozen voor de optie `KMM Application'. Als naam wordt `Basic KMM Application' gekozen en hierbij wordt de minimum SDK op level 28 gezet (Android 9.0\footnote{android.com/versions/pie-9-0})
+Bij het opstarten van Android Studio geeft deze de optie om een nieuw project te starten, eens dat is aangeklikt wordt er gekozen voor de optie `KMM Application'. Als naam wordt `Basic KMM Application' gekozen en hierbij wordt de minimum SDK op level 28 (Android 9.0\footnote{android.com/versions/pie-9-0}) gezet.
 
 \begin{figure}
     \centering
@@ -188,7 +190,7 @@ Bij het opstarten van Android Studio geeft deze de optie om een nieuw project te
     \label{fig:M-kmm-startup}%
 \end{figure}
 
-Eens het project correct is ingeladen en geïndexeerd kan gezien worden dat het project al standaard de code bevat om een gebruiker zijn software versie te tonen. Daarnaast zal de KMM plugin binnen Android Studio de juiste omgevingen aanmaken om de code te draaien/testen binnen de juiste emulators. 
+Eens het project correct is ingeladen en geïndexeerd, kan gezien worden dat het project al standaard de code bevat om een gebruiker zijn software versie te tonen. Daarnaast zal de KMM plugin binnen Android Studio de juiste omgevingen aanmaken om de code te draaien/testen binnen de juiste emulators. 
 
 \begin{figure}
     \centering
@@ -200,7 +202,7 @@ Eens het project correct is ingeladen en geïndexeerd kan gezien worden dat het 
     \label{fig:M-as-emulators}
 \end{figure}
 
-Eens de emulators ingesteld zijn kan het project voor iOS en Android worden opgestart. Na 8 s 8374 ms was de Android applicatie voor de eerste keer opgestart en na 6 s 202 ms was de iOS applicatie opgestart. Hieronder een beeld van beide applicaties in actie.
+Eens de emulators ingesteld zijn, kan het project voor iOS en Android worden opgestart. Na 8 s 8374 ms was de Android applicatie voor de eerste keer opgestart en na 6 s 202 ms was de iOS applicatie opgestart. Hieronder een beeld van beide applicaties in actie.
 
 \begin{figure}
     \centering
@@ -254,9 +256,11 @@ De laatste map binnen de shared-map die interessant is voor deze studie is de an
     }
 \end{lstlisting}
 
+Verdere uitleg omtrent de code zal gebeuren in de delen van de native applicaties gezien de code daar hetzelfde is.
+\\ \\ 
 Zoals duidelijk zichtbaar zal in de shared-map de globale structuur worden vastgelegd en deze zal dan verwerkt worden binnen de platform specifieke delen.
-
-Uiteindelijk zal de Greetings klasse worden opgeroepen binnen de Android en iOS applicaties zoals hieronder geïllustreerd
+\\ \\ 
+Uiteindelijk zal de Greetings klasse worden opgeroepen binnen de Android en iOS applicaties zoals hieronder geïllustreerd.
 \begin{lstlisting}
     //Android - MainActivity.kt
     
@@ -287,24 +291,34 @@ De geschreven applicaties kunnen ook op GitHub\footnote{github.com} teruggevonde
 \\
 \verb*|https://github.com/ziggymoens/Android_Native_Basic|
 \\ \\
-\textbf{iOS}:\\
+\textbf{iOS}:
+\\
 \verb*|https://github.com/ziggymoens/iOS_Native_Basic|
 \\ \\
 
 \subsection{\IfLanguageName{dutch}{Android}{Android}}
 \label{sec:M-first-native-android}
-
+Het eerste native project dat gemaakt zal worden is het Android project. Dit project zal ook geschreven worden in Kotlin binnen Android Studio. Bij het aanmaken van een nieuw project kan de optie 'Empty Activity' gekozen worden. Daarna worden volgende gegevens ingevuld, te zien of figuur \ref{fig:M-basic-android-start}. Voor de layout worden de AndroidX\footnote{developer.android.com/jetpack/androidx} bibliotheken gebruikt.
 
  \begin{figure}
     \centering
-    \includegraphics[width=7cm]{img/android-basic.png}
-    \caption{Interface van de basic Android applicatie}
-    \label{fig:M-basic-android}
+    \includegraphics[width=14cm]{img/android-basic-start.png}
+    \caption{Instelling voor het native Android project}
+    \label{fig:M-basic-android-start}
 \end{figure}
+
+Eens het project is geïndexeerd en Gradle\footnote{gradle.org} voor de eerste keer alles heeft gebuild, kan gestart worden met de ontwikkeling van de applicatie. Hierbij zijn er twee zaken die moeten gebeuren: 
+\begin{itemize}
+    \item Het invullen van de MainActivity zodat de juiste versie van Android getoond wordt aan de gebruiker
+    \item Het aanmaken van een layout file zodat ook de user interface overeenstemt met de KMM applicatie
+\end{itemize}
+
+Binnen de Main Activity kan `android.os.Bundle' geïmporteerd worden, via deze weg kan achterhaald worden wat de huidige Android versie van het betreffende toestel is. Deze waarde zal een getal teruggeven en binnen de gecontroleerde omgeving van de emulator wordt hier versie 30 verwacht.
+\\ \\
+Voor de Main Activity is de code als volgt:
 
 \begin{lstlisting}
     //MainActivity.kt
-    
     class MainActivity : AppCompatActivity() {
         
         override fun onCreate(savedInstanceState: Bundle?) {
@@ -315,10 +329,14 @@ De geschreven applicaties kunnen ook op GitHub\footnote{github.com} teruggevonde
             tv.text = "Hello, Android ${android.os.Build.VERSION.SDK_INT}!"
         }
     }
-    
-    
+\end{lstlisting}
+
+Binnen de layout file wordt enkel een tekstveld geplaatst met het id `text\_view', zodat deze binnen de Main Activity kan worden opgeroepen. Daarnaast wordt het tekstveld horizontaal en verticaal gecentreerd binnen het scherm, dit gebeurt aan de hand van een ConstraintLayout\footnote{developer.android.com/training/constraint-layout}.
+\\ \\ 
+Voor de layout file wordt volgende code bekomen:
+
+\begin{lstlisting}
     //activity_main.xml
-    
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
        xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -340,17 +358,36 @@ De geschreven applicaties kunnen ook op GitHub\footnote{github.com} teruggevonde
     </androidx.constraintlayout.widget.ConstraintLayout>
 \end{lstlisting}
 
-\subsection{\IfLanguageName{dutch}{iOS}{iOS}}
-\label{sec:M-first-native-ios}
+Eens de code geschreven is kan deze voor een eerste maal uitgevoerd worden op de emulator. Figuur \ref{fig:M-basic-android} toont de user interface van de Android applicatie.
 
- \begin{figure}
+\begin{figure}
     \centering
-    \includegraphics[width=7cm]{img/ios-basic.png}
-    \caption{Interface van de basic iOS applicatie}
-    \label{fig:M-basic-ios}
+    \includegraphics[width=7cm]{img/android-basic.png}
+    \caption{Interface van de basic native Android applicatie}
+    \label{fig:M-basic-android}
 \end{figure}
 
+\subsection{\IfLanguageName{dutch}{iOS}{iOS}}
+\label{sec:M-first-native-ios}
+De andere native applicatie die dient geschreven te worden is een iOS applicatie. Deze applicatie zal geschreven worden in Swift\footnote{apple.com/benl/swift} vinnen Xcode. Voor deze applicatie zal gebruik gemaakt worden van UIKit\footnote{developer.apple.com/documentation/uikit} voor de layout van de applicatie. Binnen Xcode zal gekozen worden voor een nieuw project namelijk een iOS App.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm]{img/ios-basic-start.png}
+    \caption{De optie voor een nieuwe iOS App binnen Xcode}
+    \label{fig:M-basic-ios-start}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm]{img/ios-basic-settings.png}
+    \caption{Instelling voor het native iOS project}
+    \label{fig:M-basic-ios-settings}
+\end{figure}
+
+De eerste stap voor het iOS project is het aanmaken van het label in de user interface, dit gebeurt via het Storyboard. Daarna kan de link gelegd worden tussen de user interface en de view controller. Binnen de view controller kan daarna de juiste waarde gegeven worden aan het tekstveld. De iOS applicatie kunnen we aan de hand van `UIDevice' de gegevens ophalen van het toestel dat de applicatie aan het draaien is. UIDevice is een deel van het UIKit framework en zit standaard geïmplementeerd in de view controllers.
+
+Uiteindelijk wordt volgende code voor de view controller bekomen: 
 \begin{lstlisting}
     // ViewController.swift
     
@@ -366,4 +403,824 @@ De geschreven applicaties kunnen ook op GitHub\footnote{github.com} teruggevonde
     }
     
 \end{lstlisting}
+
+Eens al de code geschreven is kan de code getest worden op de iPhone 12 emulator binnen Xcode. Figuur \ref{fig:M-basic-ios} toont de interface van de basic native iOS applicatie.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{img/ios-basic.png}
+    \caption{Interface van de basic native iOS applicatie}
+    \label{fig:M-basic-ios}
+\end{figure}
+
+\section{\IfLanguageName{dutch}{Testen van de basis applicaties}{Testing of the basic applications}}
+\label{sec:M-testing-basic}
+Gezien de basis applicaties reeds geschreven werden, kan nu overgegaan worden op de testen ervan. Hierbij een overzicht van de uit te voeren testen op de applicaties:
+
+\begin{itemize}
+    \item Aantal lijnen code
+    \item Compileersnelheid
+    \item Voetafdruk
+    \item Ontwikkeltijd
+    \item Kostprijs
+    \item Uitbreiding van de applicatie
+\end{itemize}
+
+\subsection{\IfLanguageName{dutch}{Aantal lijnen code}{Aantal lijnen code}}
+\label{sec:M-test-lijnen-code}
+De eerste test gaat het aantal lijnen code na. Voor deze test is de Statistics\footnote{https://plugins.jetbrains.com/plugin/4509-statistic} plug-in geïnstalleerd binnen Android studio
+\\ \\
+De \textbf{Statistics plug-in} kan via volgende link teruggevonden worden:\\
+\verb*|https://plugins.jetbrains.com/plugin/4509-statistic|
+\\ \\
+De instellingen kunnen op volgende plek teruggevonden worden \\ 
+\underline{Android Studio -> Voorkeuren -> Tools -> Statistics}
+\\ \\
+Voor deze testen worden volgende specifieke instellingen geselecteerd: \\
+\underline{Excluded file types}:\\ `class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;pyc;'
+\underline{Seperate TABs file types:}\\
+`java;xml;css;html;js;properties;jsp;txt;php;php4;php5;phtml;inc;py;vue;kt'
+\\ \\
+Daarnaast dienen volgende opties aangevinkt te worden:\\
+\begin{itemize}
+    \item Exclude compiler output directory
+    \item Exclude IDEA9+ artifact directory (.idea)
+    \item Exclude NPM directory (node\_modules)
+    \item Exclude PyCache directory (\_\_pycache\_\_)
+    \item Exclude Git directory (.git)
+    \item Exclude Subversion directory (.svn)
+    \item Exclude Android (R.java)
+    \item Exclude Minified Javascript (*.min.js)
+    \item Exclude Minified StyleSheet (*.min.css)
+    \item Exclude all directories starting with (.)
+    \item Exclude MAVEN output directories (target)
+\end{itemize}
+
+Figuur \ref{fig:M-test-lijnen-code-settings} toont de instellingen binnen Android Studio.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{img/statistics-settings.png}
+    \caption{Instellingen voor de Statics plug-in}
+    \label{fig:M-test-lijnen-code-settings}
+\end{figure}
+
+
+Voor de projecten zal dezelfde plug-in en IDE gebruikt worden. Hierdoor kunnen fouten in de meting tot een minimum beperkt worden. Voor de gedetailleerde resultaten wordt verwezen naar bijlage \ref{ch:results-code} `Resultaten van aantal lijnen code'.
+
+\subsubsection{\IfLanguageName{dutch}{Aantal lijnen code - Android}{Aantal lijnen code - Android}}
+\label{sec:M-test-lijnen-code-android}
+In tabel \ref{T:lines-android} staat de samenvatting van resultaten van het Android project. 
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de statistiek voor het Android project}
+    \begin{tabular}{|l|l|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Aantal bestanden&20\\ \hline
+        Totale grote&17906 B\\ \hline
+        Kleinste bestand&3745 B\\ \hline
+        Grootste bestand&10466 B\\ \hline
+        Gemiddelde grootte&5322 B\\ \hline
+        Aantal lijnen&495\\ \hline
+        Kleinste aantal lijnen&133\\ \hline
+        Grootste aantal lijnen&321\\ \hline
+        Gemiddeld aantal lijnen&167\\ \hline
+        Lijnen code&389\\ \hline
+    \end{tabular}
+    \label{T:lines-android}
+\end{table}
+
+\subsubsection{\IfLanguageName{dutch}{Aantal lijnen code - iOS}{Aantal lijnen code - iOS}}
+\label{sec:M-test-lijnen-code-ios}
+In tabel \ref{T:lines-ios} staat de samenvatting van resultaten van het iOS project. Het iOS is hiervoor ingeladen in Android Studio zodat de Statistics plug-in gebruikt kan worden.
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de statistiek voor het iOS project}
+    \begin{tabular}{|l|l|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Aantal bestanden&18\\ \hline
+        Totale grote&90649 B\\ \hline
+        Kleinste bestand&75691 B\\ \hline
+        Grootste bestand&82640 B\\ \hline
+        Gemiddelde grootte&78547 B\\ \hline
+        Aantal lijnen&1857\\ \hline
+        Kleinste aantal lijnen&1414\\ \hline
+        Grootste aantal lijnen&1616\\ \hline
+        Gemiddeld aantal lijnen&1490\\ \hline
+        Lijnen code&1634\\ \hline
+    \end{tabular}
+    \label{T:lines-ios}
+\end{table}
+
+\subsubsection{\IfLanguageName{dutch}{Aantal lijnen code - KMM}{Aantal lijnen code - KMM}}
+\label{sec:M-test-lijnen-code-kmm}
+In tabel \ref{T:lines-kmm} staat de samenvatting van resultaten van het KMM project.
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de statistiek voor het KMM project}
+    \begin{tabular}{|l|l|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Aantal bestanden&41\\ \hline
+        Totale grote&77725 B\\ \hline
+        Kleinste bestand&42370 B\\ \hline
+        Grootste bestand&54864 B\\ \hline
+        Gemiddelde grootte&48330 B\\ \hline
+        Aantal lijnen&1779\\ \hline
+        Kleinste aantal lijnen&842\\ \hline
+        Grootste aantal lijnen&1123\\ \hline
+        Gemiddeld aantal lijnen&975\\ \hline
+        Lijnen code&1605\\ \hline
+    \end{tabular}
+    \label{T:lines-kmm}
+\end{table}
+
+\subsubsection{\IfLanguageName{dutch}{Aantal lijnen code - conclusie}{Aantal lijnen code - conclusion}}
+\label{sec:M-test-lijnen-code-conclusion}
+Uit deze resultaten kunnen enkele conclusies getrokken worden.
+\begin{itemize}
+    \item Het KMM platform bevat niet meer lijnen code dan native en iOS samen\\
+    \underline{KMM:} 1605 lijnen\\
+    \underline{Native Android + native iOS:} 2023 lijnen\\
+    \item Het iOS project is groter, zowel lijnen als omvang, dan het KMM project\\
+    \underline{KMM:} 1605 lijnen en 77725 B\\
+    \underline{iOS:} 1634 lijnen en 90649 B\\
+    \item De Native Android applicatie uitzonderlijk veel kleiner is dan het iOS project\\
+    \underline{Android:} 389 lijnen en 17906 B\\
+    \underline{iOS:} 1634 lijnen en 90649 B
+\end{itemize}
+
+Dit zijn enkele van de meest opvallende en daarnaast ook de meest relevante zaken voor dit onderzoek.
+
+\subsection{\IfLanguageName{dutch}{Compileersnelheid}{Build snelheid}}
+\label{sec:M-test-compileersnelheid}
+Deze volgende test die werd uitgevoerd is de compileersnelheid test. Hiervoor zal elke applicatie meermaals gecompileerd worden. Hierbij werd geëvalueerd welke applicaties het snelste compileren en dus het meest efficiënt zijn.
+\\ \\
+Tijdens deze test zullen de basic KMM, Android en iOS applicaties 100 maal gebuild worden. De KMM applicatie werd gebuild in Android Studio (AS) en Xcode. De gedetailleerde resultaten kunnen in deel \ref{ch:results-builds}: Resultaten van compileersnelheid.
+
+Grafiek \ref{G:tijd} toont de resultaten voor de drie applicaties:
+\\ \\ 
+\begin{tikzpicture}
+    \begin{axis}[
+        title={Build resultaten van native en KMM projecten},
+        xlabel={Build},
+        ylabel={Tijd [seconden]},
+        xmin=0, xmax=100,
+        ymin=0, ymax=2,
+        xtick={0,20,40,60,80,100},
+        ytick={0,1,2},
+        legend pos=north east,
+        ymajorgrids=true,
+        grid style=dashed,
+        ]
+        
+        \addplot[
+        color=red
+        ]
+        coordinates {
+            (1,10.900)
+            (2,2.300)
+            (3,0.400)
+            (4,0.600)
+            (5,0.100)
+            (6,0.100)
+            (7,0.100)
+            (8,0.100)
+            (9,0.200)
+            (10,0.100)
+            (11,0.100)
+            (12,0.100)
+            (13,0.100)
+            (14,0.100)
+            (15,0.200)
+            (16,0.100)
+            (17,0.100)
+            (18,0.100)
+            (19,0.100)
+            (20,0.100)
+            (21,0.200)
+            (22,0.200)
+            (23,0.100)
+            (24,0.200)
+            (25,0.200)
+            (26,0.200)
+            (27,0.200)
+            (28,0.200)
+            (29,0.200)
+            (30,0.200)
+            (31,0.200)
+            (32,0.200)
+            (33,0.200)
+            (34,0.200)
+            (35,0.200)
+            (36,0.100)
+            (37,0.100)
+            (38,0.100)
+            (39,0.100)
+            (40,0.100)
+            (41,0.200)
+            (42,0.100)
+            (43,0.100)
+            (44,0.100)
+            (45,0.100)
+            (46,0.200)
+            (47,0.100)
+            (48,0.200)
+            (49,0.100)
+            (50,0.100)
+            (51,0.200)
+            (52,0.200)
+            (53,0.200)
+            (54,0.100)
+            (55,0.100)
+            (56,0.100)
+            (57,0.100)
+            (58,0.200)
+            (59,0.200)
+            (60,0.100)
+            (61,0.200)
+            (62,0.200)
+            (63,0.200)
+            (64,0.200)
+            (65,0.200)
+            (66,0.200)
+            (67,0.200)
+            (68,0.200)
+            (69,0.200)
+            (70,0.200)
+            (71,0.200)
+            (72,0.200)
+            (73,0.200)
+            (74,0.200)
+            (75,0.200)
+            (76,0.200)
+            (77,0.200)
+            (78,0.200)
+            (79,0.200)
+            (80,0.300)
+            (81,0.300)
+            (82,0.300)
+            (83,0.200)
+            (84,0.200)
+            (85,0.200)
+            (86,0.200)
+            (87,0.200)
+            (88,0.200)
+            (89,0.200)
+            (90,0.200)
+            (91,0.400)
+            (92,0.200)
+            (93,0.200)
+            (94,0.200)
+            (95,0.200)
+            (96,0.200)
+            (97,0.200)
+            (98,0.200)
+            (99,0.200)
+            (100,0.200)
+        };
+        
+        \addplot[
+        color = blue
+        ]
+        coordinates {
+            (1,21.531)
+            (2,0.952)
+            (3,1.051)
+            (4,0.911)
+            (5,0.830)
+            (6,0.823)
+            (7,0.716)
+            (8,0.785)
+            (9,0.615)
+            (10,0.631)
+            (11,0.604)
+            (12,0.502)
+            (13,0.467)
+            (14,0.303)
+            (15,0.444)
+            (16,0.667)
+            (17,0.420)
+            (18,0.420)
+            (19,0.498)
+            (20,0.478)
+            (21,0.415)
+            (22,0.497)
+            (23,0.397)
+            (24,0.428)
+            (25,0.384)
+            (26,0.484)
+            (27,0.409)
+            (28,0.288)
+            (29,0.435)
+            (30,0.425)
+            (31,0.459)
+            (32,0.597)
+            (33,0.578)
+            (34,0.495)
+            (35,0.450)
+            (36,0.446)
+            (37,0.517)
+            (38,0.442)
+            (39,0.428)
+            (40,0.455)
+            (41,0.493)
+            (42,0.425)
+            (43,0.567)
+            (44,0.434)
+            (45,0.414)
+            (46,0.444)
+            (47,0.439)
+            (48,0.382)
+            (49,0.408)
+            (50,0.438)
+            (51,0.393)
+            (52,0.434)
+            (53,0.403)
+            (54,0.364)
+            (55,0.405)
+            (56,0.366)
+            (57,0.414)
+            (58,0.395)
+            (59,0.392)
+            (60,0.407)
+            (61,0.433)
+            (62,0.369)
+            (63,0.407)
+            (64,0.436)
+            (65,0.414)
+            (66,0.432)
+            (67,0.381)
+            (68,0.411)
+            (69,0.258)
+            (70,0.318)
+            (71,0.346)
+            (72,0.425)
+            (73,0.414)
+            (74,0.433)
+            (75,0.391)
+            (76,0.368)
+            (77,0.402)
+            (78,0.357)
+            (79,0.362)
+            (80,0.391)
+            (81,0.361)
+            (82,0.342)
+            (83,0.381)
+            (84,0.401)
+            (85,0.401)
+            (86,0.410)
+            (87,0.443)
+            (88,0.433)
+            (89,0.391)
+            (90,0.406)
+            (91,0.390)
+            (92,0.409)
+            (93,0.452)
+            (94,0.414)
+            (95,0.400)
+            (96,0.421)
+            (97,0.386)
+            (98,0.399)
+            (99,0.457)
+            (100,0.378)
+        };
+        
+        \addplot[
+        color = brown
+        ]
+        coordinates {
+            (1,5.873)
+            (2,1.182)
+            (3,1.162)
+            (4,1.099)
+            (5,0.947)
+            (6,1.041)
+            (7,0.941)
+            (8,1.045)
+            (9,1.048)
+            (10,0.944)
+            (11,0.936)
+            (12,0.918)
+            (13,0.867)
+            (14,0.882)
+            (15,0.927)
+            (16,0.942)
+            (17,0.842)
+            (18,0.841)
+            (19,0.848)
+            (20,0.864)
+            (21,0.797)
+            (22,0.856)
+            (23,0.850)
+            (24,0.792)
+            (25,0.805)
+            (26,0.756)
+            (27,0.814)
+            (28,0.763)
+            (29,0.758)
+            (30,0.743)
+            (31,0.790)
+            (32,0.791)
+            (33,0.707)
+            (34,0.704)
+            (35,0.719)
+            (36,0.743)
+            (37,0.751)
+            (38,0.736)
+            (39,0.695)
+            (40,0.864)
+            (41,0.687)
+            (42,0.738)
+            (43,0.702)
+            (44,0.718)
+            (45,0.720)
+            (46,0.681)
+            (47,0.692)
+            (48,0.697)
+            (49,0.713)
+            (50,0.713)
+            (51,0.703)
+            (52,0.675)
+            (53,0.691)
+            (54,0.706)
+            (55,0.673)
+            (56,0.715)
+            (57,0.706)
+            (58,0.664)
+            (59,0.661)
+            (60,0.683)
+            (61,0.664)
+            (62,0.671)
+            (63,0.700)
+            (64,0.684)
+            (65,0.611)
+            (66,0.641)
+            (67,0.572)
+            (68,0.682)
+            (69,0.674)
+            (70,0.659)
+            (71,0.586)
+            (72,0.609)
+            (73,0.668)
+            (74,0.582)
+            (75,0.552)
+            (76,0.595)
+            (77,0.659)
+            (78,0.667)
+            (79,0.637)
+            (80,0.514)
+            (81,0.549)
+            (82,0.592)
+            (83,0.449)
+            (84,0.578)
+            (85,0.648)
+            (86,0.578)
+            (87,0.481)
+            (88,0.619)
+            (89,0.627)
+            (90,0.664)
+            (91,0.645)
+            (92,0.665)
+            (93,0.622)
+            (94,0.591)
+            (95,0.692)
+            (96,0.643)
+            (97,0.597)
+            (98,0.629)
+            (99,0.607)
+            (100,0.537)
+        };
+        \addplot[
+        color = orange
+        ]
+        coordinates {
+            (1,10.900)
+            (2,1.200)
+            (3,1.200)
+            (4,0.900)
+            (5,0.900)
+            (6,0.800)
+            (7,0.800)
+            (8,0.800)
+            (9,0.800)
+            (10,0.800)
+            (11,0.800)
+            (12,0.800)
+            (13,0.800)
+            (14,0.800)
+            (15,0.800)
+            (16,0.800)
+            (17,0.800)
+            (18,0.800)
+            (19,0.800)
+            (20,0.800)
+            (21,0.800)
+            (22,0.800)
+            (23,0.800)
+            (24,0.800)
+            (25,0.800)
+            (26,0.800)
+            (27,0.800)
+            (28,0.800)
+            (29,0.800)
+            (30,0.800)
+            (31,0.800)
+            (32,0.800)
+            (33,0.800)
+            (34,0.800)
+            (35,0.800)
+            (36,0.800)
+            (37,0.800)
+            (38,0.800)
+            (39,0.800)
+            (40,0.800)
+            (41,0.800)
+            (42,0.800)
+            (43,0.800)
+            (44,0.800)
+            (45,0.900)
+            (46,0.900)
+            (47,0.800)
+            (48,0.800)
+            (49,0.800)
+            (50,0.800)
+            (51,0.800)
+            (52,0.800)
+            (53,0.800)
+            (54,0.800)
+            (55,0.800)
+            (56,0.800)
+            (57,0.800)
+            (58,0.800)
+            (59,0.800)
+            (60,0.800)
+            (61,0.800)
+            (62,0.800)
+            (63,1.000)
+            (64,0.800)
+            (65,0.800)
+            (66,0.800)
+            (67,0.800)
+            (68,0.800)
+            (69,0.800)
+            (70,0.800)
+            (71,0.800)
+            (72,0.800)
+            (73,0.800)
+            (74,0.800)
+            (75,0.800)
+            (76,0.800)
+            (77,0.800)
+            (78,0.800)
+            (79,0.800)
+            (80,0.800)
+            (81,0.800)
+            (82,0.800)
+            (83,0.800)
+            (84,0.800)
+            (85,0.800)
+            (86,0.800)
+            (87,0.800)
+            (88,0.800)
+            (89,0.800)
+            (90,0.800)
+            (91,0.800)
+            (92,0.800)
+            (93,0.800)
+            (94,0.800)
+            (95,0.800)
+            (96,0.800)
+            (97,0.800)
+            (98,0.800)
+            (99,0.800)
+            (100,0.800)
+        };
+        \legend{iOS, Android, KMM (AS), KMM (Xcode)}
+    \end{axis}
+    \label{G:tijd}
+\end{tikzpicture}
+
+\subsubsection{\IfLanguageName{dutch}{Compileersnelheid - Android}{Build speed - Android}}
+\label{sec:M-test-compileersnelheid-android}
+Tabel \ref{T:compileer-android} geeft een overzicht van de resultaten van het Android project geëvalueerd binnen Android Studio.
+
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de compileertijden voor het Android project}
+    \begin{tabular}{|l|c|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Gemiddelde&0,669\\ \hline
+        Mediaan&0,421\\ \hline
+        Maximum&21,531\\ \hline
+        Minimum&0,258\\ \hline
+    \end{tabular}
+    \label{T:compileer-android}
+\end{table}
+
+
+\subsubsection{\IfLanguageName{dutch}{Compileersnelheid - iOS}{Build speed - iOS}}
+\label{sec:M-test-compileersnelheid-ios}
+Tabel \ref{T:compileer-ios} geeft een overzicht van de resultaten van het iOS project geëvalueerd binnen Xcode.
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de compileertijden voor het iOS project}
+    \begin{tabular}{|l|c|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Gemiddelde&0,307\\ \hline
+        Mediaan&0,200\\ \hline
+        Maximum&10,900\\ \hline
+        Minimum&0,100\\ \hline
+    \end{tabular}
+    \label{T:compileer-ios}
+\end{table}
+
+
+\subsubsection{\IfLanguageName{dutch}{Compileersnelheid - KMM}{Build speed - KMM}}
+\label{sec:M-test-compileersnelheid-kmm}
+Tabel \ref{T:compileer-android} geeft een overzicht van de resultaten van het KMM project geëvalueerd zowel binnen Android Studio als binnen Xcode.
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de compileertijden voor het KMM project in Android Studio}
+    \begin{tabular}{|l|c|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Gemiddelde&0,782\\ \hline
+        Mediaan&0,699\\ \hline
+        Maximum&5,873\\ \hline
+        Minimum&0,449\\ \hline
+    \end{tabular}
+    \label{T:compileer-kmm-as}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de compileertijden voor het KMM project in Xcode}
+    \begin{tabular}{|l|c|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Waarde}} \\ \hline \hline
+        Gemiddelde&0,915\\ \hline
+        Mediaan&0,800\\ \hline
+        Maximum&10,900\\ \hline
+        Minimum&0,800\\ \hline
+    \end{tabular}
+    \label{T:compileer-kmm-xcode}
+\end{table}
+
+\subsubsection{\IfLanguageName{dutch}{Compileersnelheid - conclusie}{Build speed - conclusion}}
+\label{sec:M-test-compileersnelheid-conclusie}
+Tabel \ref{T:compileer-overzicht} toont een overzicht van de resultaten in verband met de compileersnelheid bij vergelijking tussen native en KMM. Hierbij zijn de waarden voor native de opgetelde waarden van Android en iOS. KMM blijft de waarden zoals aangegeven in table \ref{T:compileer-kmm-as} en \ref{T:compileer-kmm-xcode}, hier wordt wel bekeken of Xcode niet sneller zou kunnen compileren dan Android Studio(AS).
+\\ \\
+Hieronder wordt een overzicht getoond van de conclusies die getrokken kunnen worden uit de resultaten van de testen.
+
+\begin{itemize}
+    \item Android Studio is de snelste IDE voor KMM, dit is ook de aanbevolen IDE
+    \item KMM scoort beter indien de gemiddelde waarden bekeken worden
+    \item Native scoort beter indien de mediaan van de testen wordt genomen
+    \item De waarden van Xcode zijn veel stabieler dan die van Android Studio
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \caption{Resulaten van de compileertijden overzicht}
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        {\textbf{Factor}} & {\textbf{Native}}  & {\textbf{KMM - AS}} & {\textbf{KMM - Xcode}}\\ \hline \hline
+        Gemiddelde&0,976&0,782&0,915\\ \hline
+        Mediaan&0,621&0,699&0,800\\ \hline
+    \end{tabular}
+    \label{T:compileer-overzicht}
+\end{table}
+
+\subsection{\IfLanguageName{dutch}{Voetafdruk}{Application size}}
+\label{sec:M-test-voetafdruk}
+Een ander gegeven dat bekeken wordt is de voetafdruk van de verschillende applicaties. Hierbij is een lagere waarde te verkiezen,  gezien de applicaties dezelfde functionaliteit hebben. Hogere waardes zouden wijzen op nutteloze gegevens/bestanden die mogelijks overbodig zijn in het project.
+
+
+\subsubsection{\IfLanguageName{dutch}{Voetafdruk - Android}{Application sizes - Android}}
+\label{sec:M-test-voetafdruk-android}
+Op figuur \ref{fig:M-voetafdruk-android} wordt de voetafdruk voor de Android applicatie getoond. Deze werd via Android Studio werd geïnstalleerd op de emulator gekozen voor het project. Op een Android toestel is het mogelijk de persoonlijke gegevens en de cache van de applicatie apart te zien en te verwijderen. Het verwijderen van deze zaken had echter geen invloed op de grootte van de applicatie zelf. Op de figuren van figuur \ref{fig:M-voetafdruk-android} kunnen de waarden teruggevonden worden.
+
+\begin{figure}
+    \centering
+    \subfloat[\centering Voetafdruk van de native Android met cache en lokale opslag]{{\includegraphics[width=5cm]{img/voefafdruk-a-native-all} }}
+    \qquad
+    \subfloat[\centering Voetafdruk van de native Android zonder cache en met lokale opslag]{{\includegraphics[width=5cm]{img/voefafdruk-a-native-no-cache} }}
+    
+    \subfloat[\centering Voetafdruk van de native Android zonder cache en lokale opslag]{{\includegraphics[width=5cm]{img/voefafdruk-a-native-clean} }}
+    
+    \caption{Voetafdruk van de native Android applicatie}
+    \label{fig:M-voetafdruk-android}%
+\end{figure}
+
+
+\subsubsection{\IfLanguageName{dutch}{Voetafdruk - iOS}{Application sizes - iOS}}
+\label{sec:M-test-voetafdruk-ios}
+De voetafdruk van een iOS applicatie meten is echter niet mogelijk via de emulators binnen Xcode. Om onderstaande resultaten te verzamelen werd gewerkt met een fysiek toestel namelijk de iPhone 11 Pro Max\footnote{support.apple.com/kb/SP806}. De applicatie werd via Xcode op het toestel geïnstalleerd. Daarna kan via de instellingen van de iPhone de grootte van de applicatie bekeken worden.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=4cm]{img/voetafdruk-i-native}
+    \caption{Voetafdruk van de native iOS applicatie}
+    \label{fig:M-voetafdruk-ios}
+\end{figure}
+
+
+\subsubsection{\IfLanguageName{dutch}{Voetafdruk - KMM}{Application sizes - KMM}}
+\label{sec:M-test-voetafdruk-kmm}
+Zoals reeds vermeld zal de iOS applicatie geïnstalleerd worden op de fysieke iPhone 11 Pro Max en de Android applicatie op de emulator van binnen Android Studio.
+
+\begin{figure}
+    \centering
+    \subfloat[\centering Voetafdruk van KMM Android met cache en lokale opslag]{{\includegraphics[width=5cm]{img/voefafdruk-kmm-all} }}
+    \qquad
+    \subfloat[\centering Voetafdruk van KMM Android zonder cache en met lokale opslag]{{\includegraphics[width=5cm]{img/voefafdruk-kmm-no-cache} }}
+    
+    \subfloat[\centering Voetafdruk van KMM Android zonder cache en lokale opslag]{{\includegraphics[width=5cm]{img/voefafdruk-kmm-clean} }}
+    \qquad
+    \subfloat[\centering Voetafdruk van KMM iOS kmm]{{\includegraphics[width=4cm]{img/voetafdruk-i-kmm.png} }}    
+    \caption{Voetafdruk van de KMM applicaties}
+    \label{fig:M-voetafdruk-kmm}%
+\end{figure}
+
+\subsubsection{\IfLanguageName{dutch}{Voetafdruk - conclusie}{Application sizes - conclusion}}
+\label{sec:M-test-voetafdruk-conclusie}
+Bij evaluatie van de resultaten op vlak van voetafdruk, wordt gezien dat KMM Android veel beter scoort dan native, maar dat KMM iOS veel slechter scoort dan native iOS. Tabel \ref{T:voetafruk-overzicht} geeft een overzicht van de voetafdrukken. Om een ander beeld te krijgen, kunnen de waarden van native en KMM opgeteld worden. Hieruit kan dan wel geconcludeerd worden dat native net iets meer performant is op het vlak van de voetafdrukken op de toestellen.
+
+\begin{table}[H]
+    \centering
+    \caption{Overzicht van de voetafdruk van de applicaties}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        {\textbf{Platform}} & {\textbf{Native}}  & {\textbf{KMM}}\\ \hline \hline
+        Android&9,57 MB&7,92 MB\\ \hline
+        iOS&0,233 MB&2,1 MB\\ \hline \hline
+        \textbf{Totaal}&\textbf{9,803 MB}&\textbf{10,020 MB}\\ \hline
+    \end{tabular}
+    \label{T:voetafruk-overzicht}
+\end{table}
+
+\subsection{\IfLanguageName{dutch}{Ontwikkeltijd}{Development time}}
+\label{sec:M-test-ontwikkeltijd}
+De ontwikkeltijd is een eerder subjectief gegeven, gezien dit zeer afhankelijk is van de persoon die de test afneemt. Voor deze studie heeft de ontwikkelaar geen ervaring met KMM maar wel met Kotlin en Swift. Door de ontwikkelaar zijn in het verleden reeds applicaties geschreven voor Android en iOS. De ontwikkeltijden zijn een schatting en omvatten het hele traject van opstart tot het builden van de laatste correcte versie. Deze waarden zijn gebasseerd op commit history en local history binnen de IDE's alsook timetracking van de ontwikkelaar zelf.
+
+\begin{table}[H]
+    \centering
+    \caption{Overzicht van de ontwikkeltijd van de applicaties}
+    \begin{tabular}{|c|c|}
+        \hline
+        {\textbf{Platform}} & {\textbf{ontwikkeltijd}}\\ \hline \hline
+        Android native&01u 32min\\ \hline
+        iOS native&01u 56min\\ \hline
+        KMM&3u 26min\\ \hline
+    \end{tabular}
+    \label{T:ontwikkeltijd-overzicht}
+\end{table}
+
+Aan de hand van de resultaten kan geconcludeerd worden dat het voor de ontwikkelaar in de studie net sneller was om een KMM applicatie te maken dan twee native varianten. Een van de belangrijkste zaken hierbij is het feit dat voor native twee projecten moeten opgestart worden. Daarnaast bevatte de KMM applicatie al wat logica op voorhand die kon hergebruikt worden.
+\\ \\ 
+Indien deze studie zou uitgevoerd worden door een meer ervaren ontwikkelaar die ervaring heeft met Kotlin, Swift en KMM kan verwacht worden dat de KMM applicatie nog sneller ontwikkeld kan worden. De gedeelde domeinlogica kan een heel stuk tijd besparen dit gegeven kwam in dit project ook naar boven kwam.
+
+\subsection{\IfLanguageName{dutch}{Kostprijs}{Cost}}
+\label{sec:M-test-lijnen-kostprijs}
+Voor de kostprijs zal gebaseerd worden op gegevens die aangereikt werden voor Endare, het ondersteunende bedrijf voor deze bachelorproef. Tabel \ref{T:prijzen-overzicht} toont een overzicht van de geschatte kosten. De ontwikkelingstijd wordt gebruikt als basis voor de andere zaken als design, analyse... in te schatten. Deze inschatting gebeurd aan de hand van de ontwikkelingstijd te vermeinigvuldigen met een factor van 1,7. Voor de prijs te berekenen werkt Endare met een uurtarief van \euro{} 85 ex. btw.
+
+\begin{table}[H]
+    \centering
+    \caption{Overzicht van de ontwikkeltijd van de applicaties}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        {\textbf{Platform}} & {\textbf{Ontwikkeltijd}}& {\textbf{Totale tijd}}& {\textbf{Prijs (ex. btw)}}\\ \hline \hline
+        Android native&01u 32min&2u 36min&\euro{} 221,57\\ \hline
+        iOS native&01u 56min&2u 17min&\euro{} 279,37\\ \hline
+        KMM&3u 26min&5u 50min&\euro{} 496,12\\ \hline
+    \end{tabular}
+    \label{T:prijzen-overzicht}
+\end{table}
+
+De totale kostprijs voor de twee native applicaties komt dus op \euro{} 500,93 en de KMM applicatie komt op \euro{} 496,12. Het kleine verschil tussen de resultaten is te verklaren door het feit dat gebruik gemaakt is van de resultaten van deel \ref{sec:M-test-ontwikkeltijd}: `Ontwikkeltijd'. Daar werd op het einde ook gewezen op het feit dat bij meer ervaren developers een KMM applicatie interessanter zou zijn. Dit gegeven heeft ook rechtstreeks effect op de prijs, gezien een snellere ontwikkeltijd zorgt voor een lagere prijs.
+
+\subsection{\IfLanguageName{dutch}{Uitbreiding van de applicatie}{Expanding the application}}
+\label{sec:M-test-lijnen-uitbreiding}
+
+Dit is een zeer ruim gegeven om te testen volgende zaken zijn mogelijkheden die gezien kunnen worden als uitbreidingen
+\begin{itemize}
+    \item Toevoegen van tekstvelden en user interface elementen
+    \item Off-line data en de verwerking ervan
+    \item On-line data aan de hand van API-calls
+    \item Toevoegen van wiskundige berekeningen
+\end{itemize}
+
+Daarnaast kan uitbreiding ook gezien worden als het uitbreiden naar meerdere devices zoals Apple Watch\footnote{apple.com/benl/watch}, iPad\footnote{apple.com/benl/ipad}, Android Auto\footnote{android.com/auto}...
+
+
 

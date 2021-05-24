@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.26)  16 MAY 2021 18:14
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.26)  23 MAY 2021 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1427,6 +1427,60 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count495
 \LT@p@ftn=\toks54
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks55
+\XKV@tempa@toks=\toks56
+)
+\XKV@depth=\count496
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box77
+)
+\tc@llx=\dimen312
+\tc@lly=\dimen313
+\tc@urx=\dimen314
+\tc@ury=\dimen315
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen316
+\adjbox@Height=\dimen317
+\adjbox@Depth=\dimen318
+\adjbox@Totalheight=\dimen319
+\adjbox@pwidth=\dimen320
+\adjbox@pheight=\dimen321
+\adjbox@pdepth=\dimen322
+\adjbox@ptotalheight=\dimen323
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count497
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box78
+\sift@deathcycles=\count498
+\@vwid@loff=\dimen324
+\@vwid@roff=\dimen325
+))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -1438,33 +1492,33 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 (./bachproef-tin.aux)
 \openout1 = `bachproef-tin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-3.
+9.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 73
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 79
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -1504,9 +1558,9 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count496
+\c@lstlisting=\count499
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 73.
+LaTeX Info: Redefining \microtypecontext on input line 79.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1516,8 +1570,8 @@ Package microtype Info: No adjustment of kerning.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 73.
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring OFF on input line 79.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1529,11 +1583,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count497
+\c@section@level=\count500
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
@@ -1587,8 +1641,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
 
 (./bachproef-tin.bbl)
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
+Package biblatex Info: Reference section=0 on input line 79.
+Package biblatex Info: Reference segment=0 on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: longtable package is loaded.
@@ -1779,7 +1833,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 
 Overfull \hbox (12.0pt too wide) detected at line 32
- []\T1/ptm/m/n/12 44
+ []\T1/ptm/m/n/12 46
  []
 
 
@@ -1789,50 +1843,89 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Overfull \hbox (12.0pt too wide) detected at line 34
- []\T1/ptm/m/n/12 44
+ []\T1/ptm/m/n/12 46
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 36
- []\T1/ptm/m/n/12 44
+ []\T1/ptm/m/n/12 46
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 38
- []\T1/ptm/m/n/12 44
+ []\T1/ptm/m/n/12 46
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 42
- []\T1/ptm/m/n/12 45
+ []\T1/ptm/m/n/12 47
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 44
- []\T1/ptm/m/n/12 45
+ []\T1/ptm/m/n/12 47
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 48
- []\T1/ptm/m/n/12 45
+ []\T1/ptm/m/n/12 47
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 50
- []\T1/ptm/m/n/12 45
+ []\T1/ptm/m/n/12 47
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 66
+ []\T1/ptm/m/n/12 61
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 68
+ []\T1/ptm/m/n/12 61
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 70
+ []\T1/ptm/m/n/12 61
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 76
+ []\T1/ptm/m/n/12 63
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 78
+ []\T1/ptm/m/n/12 63
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 80
+ []\T1/ptm/m/n/12 63
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 82
+ []\T1/ptm/m/n/12 63
  []
 
 )
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
 
- [12] (./bachproef-tin.lot)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13] [14
+
+] (./bachproef-tin.lot)
 \tf@lot=\write8
 \openout8 = `bachproef-tin.lot'.
 
- (./inleiding.tex [13
-
-] [14
+ (./inleiding.tex [15] [16
 
 ]
 Hoofdstuk 1.
@@ -1842,7 +1935,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-[15]
+[17]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 8.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -1865,8 +1958,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
- [16]
-[17]
+ [18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
@@ -1876,11 +1969,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
-[18]) (./standvanzaken.tex [19] [20
+[20]) (./standvanzaken.tex [21] [22
 
 ]
 Hoofdstuk 2.
-[21] [22]
+[23] [24]
 Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
@@ -1901,14 +1994,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
-[23]
+[25]
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 68.
 
 Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [24]
-[25]
+ [26]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
@@ -1926,13 +2019,13 @@ Overfull \hbox (46.38408pt too wide) in paragraph at lines 147--168
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [28]
 Overfull \hbox (2.62503pt too wide) in paragraph at lines 192--193
 []\T1/ptm/m/n/12 Native ap-pli-ca-ties kun-nen re-la-tief vlot om-ge-vormd wor-
 den naar cross-platform
  []
 
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 202--205
 
  []
@@ -1947,7 +2040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
-[28] [29]
+[30] [31]
 File: img/km-structure.png Graphic file (type bmp)
 <img/km-structure.png>
 Missing character: There is no ‘ in font ptmr8t!
@@ -1967,7 +2060,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [30]
+ [32]
 File: img/kmm-code.png Graphic file (type bmp)
 <img/kmm-code.png>
 
@@ -1977,11 +2070,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [33]
 Underfull \vbox (badness 3148) has occurred while \output is active []
 
- [32])
-(./methodologie.tex [33] [34
+ [34])
+(./methodologie.tex [35] [36
 
 ]
 Hoofdstuk 3.
@@ -2004,7 +2097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--39
 
  []
 
-[35]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
  []
@@ -2024,7 +2117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
  []
 
-[36]
+[38]
 File: img/as-adv-manager.png Graphic file (type bmp)
 <img/as-adv-manager.png>
 
@@ -2043,7 +2136,7 @@ Overfull \hbox (5.44485pt too wide) in paragraph at lines 64--76
 form-mobile 
  []
 
-[37]
+[39]
 Missing character: There is no ’ in font ptmr8t!
 File: img/kmm-plugin-1.png Graphic file (type bmp)
 <img/kmm-plugin-1.png>
@@ -2081,43 +2174,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--126
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39]
+ [40]
+[41]
 File: img/xcode-locations.png Graphic file (type bmp)
 <img/xcode-locations.png>
 
 Underfull \vbox (badness 3713) has occurred while \output is active []
 
- [40]
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
+ [42]
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 
  []
 
 
-Overfull \hbox (36.33388pt too wide) in paragraph at lines 149--150
+Overfull \hbox (36.33388pt too wide) in paragraph at lines 151--152
 [][]\T1/lmtt/m/n/12 https://www.oracle.com/java/technologies/oracle-java-archiv
 e-downloads.html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
 
  []
 
-[41]
+[43]
 File: img/jdk-version.png Graphic file (type bmp)
 <img/jdk-version.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--177
+Underfull \hbox (badness 10000) in paragraph at lines 173--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--177
+Underfull \hbox (badness 10000) in paragraph at lines 173--179
 
  []
 
-[42]
+[44]
 File: img/kmm-start-1.png Graphic file (type bmp)
 <img/kmm-start-1.png>
 File: img/kmm-start-2.png Graphic file (type bmp)
@@ -2128,7 +2221,7 @@ File: img/kmm-start-4.png Graphic file (type bmp)
 <img/kmm-start-4.png>
 
 
-LaTeX Warning: Float too large for page by 40.06789pt on input line 189.
+LaTeX Warning: Float too large for page by 40.06789pt on input line 191.
 
 File: img/as-emulators-1.png Graphic file (type bmp)
 <img/as-emulators-1.png>
@@ -2139,61 +2232,195 @@ File: img/kmm-basic-android.png Graphic file (type bmp)
 File: img/kmm-basic-ios.png Graphic file (type bmp)
 <img/kmm-basic-ios.png>
 
-Overfull \hbox (0.1403pt too wide) in paragraph at lines 246--247
+Overfull \hbox (0.1403pt too wide) in paragraph at lines 248--249
 []\T1/ptm/m/n/12 De laat-ste map bin-nen de shared-map die in-te-res-sant is vo
 or deze stu-die is de androidMain-
  []
 
-[43] [44] [45]
-Underfull \hbox (badness 10000) in paragraph at lines 282--293
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+ [45]
+[46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--293
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--293
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--293
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--293
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
+
+ []
+
+[48]
+File: img/android-basic-start.png Graphic file (type bmp)
+<img/android-basic-start.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--319
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 334--337
+
+ []
+
+[50]
 File: img/android-basic.png Graphic file (type bmp)
 <img/android-basic.png>
-[46]
-Underfull \vbox (badness 6204) has occurred while \output is active []
-
- [47]
+File: img/ios-basic-start.png Graphic file (type bmp)
+<img/ios-basic-start.png>
+File: img/ios-basic-settings.png Graphic file (type bmp)
+<img/ios-basic-settings.png>
+ [51] [52]
 File: img/ios-basic.png Graphic file (type bmp)
 <img/ios-basic.png>
-)
-(./conclusie.tex [48] [49] [50
-
-]
-Hoofdstuk 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51])
-[52]
+ [53]
+Underfull \hbox (badness 10000) in paragraph at lines 431--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--446
+
+ []
+
+
+Overfull \hbox (52.94975pt too wide) in paragraph at lines 431--446
+\T1/ptm/m/n/12 `class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear
+;war;zip;jar;iml;iws;ipr;bz2;gz;pyc;'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--446
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+File: img/statistics-settings.png Graphic file (type bmp)
+<img/statistics-settings.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \hbox (badness 10000) in paragraph at lines 546--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--552
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 561--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--1007
+
+ []
+
+
+Overfull \hbox (1.13043pt too wide) in paragraph at lines 565--1007
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1084
+
+ []
+
+[59]
+File: img/voefafdruk-a-native-all.png Graphic file (type bmp)
+<img/voefafdruk-a-native-all.png>
+File: img/voefafdruk-a-native-no-cache.png Graphic file (type bmp)
+<img/voefafdruk-a-native-no-cache.png>
+File: img/voefafdruk-a-native-clean.png Graphic file (type bmp)
+<img/voefafdruk-a-native-clean.png>
+File: img/voetafdruk-i-native.png Graphic file (type bmp)
+<img/voetafdruk-i-native.png>
+ [60] [61]
+File: img/voefafdruk-kmm-all.png Graphic file (type bmp)
+<img/voefafdruk-kmm-all.png>
+File: img/voefafdruk-kmm-no-cache.png Graphic file (type bmp)
+<img/voefafdruk-kmm-no-cache.png>
+File: img/voefafdruk-kmm-clean.png Graphic file (type bmp)
+<img/voefafdruk-kmm-clean.png>
+File: img/voetafdruk-i-kmm.png Graphic file (type bmp)
+<img/voetafdruk-i-kmm.png>
+
+Underfull \vbox (badness 7415) has occurred while \output is active []
+
+ [62]
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1192
+
+ []
+
+[64]) (./conclusie.tex [65] [66
+
+]
+Hoofdstuk 4.
+) [67] [68
+
+]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [53
-
-]
+ [69]
 Missing character: There is no ’ in font ptmr8t!
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--29
@@ -2205,7 +2432,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--29
 
  []
 
-[54]
+[70]
 Overfull \hbox (2.62503pt too wide) in paragraph at lines 43--44
 []\T1/ptm/m/n/12 Native ap-pli-ca-ties kun-nen re-la-tief vlot om-ge-vormd wor-
 den naar cross-platform
@@ -2214,7 +2441,7 @@ den naar cross-platform
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+ [71]
 File: img/kmm.jpg Graphic file (type bmp)
 <img/kmm.jpg>
 Missing character: There is no ‘ in font ptmr8t!
@@ -2232,8 +2459,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--75
 
 Underfull \vbox (badness 4582) has occurred while \output is active []
 
- [56]
-[57]
+ [72]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 111--122
 
  []
@@ -2259,7 +2486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--122
 
  []
 
-[58]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 126--130
 
  []
@@ -2270,50 +2497,65 @@ Overfull \hbox (0.66943pt too wide) in paragraph at lines 149--150
 n de-len, wordt
  []
 
-[59]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
-) (./resultaten-builds.tex [60]
+) (./resultaten-builds.tex [76]
 B"ylage B.
-[61
+[77
 
-] [62])
-Overfull \hbox (1.13043pt too wide) in paragraph at lines 461--163
+] [78]) (./resultaten-aantal-lijnen.tex
+Overfull \hbox (1.13043pt too wide) in paragraph at lines 566--1
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--163
+Underfull \hbox (badness 10000) in paragraph at lines 566--1
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
-[64] [65
+ [79]
+[80]
+B"ylage C.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81
+
+]
+Overfull \vbox (90.36102pt too high) has occurred while \output is active []
+
+
+[82])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+[84] [85
 
 ]
 Missing character: There is no ﻿ in font ptmri8t!
- [66] [67]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+ [86] [87]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./bachproef-tin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 175.
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46923 strings out of 479418
- 1014237 string characters out of 5884585
- 2017143 words of memory out of 5000000
- 63631 multiletter control sequences out of 15000+600000
- 586593 words of font info for 97 fonts, out of 8000000 for 9000
+ 48119 strings out of 479418
+ 1035965 string characters out of 5884585
+ 2056305 words of memory out of 5000000
+ 64777 multiletter control sequences out of 15000+600000
+ 586710 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,15n,98p,2530b,7163s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,107p,2530b,7240s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (69 pages).
+Output written on bachproef-tin.pdf (89 pages).
