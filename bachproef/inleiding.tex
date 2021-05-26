@@ -5,19 +5,19 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
 \label{ch:inleiding}
 
-Cross-platform ontwikkeling is een gegeven dat in de laatste jaren aan populariteit wint. Dit komt vooral omdat er voordelen aan verbonden zijn die, voor bedrijven gespecialiseerd in software voor verschillende platformen, zeer interessant kunnen zijn. Hierbij treden vooral de snellere ontwikkelingstijd en de lagere ontwikkelingskosten naar de voorgrond. Deze twee zaken spelen voor die bedrijven een grote rol binnen hun dagdagelijkse werking. Ondanks deze voordelen is nog niet elk bedrijf te vinden voor cross-platform ontwikkeling. Het beeld dat deze cross-platform applicaties `beter' zouden zijn dan de native oplossingen op de markt is nog niet overal aanvaard. Kotlin Multiplatform Mobile\footnote{kotlinlang.org/lp/mobile/} (KMM), de nieuwe cross-platform software development kit van JetBrains\footnote{jetbrains.com}, zou hier verandering in kunnen brengen. KMM gaat voor een andere aanpak voor hun cross-platform applicaties en zal vooral focussen op een gedeelde business logica en een platformafhankelijke en dus native user interface. 
+Cross-platform ontwikkeling is een gegeven dat in de laatste jaren aan populariteit wint. Dit komt vooral omdat er voordelen aan verbonden zijn die, voor bedrijven gespecialiseerd in software voor verschillende platformen, zeer interessant kunnen zijn. Hierbij treden vooral de snellere ontwikkelingstijd en de lagere ontwikkelingskosten naar de voorgrond. Deze twee zaken spelen voor die bedrijven een grote rol binnen hun dagelijkse werking. Ondanks deze voordelen is nog niet elk bedrijf te vinden voor cross-platform ontwikkeling. Het beeld dat deze cross-platform applicaties `beter' zouden zijn dan de native oplossingen op de markt is nog niet overal aanvaard. Kotlin Multiplatform Mobile\footnote{kotlinlang.org/lp/mobile} (KMM), de nieuwe cross-platform software development kit van JetBrains\footnote{jetbrains.com}, zou hier verandering in kunnen brengen. KMM gaat voor een andere aanpak voor hun cross-platform applicaties en zal vooral focussen op een gedeelde business logica en een platformafhankelijke en dus native user interface. 
 
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-Veel bedrijven die zich specialiseren in applicatieontwikkeling voor mobile toestellen zoals Android\footnote{android.com/} en iOS\footnote{apple.com/benl/ios/ios-14/} toestellen hebben verschillende mogelijkheden om dit aan te pakken. Zo is er bijvoorbeeld de keuze tussen een native applicatie of een cross-platform-applicatie. Anderzijds zijn er nog mogelijkheden zoals een progressive web application (PWA) geschreven in React\footnote{reactjs.org/}, Angular\footnote{angular.io/}, Vue.JS\footnote{vuejs.org/}... De PWA's vallen echter buiten de scope van deze bachelorproef. Er zal dus vooral gefocust worden op bedrijven die momenteel native applicaties ontwikkelen en eventueel willen overschakelen naar cross-platform.
+Veel bedrijven die zich specialiseren in applicatieontwikkeling voor mobile toestellen zoals Android\footnote{android.com} en iOS\footnote{apple.com/benl/ios/ios-14} toestellen hebben verschillende mogelijkheden om dit aan te pakken. Zo is er bijvoorbeeld de keuze tussen een native applicatie of een cross-platform-applicatie. Anderzijds zijn er nog mogelijkheden zoals een progressive web application (PWA) geschreven in React\footnote{reactjs.org}, Angular\footnote{angular.io}, Vue.JS\footnote{vuejs.org}... De PWA's vallen echter buiten de scope van deze bachelorproef. Er zal dus vooral gefocust worden op bedrijven die momenteel native applicaties ontwikkelen en eventueel willen overschakelen naar cross-platform.
 
 
 \section{\IfLanguageName{dutch}{Afbakening van het onderwerp}{Demarcation of the subject}}
 \label{sec:afbakening}
 
-JetBrains heeft Kotlin Multiplatform\footnote{kotlinlang.org/docs/mpp-intro.html} (KM) uitgebracht met Kotlin Multiplatform Mobile (KMM) als specialisatie voor de mobile toestellen. KMM is vooral gericht op iOS en Android in tegenstelling tot KM dat zich ook zal toespitsen op macOS\footnote{apple.com/benl/macos/big-sur/}, Windows\footnote{microsoft.com/nl-be/windows}... Voor deze bachelorproef zal er dus vooral gefocust worden op KMM aangezien de onderzoeksvraag zich toespitst op de mobiele toestellen. KMM heeft dezelfde functies van KM aangezien KMM een aftakking is van KM. Voor besturingssystemen van mobile toestellen zal er vooral gekeken worden naar Android en iOS aangezien deze de meest gebruikte besturingssystemen zijn op de markt.
+JetBrains heeft Kotlin Multiplatform\footnote{kotlinlang.org/docs/mpp-intro.html} (KM) uitgebracht met Kotlin Multiplatform Mobile (KMM) als specialisatie voor de mobile toestellen. KMM is vooral gericht op iOS en Android in tegenstelling tot KM dat zich ook zal toespitsen op macOS\footnote{apple.com/benl/macos/big-sur}, Windows\footnote{microsoft.com/nl-be/windows}... Voor deze bachelorproef zal er dus vooral gefocust worden op KMM aangezien de onderzoeksvraag zich toespitst op de mobiele toestellen. KMM heeft dezelfde functies als KM aangezien KMM een aftakking is van KM. Voor besturingssystemen van mobile toestellen zal er vooral gekeken worden naar Android en iOS aangezien deze de meest gebruikte besturingssystemen zijn op de markt.
 
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
@@ -26,49 +26,57 @@ JetBrains heeft Kotlin Multiplatform\footnote{kotlinlang.org/docs/mpp-intro.html
 De opzet van deze bachelorproef is na te gaan of native applicatieontwikkeling voor Android en iOS apparaten nog steeds de beste keuze is of KMM een sneller en efficiënter alternatief kan vormen binnen het huidige beeld van applicatieontwikkeling. Om dit te onderzoeken zijn er verschillende testcriteria opgesteld. Deze testcriteria zijn: 
 \begin{itemize}
     \item het aantal lijnen code
-    \item de kostprijs
-    \item de ontwikkeltijd
     \item de compileersnelheid
     \item de voetafdruk
-    \item de uitbreidingsmogelijkheden van de applicaties
+    \item de ontwikkeltijd
+    \item de kostprijs
 \end{itemize}
-Aan de hand hiervan kan besloten worden of de KMM-applicaties een beter alternatief kunnen vormen voor native applicaties. Daarnaast zal ook de vraag gesteld worden of het huidige beeld van de SWOT-analyse voor cross-platform applicaties ook toepasbaar is voor KMM-applicaties, indien niet zal gekeken worden hoe deze dient aangepast te worden. 
+Aan de hand hiervan kan besloten worden of de KMM-applicaties een beter alternatief kunnen vormen voor native applicaties. Daarnaast zal ook de vraag gesteld worden of het huidige beeld van de SWOT-analyse voor cross-platform applicaties ook toepasbaar is voor KMM-applicaties. Indien niet het geval zou zijn, zal gekeken worden hoe deze dient aangepast te worden. 
 
+Hieronder wordt een overzicht van de onderzoeksvragen gegeven
+\begin{itemize}
+    \item Is native applicatieontwikkeling nog steeds de beste optie voor Android?
+    \item Is native applicatieontwikkeling nog steeds de beste optie voor iOS?
+    \item Is KMM een sneller alternatief voor native applicaties?
+    \item Is KMM een efficiënter alternatief voor native applicaties?
+    \item Is het huidige beeld op de SWOT-analyse van cross-platform applicaties toepasbaar op KMM?
+\end{itemize}
+
+Deze bachelorproef tracht bovenstaande vragen te beantwoorden. Het proces van testen wordt beschreven in \ref{sec:onderzoeksdoelstelling} `Onderzoeksdoelstelling'.
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-De onderzoeksdoelstelling van deze bachelorproef is na te gaan of Kotlin Multiplatform Mobile (KMM) een goed alternatief kan bieden voor native ontwikkeling. Hiervoor zal een vergelijkende studie tussen KMM en native applicaties uitgevoerd worden. Voor deze studie zullen meerdere applicaties geschreven worden voor zowel Android als iOS. Eerst worden er twee native applicaties geschreven. De native iOS applicatie zal geschreven worden in Swift 5.3\footnote{apple.com/benl/swift/} of recenter met iOS 14 in gedachten en voor de user interface zal er gebruik gemaakt worden van UIKit\footnote{developer.apple.com/documentation/uikit}. Aan de Android kant van het native verhaal zal er een applicatie geschreven worden met behulp van Kotlin 1.4.20\footnote{kotlinlang.org/} of een recentere versie. Voor de native Android user interface zal gebruik gemaakt worden van de standaard Android en AndroidX\footnote{developer.android.com/jetpack/androidx} bibliotheek. Naast de native applicaties zal er nog een derde applicatie geschreven worden, namelijk een Kotlin Multiplatform Mobile (KMM) applicatie. Deze applicatie zal werken op zowel Android als iOS toestellen. Hierbij zal voor het iOS-deel gebruik gemaakt worden van Swift en SwiftUI\footnote{developer.apple.com/xcode/swiftui/} voor de user interface en voor het Android deel van Kotlin en Jetpack Compose\footnote{developer.android.com/jetpack/compose}.
+De onderzoeksdoelstelling van deze bachelorproef is na te gaan of Kotlin Multiplatform Mobile (KMM) een goed alternatief kan bieden voor native ontwikkeling. Hiervoor zal een vergelijkende studie tussen KMM en native applicaties uitgevoerd worden. Voor deze studie zullen meerdere applicaties geschreven worden voor zowel Android als iOS. Eerst worden er twee native applicaties geschreven. De native iOS applicatie zal geschreven worden in Swift 5.3\footnote{apple.com/benl/swift} of recenter met iOS 14 in gedachten en voor de user interface zal er gebruik gemaakt worden van UIKit\footnote{developer.apple.com/documentation/uikit}. Aan de Android kant van het native verhaal zal er een applicatie geschreven worden met behulp van Kotlin 1.4.20\footnote{kotlinlang.org} of een recentere versie. Voor de native Android user interface zal gebruik gemaakt worden van de standaard Android en AndroidX\footnote{developer.android.com/jetpack/androidx} bibliotheek. Naast de native applicaties zal er nog een derde applicatie geschreven worden, namelijk een Kotlin Multiplatform Mobile (KMM) applicatie. Deze applicatie zal werken op zowel Android als iOS toestellen. Hierbij zal voor het iOS-deel gebruik gemaakt worden van Swift en SwiftUI\footnote{developer.apple.com/xcode/swiftui} voor de user interface en voor het Android deel Kotlin en Jetpack Compose\footnote{developer.android.com/jetpack/compose}.
 \\ \\
 Om deze manier van werken correct te beoordelen is het belangrijk dat zowel de native applicaties als KMM dezelfde functionaliteiten aanbieden. Dit geldt ook voor de native applicaties voor Android en iOS onderling. De geschreven applicaties zouden dus als het ware niet van elkaar te onderscheiden mogen zijn. Hierbij dient echter rekening gehouden te worden met het feit dat de user interface wel enigszins kan verschillen.
 \\ \\
 Voor de applicaties zelf zal er gekeken worden naar de voorbeeldapplicaties die JetBrains aanbiedt en voorstelt. Dit zijn onder andere de PeopleInSpace applicatie \autocite{OReilly2021} en de SpaceX lauches applicatie \autocite{Kotlin2020HandsOn}. Deze kunnen gebruikt worden om benchmarks op te testen en als inspiratiebron voor de native applicaties en andere KMM-applicaties.
 \\ \\
-Om de uiteindelijke de vergelijkende studie te maken tussen de native applicaties en de KMM-applicatie zal er gekeken worden naar verschillende factoren. Deze factoren zijn
+Om uiteindelijke de vergelijkende studie te maken tussen de native applicaties en de KMM-applicatie zal er gekeken worden naar verschillende testcriteria. Hieronder volgt een overzicht van deze gekozen testcriteria voor deze studie.
 \begin{itemize}
     \item Aantal lijnen code
     \item Kostprijs
     \item Ontwikkeltijd
     \item Compileersnelheid
     \item Voetafdruk
-    \item Uitbreiding van de applicatie
 \end{itemize}
 
 Voor dit onderzoek zal volgende hardware en software gebruikt worden:\\
 Hardware:
 \begin{itemize}
-    \item MacBook Pro 16 inch uit 2019\footnote{support.apple.com/kb/SP809?viewlocale=nl\_NL\&locale=en\_US}
+    \item MacBook Pro 16 inch 2,3GHz 8-core i9 met 16GB RAM geheugen uit 2019\footnote{support.apple.com/kb/SP809?viewlocale=nl\_NL\&locale=en\_US}
     \item iPhone 11 Pro Max uit 2019\footnote{support.apple.com/kb/SP806?viewlocale=nl\_NL\&locale=en\_US}
-    \item Huawei P9 lite uit 2016\footnote{consumer.huawei.com/be/support/phones/p9-lite/}
+    \item Huawei P9 lite uit 2016\footnote{consumer.huawei.com/be/support/phones/p9-lite}
 \end{itemize}
-Deze laatste twee toestellen zijn echter minder van belang en komen enkel ter sprake indien er testen gebeuren op fysieke toestellen. Voor het grotere deel van de testen worden uitgevoerd op emulators die ingebouwd zijn in de gekozen ontwikkelingssoftware.\\
+Deze laatste twee toestellen zijn echter minder van belang en komen enkel ter sprake indien er testen gebeuren op fysieke toestellen. Het grotere deel van de testen worden uitgevoerd op emulators die ingebouwd zijn in de gekozen ontwikkelingssoftware.\\
 \\
 Software:
 \begin{itemize}
-    \item Xcode\footnote{developer.apple.com/xcode/} versie 12.3 of recenter
+    \item Xcode\footnote{developer.apple.com/xcode} versie 12.3 of recenter
     \item Android studio\footnote{developer.android.com/studio} versie 4.1.1 of recenter
 \end{itemize}
-Voor de KMM-applicaties zal er echter nog de Kotlin Multiplatform Mobile plugin\footnote{kotlinlang.org/docs/mobile/kmm-plugin-releases.html} geïnstalleerd moeten worden.
+Voor de KMM-applicaties zal er echter nog de Kotlin Multiplatform Mobile plugin\footnote{kotlinlang.org/docs/mobile/kmm-plugin-releases.html} versie 2.4 of recenter geïnstalleerd moeten worden.
 
 Deze software zal gebruikt worden op de MacBook Pro die hierboven reeds werd beschreven. Voor dit onderzoek geldt de beperking dat er enkel gebruik gemaakt kan worden van toestellen die macOS gebruiken als besturingssysteem, aangezien dit een vereiste is voor de ontwikkeling van iOS-applicaties.
 \\ \\ 
@@ -84,7 +92,5 @@ Het vervolg van de bachelorproef wordt als volgt opgebouwd:
 In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
-
-% TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.

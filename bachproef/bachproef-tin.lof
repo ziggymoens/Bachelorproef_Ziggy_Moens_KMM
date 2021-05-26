@@ -49,43 +49,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {3.10.2}{\ignorespaces {\centering iOS applicatie}}}{47}{subfigure.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Instelling voor het native Android project\relax }}{49}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Projectstructuur van het KMM project\relax }}{48}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface van de basic native Android applicatie\relax }}{51}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Instelling voor het native Android project\relax }}{50}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces De optie voor een nieuwe iOS App binnen Xcode\relax }}{52}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface van de basic native Android applicatie\relax }}{52}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Instelling voor het native iOS project\relax }}{52}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces De optie voor een nieuwe iOS App binnen Xcode\relax }}{53}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface van de basic native iOS applicatie\relax }}{54}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Instelling voor het native iOS project\relax }}{53}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Instellingen voor de Statics plug-in\relax }}{56}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface van de basic native iOS applicatie\relax }}{55}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Voetafdruk van de native Android applicatie\relax }}{61}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Instellingen voor de Statics plug-in\relax }}{57}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.17.1}{\ignorespaces {\centering Voetafdruk van de native Android met cache en lokale opslag}}}{61}{subfigure.17.1}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Voetafdruk van de native Android applicatie\relax }}{62}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.17.2}{\ignorespaces {\centering Voetafdruk van de native Android zonder cache en met lokale opslag}}}{61}{subfigure.17.2}%
+\contentsline {subfigure}{\numberline {3.18.1}{\ignorespaces {\centering Voetafdruk van de native Android met cache en lokale opslag}}}{62}{subfigure.18.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.17.3}{\ignorespaces {\centering Voetafdruk van de native Android zonder cache en lokale opslag}}}{61}{subfigure.17.3}%
+\contentsline {subfigure}{\numberline {3.18.2}{\ignorespaces {\centering Voetafdruk van de native Android zonder cache en met lokale opslag}}}{62}{subfigure.18.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Voetafdruk van de native iOS applicatie\relax }}{62}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {3.18.3}{\ignorespaces {\centering Voetafdruk van de native Android zonder cache en lokale opslag}}}{62}{subfigure.18.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Voetafdruk van de KMM applicaties\relax }}{63}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Voetafdruk van de native iOS applicatie\relax }}{63}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.19.1}{\ignorespaces {\centering Voetafdruk van KMM Android met cache en lokale opslag}}}{63}{subfigure.19.1}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Voetafdruk van de KMM applicaties\relax }}{64}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.19.2}{\ignorespaces {\centering Voetafdruk van KMM Android zonder cache en met lokale opslag}}}{63}{subfigure.19.2}%
+\contentsline {subfigure}{\numberline {3.20.1}{\ignorespaces {\centering Voetafdruk van KMM Android met cache en lokale opslag}}}{64}{subfigure.20.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.19.3}{\ignorespaces {\centering Voetafdruk van KMM Android zonder cache en lokale opslag}}}{63}{subfigure.19.3}%
+\contentsline {subfigure}{\numberline {3.20.2}{\ignorespaces {\centering Voetafdruk van KMM Android zonder cache en met lokale opslag}}}{64}{subfigure.20.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {3.19.4}{\ignorespaces {\centering Voetafdruk van KMM iOS kmm}}}{63}{subfigure.19.4}%
+\contentsline {subfigure}{\numberline {3.20.3}{\ignorespaces {\centering Voetafdruk van KMM Android zonder cache en lokale opslag}}}{64}{subfigure.20.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {3.20.4}{\ignorespaces {\centering Voetafdruk van KMM iOS kmm}}}{64}{subfigure.20.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{72}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Grafische voorstelling Kotlin Multiplatform Mobile \autocite {KotlinKMM}\relax }}{76}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

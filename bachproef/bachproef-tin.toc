@@ -11,7 +11,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Onderzoeksdoelstelling}{19}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Opzet van deze bachelorproef}{20}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Opzet van deze bachelorproef}{21}{section.1.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Stand van zaken}{23}{chapter.2}%
 \defcounter {refsection}{0}\relax 
@@ -47,87 +47,83 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Basis Kotlin Multiplatform Mobile applicatie}{44}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Basis native applicaties}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Basis native applicaties}{49}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Android}{49}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Android}{50}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}iOS}{51}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}iOS}{52}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Testen van de basis applicaties}{54}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Testen van de basis applicaties}{55}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Aantal lijnen code}{55}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Aantal lijnen code}{56}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Aantal lijnen code - Android}{55}{section*.28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Aantal lijnen code - iOS}{56}{section*.30}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Aantal lijnen code - KMM}{57}{section*.32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Aantal lijnen code - conclusie}{57}{section*.34}%
+\contentsline {subsubsection}{Conclusie}{57}{section*.30}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Compileersnelheid}{58}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Compileersnelheid - Android}{59}{section*.35}%
+\contentsline {subsubsection}{Eerste compilatie}{58}{section*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Compileersnelheid - iOS}{59}{section*.37}%
+\contentsline {subsubsection}{Andere compilaties}{58}{section*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Compileersnelheid - KMM}{59}{section*.39}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Compileersnelheid - conclusie}{60}{section*.42}%
+\contentsline {subsubsection}{Conclusie}{60}{section*.35}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.3}Voetafdruk}{60}{subsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Voetafdruk - Android}{60}{section*.44}%
+\contentsline {subsubsection}{Android}{61}{section*.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Voetafdruk - iOS}{60}{section*.46}%
+\contentsline {subsubsection}{iOS}{61}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Voetafdruk - KMM}{62}{section*.48}%
+\contentsline {subsubsection}{KMM}{61}{section*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Voetafdruk - conclusie}{62}{section*.50}%
+\contentsline {subsubsection}{Conclusie}{61}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Ontwikkeltijd}{64}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.4}Ontwikkeltijd}{63}{subsection.3.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Kostprijs}{64}{subsection.3.4.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.6}Uitbreiding van de applicatie}{65}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.5}Kostprijs}{65}{subsection.3.4.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclusie}{67}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{69}{appendix.A}%
+\contentsline {section}{\numberline {4.1}Resultaten van de testen}{67}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{69}{section.A.1}%
+\contentsline {section}{\numberline {4.2}Verder onderzoek}{68}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{70}{section.A.2}%
+\contentsline {section}{\numberline {4.3}Conclusie}{69}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Kotlin}{70}{subsection.A.2.1}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{73}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Cross-platform en native}{70}{subsection.A.2.2}%
+\contentsline {section}{\numberline {A.1}Introductie}{73}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Kotlin Multiplatform}{71}{subsection.A.2.3}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{74}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Kotlin Multiplatform versus alternatieven}{72}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.1}Kotlin}{74}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Testcriteria}{73}{subsection.A.2.5}%
+\contentsline {subsection}{\numberline {A.2.2}Cross-platform en native}{74}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{74}{section.A.3}%
+\contentsline {subsection}{\numberline {A.2.3}Kotlin Multiplatform}{75}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{75}{section.A.4}%
+\contentsline {subsection}{\numberline {A.2.4}Kotlin Multiplatform versus alternatieven}{76}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{76}{section.A.5}%
+\contentsline {subsection}{\numberline {A.2.5}Testcriteria}{77}{subsection.A.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Resultaten van compileersnelheid}{77}{appendix.B}%
+\contentsline {section}{\numberline {A.3}Methodologie}{78}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Tabel}{77}{section.B.1}%
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{79}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}grafisch}{80}{section.B.2}%
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{80}{section.A.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Resultaten van aantal lijnen code}{81}{appendix.C}%
+\contentsline {chapter}{\numberline {B}Resultaten van compileersnelheid}{81}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Aantal lijnen code - Android}{82}{section.C.1}%
+\contentsline {section}{\numberline {B.1}Tabel}{81}{section.B.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Aantal lijnen code - iOS}{83}{section.C.2}%
+\contentsline {section}{\numberline {B.2}grafisch}{84}{section.B.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Aantal lijnen code - KMM}{84}{section.C.3}%
+\contentsline {chapter}{\numberline {C}Resultaten van aantal lijnen code}{85}{appendix.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{85}{appendix*.55}%
+\contentsline {section}{\numberline {C.1}Aantal lijnen code - Android}{86}{section.C.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}Aantal lijnen code - iOS}{87}{section.C.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.3}Aantal lijnen code - KMM}{88}{section.C.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{89}{appendix*.49}%
 \contentsfinish 
