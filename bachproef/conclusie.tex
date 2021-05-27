@@ -29,7 +29,7 @@ De eerste test binnen dit onderzoek evalueerde het aantal lijnen van de applicat
 \end{itemize}
 Hieruit kan besloten worden dat binnen deze studie KMM interessanter is op vlak van lijnen code en omvang. Daarnaast is hoogstwaarschijnlijk de grootte van het iOS deel de belangrijkste factor die de omvang en het aantal lijnen code zal bepalen.
 \\ \\ 
-De test in verband met de compileersnelheid toonde dat de eerste compilatie van KMM 550\% sneller is dan de twee native applicaties samen. Op vlak van caching tussen de compilaties door hebben de native varianten snellere compileertijden. Anderzijds is er geen tijdswinst wanneer de compilatie van KMM in Xcode wordt uitgevoerd, Android Studio blijft de beste IDE voor KMM.
+De test in verband met de compileersnelheid toonde dat de eerste compilatie van KMM 550\% sneller is dan de twee native applicaties samen. Door caching in de build tools hebben de native varianten snellere opeenvolgende compileertijden. Anderzijds is er geen tijdswinst wanneer de compilatie van KMM in Xcode wordt uitgevoerd, Android Studio blijft de beste IDE voor KMM.
 \\ \\ 
 Uit laatste technische test omtrent de voetafdruk kunnen volgende zaken geconcludeerd worden.
 \begin{itemize}
@@ -40,7 +40,7 @@ Indien er echter gekeken wordt naar de totale voetafdruk van de twee native appl
 \\ \\
 De testen in verband met de ontwikkeltijd en de kostprijs waren echter zeer gerelateerd aan elkaar gezien de kostprijs berekend werd aan de hand van de ontwikkeltijd. Binnen deze studie duurde het maken van de KMM applicatie 3u 26min en het maken van de twee native applicaties duurde samen 3u 28min. Hierbij is echter een zeer klein verschil op te merken tussen KMM en native. Een interessant gegeven hierbij is het feit dat de developer geen ervaring had met KMM. Hieruit kan geconcludeerd worden dat een ervaren developer een groter verschil zal verkrijgen dat in het voordeel van KMM zal zijn.
 \\ \\
-Gezien native en KMM zeer dicht bij elkaar lagen op gebied van ontwikkelingstijd, was er dus ook een klein verschil in kostprijs. Voor deze studie zou de kostprijs voor een KMM applicatie uitkomen op \euro{} 496,12, voor de twee native applicaties op €500,93. Ook hier dient opgemerkt te worden dat met een meer ervaren developer KMM interessanter zou zijn op vlak van kostprijs. Daarnaast dient ook rekening gehouden te worden met het feit dat bij een KMM project maar eenmaal een projectmanagementkost dient aangerekend te worden en bij de native applicaties tweemaal.
+Gezien native en KMM zeer dicht bij elkaar lagen op gebied van ontwikkelingstijd, was er dus ook een klein verschil in kostprijs. Voor deze studie zou de kostprijs voor een KMM applicatie uitkomen op \euro{} 496,12, voor de twee native applicaties op \euro{} 500,93. Ook hier dient opgemerkt te worden dat met een meer ervaren developer KMM interessanter zou zijn op vlak van kostprijs. Daarnaast dient ook rekening gehouden te worden met het feit dat bij een KMM project maar eenmaal een projectmanagementkost dient aangerekend te worden en bij de native applicaties tweemaal. Deze kost zit nog niet verwerkt in de resultaten van de test.
 
 \section{\IfLanguageName{dutch}{Verder onderzoek}{Further research}}
 \label{sec:C-verder-onderzoek}
@@ -67,14 +67,14 @@ Volgend op deze studie zijn er enkele zaken die verder kunnen onderzocht worden,
 
 \section{\IfLanguageName{dutch}{Conclusie}{Conclusion}}
 \label{sec:C-algemene-conclusie}    
-Binnen deze conclusie zullen antwoorden geformuleerd worden voor de onderzoeksvragen opgesteld voor deze studie. Hierbij een overzicht van de onderzoeksvragen voor deze studie. De antwoorden voor deze vragen houden rekening met het feit dat de native applicaties geschreven zijn met het oogpunt dat er twee varianten uitgebracht zullen worden, één voor iOS en één voor Android.
+Binnen deze conclusie zullen antwoorden geformuleerd worden voor de onderzoeksvragen opgesteld voor deze studie. De antwoorden op deze vragen houden rekening met het feit dat de native applicaties geschreven zijn met het oogpunt dat er twee varianten uitgebracht zullen worden, één voor iOS en één voor Android.
 
 \begin{itemize}
     \item \textbf{Is native applicatieontwikkeling nog steeds de beste optie voor Android?}\\
     Voor Android is de overstap naar KMM zeer interessant gezien er uit de testen is gebleken dat KMM applicaties een kleinere voetafdruk hebben, een snellere eerste compilatie en minder lijnen code hebben op Android devices dan de native variant.
     \\
     \item \textbf{Is native applicatieontwikkeling nog steeds de beste optie voor iOS?}\\
-    Voor iOS valt op dat de native applicatie veel kleiner is dan de native variant, daarnaast is de snelheid van de eerste compilatie en het aantal lijnen code in het voordeel van KMM.
+    Voor iOS valt op dat de native applicatie veel kleiner is dan de KMM variant, daarnaast is de snelheid van de eerste compilatie en het aantal lijnen code in het voordeel van KMM. Op vlak van snelheid en compilatie is een KMM applicatie dus interessanter dan de native variant.
     \\
     \item \textbf{Is KMM een sneller alternatief voor native applicaties?}\\
     De eerste compilatie van KMM is sneller dan de twee native applicaties samen. Het is hier ook belangrijk om te weten dat bij het builden van de KMM direct iOS en Android gebuild worden. De builds die na de eerste build komen en dus gebruik maken van de caching binnen de IDE zijn sneller voor de native variant.
@@ -86,9 +86,7 @@ Binnen deze conclusie zullen antwoorden geformuleerd worden voor de onderzoeksvr
     Het huidige beeld van de SWOT-analyse voor cross-platform applicaties staat uitgeschreven in deel \ref{sec:SVZcrossplatform}: `Cross-platform ontwikkeling'. De SWOT-analyse wordt besproken per peiler.
     \begin{itemize}
         \item Sterktes of Strengths\\
-        \\
         Deze studie heeft getoond dat de gegeven sterktes van cross-platform allemaal geldig zijn voor KMM. De applicaties bleken zowel sneller als goedkoper. Daarnaast is het logisch dat een cross-platform applicatie meer platformen ondersteunt dan een native applicatie.
-        Text
         \\
         \item Zwaktes of Weaknessess\\
         Binnen KMM is er nog steeds nood aan native code, dit werd gezien als een zwakte op maar dit kan ook gezien worden als een sterkte. De native code zorgt voor een meer native ervaring voor de eindgebruiker. Daarnaast kan door de native code beter gebruik gemaakt worden van de core librabies van het systeem. Een andere zwakte was het updaten van code of toestellen. Tijdens het proces van de studie zijn er geen problemen, zoals updates van devices of code, opgedoken. Vanuit dat standpunt zou dus gezegd kunnen worden dat dit niet per se een zwakte is.
@@ -101,9 +99,9 @@ Binnen deze conclusie zullen antwoorden geformuleerd worden voor de onderzoeksvr
     \end{itemize}
 \end{itemize}
 
-Nu de onderzoeksvragen beantwoord zijn kan overgegaan worden tot de finale conclusie van deze studie, namelijk het antwoord op de vraag of Kotlin Multiplatform Mobile een alternatief voor native applicaties kan zijn. Binnen het opzicht van de studie en rekening houdend met de resultaten die verkregen zijn kan hierop een positief antwoord gegeven worden. KMM toont veel potentieel om als cross-platform alternatief gebruikt te worden. Doordat enkel de business logica gedeeld wordt, behouden de applicaties hun native look en feel. Daarnaast is ook uit de testen gebleken dat KMM zeker niet minderwaardig is op vlak van prestaties. KMM bevindt zich op het einde van deze studie nog steeds in alfa waardoor deze resultaten niet meer relevant kunnen zijn naar de toekomst. Eens KMM uit alfa gaat zullen ook meer developers ervaring kunnen opdoen waardoor er sneller mee gewerkt zal kunnen worden.
+Nu de onderzoeksvragen beantwoord zijn kan overgegaan worden tot de finale conclusie van deze studie, namelijk het antwoord op de vraag of Kotlin Multiplatform Mobile een alternatief voor native applicaties kan zijn. Binnen de opzet van de studie en rekening houdend met de resultaten die verkregen zijn kan hierop een positief antwoord gegeven worden. KMM toont veel potentieel om als cross-platform alternatief gebruikt te worden. Doordat enkel de business logica gedeeld wordt, behouden de applicaties hun native look en feel. Daarnaast is ook uit de testen gebleken dat KMM zeker niet minderwaardig is op vlak van prestaties. KMM bevindt zich op het einde van deze studie nog steeds in alfa waardoor deze resultaten alleen nog meer in het voordeel van KMM kunnen uitvallen naar de toekomst. Eens KMM uit alfa gaat zullen ook meer developers ervaring kunnen opdoen waardoor er sneller mee gewerkt zal kunnen worden.
 \\ \\
-Indien bedrijven na het lezen van deze studie de overstap naar KMM zouden overwegen, dienen zij vooral rekening te houden met de overschakelingsperiode en de leercurve voor de developers. Het grote voordeel hierbij is dat KMM geschreven wordt in Kotlin en dat daarnaast ook de native taal Swift gebruikt wordt. Deze talen zijn door de meeste developers die native ontwikkelen wel gekend. Eens bedrijven de stap zetten naar KMM kan KMM een voordeel bieden. De testen hebben aangetoond dat KMM efficienter is op vlak van lijnen code, een snellere eerste compilatie heeft en geen significant grotere voetafdruk dan de native varianten. Daarnaast is het ontwikkelen van een KMM goedkoper gezien de snellere ontwikkeling en de lagere projectmanagement kosten.
+Indien bedrijven na het lezen van deze studie de overstap naar KMM zouden overwegen, dienen zij vooral rekening te houden met de overschakelingsperiode en de leercurve voor de developers. Het grote voordeel hierbij is dat KMM geschreven wordt in Kotlin en dat daarnaast ook de native taal Swift gebruikt wordt. Deze talen zijn door de meeste developers die native ontwikkelen wel gekend. Eens bedrijven de stap zetten naar KMM kan KMM een voordeel bieden. De testen hebben aangetoond dat KMM efficiënter is op vlak van lijnen code, een snellere eerste compilatie heeft en geen significant grotere voetafdruk dan de native varianten. Daarnaast is het ontwikkelen van een KMM goedkoper gezien de snellere ontwikkeling en de lagere projectmanagement kosten.
 
 
     

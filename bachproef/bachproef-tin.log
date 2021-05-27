@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.26)  26 MAY 2021 22:00
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.2.26)  27 MAY 2021 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1754,24 +1754,42 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
 )
 (./samenvatting.tex [3] [4
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 39--95
+]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+1.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+Underfull \hbox (badness 10000) in paragraph at lines 45--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--95
+Underfull \hbox (badness 10000) in paragraph at lines 45--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--95
+Underfull \hbox (badness 10000) in paragraph at lines 45--95
 
  []
 
-[5] [6
 
-] (./bachproef-tin.toc
+Underfull \hbox (badness 10000) in paragraph at lines 45--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--95
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6] (./bachproef-tin.toc
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
@@ -1781,7 +1799,9 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [7
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
@@ -1942,12 +1962,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-[17]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-8.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [18]
+[17] [18]
 Underfull \hbox (badness 10000) in paragraph at lines 50--58
 
  []
@@ -2137,7 +2152,6 @@ form-mobile
  []
 
 [39]
-Missing character: There is no ’ in font ptmr8t!
 File: img/kmm-plugin-1.png Graphic file (type bmp)
 <img/kmm-plugin-1.png>
 File: img/kmm-plugin-2.png Graphic file (type bmp)
@@ -2431,8 +2445,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
  []
 
 [67]
-Missing character: There is no € in font ptmr8t!
-
 Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  []
@@ -2463,27 +2475,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--85
  []
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
@@ -2634,6 +2641,6 @@ Here is how much of TeX's memory you used:
  64780 multiletter control sequences out of 15000+600000
  586710 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,16n,107p,2530b,7240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,107p,2530b,7238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on bachproef-tin.pdf (93 pages).
