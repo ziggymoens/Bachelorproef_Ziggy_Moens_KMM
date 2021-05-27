@@ -434,12 +434,12 @@ Gezien de basis applicaties reeds geschreven werden, kan nu overgegaan worden op
 
 \subsection{\IfLanguageName{dutch}{Aantal lijnen code}{Aantal lijnen code}}
 \label{sec:M-test-lijnen-code}
-De eerste test gaat het aantal lijnen code na. Voor deze test is de Statistics\footnote{https://plugins.jetbrains.com/plugin/4509-statistic} plug-in geïnstalleerd binnen Android studio
+De eerste test gaat het aantal lijnen code na. Voor deze test is de Statistics\footnote{https://plugins.jetbrains.com/plugin/4509-statistic} plug-in geïnstalleerd binnen Android studio.
 \\ \\
 De \textbf{Statistics plug-in} kan via volgende link teruggevonden worden:\\
 \verb*|https://plugins.jetbrains.com/plugin/4509-statistic|
 \\ \\
-De instellingen kunnen op volgende plek teruggevonden worden \\ 
+De instellingen kunnen op volgende plek teruggevonden worden: \\ 
 \underline{Android Studio -> Voorkeuren -> Tools -> Statistics}
 \\ \\
 Voor deze testen worden volgende specifieke instellingen geselecteerd: \\
@@ -502,7 +502,7 @@ Uit deze resultaten kunnen enkele conclusies getrokken worden.
     \item Het iOS project is groter, zowel lijnen als omvang, dan het KMM project\\
     \underline{KMM:} 1605 lijnen en 77725 B\\
     \underline{iOS:} 1634 lijnen en 90649 B\\
-    \item De Native Android applicatie uitzonderlijk veel kleiner is dan het iOS project\\
+    \item De Native Android applicatie is uitzonderlijk veel kleiner dan het iOS project\\
     \underline{Android:} 389 lijnen en 17906 B\\
     \underline{iOS:} 1634 lijnen en 90649 B
 \end{itemize}
@@ -511,13 +511,13 @@ Dit zijn enkele van de meest opvallende en daarnaast ook de meest relevante zake
 
 \subsection{\IfLanguageName{dutch}{Compileersnelheid}{Build snelheid}}
 \label{sec:M-test-compileersnelheid}
-Deze volgende test die werd uitgevoerd is de compileersnelheid test. Hiervoor zal elke applicatie meermaals gecompileerd worden. Hierbij werd geëvalueerd welke applicaties het snelste compileren en dus het meest efficiënt zijn.
+Volgende test die werd uitgevoerd gaat de verschillen op vlak van compileersnelheid na. Hiervoor werd elke applicatie meermaals gecompileerd. Daarna werd geëvalueerd welke applicaties het snelste compileren en dus het meest efficiënt zijn.
 \\ \\
-Tijdens deze test zullen de basic KMM, Android en iOS applicaties 100 maal gebuild worden. De KMM applicatie werd gebuild in Android Studio (AS) en Xcode. De gedetailleerde resultaten kunnen in deel \ref{ch:results-builds}. De resultaten worden opgesplitst in twee delen namelijk de eerste build en de andere builds. Hierdoor wordt er rekening gehouden met de cache van de IDE.
+Tijdens deze test werden de basic KMM, Android en iOS applicaties 100 maal gebuild. De KMM applicatie werd zowel gebuild in Android Studio (AS) als in Xcode. De gedetailleerde resultaten kunnen in deel \ref{ch:results-builds}. De resultaten worden opgesplitst in twee delen namelijk de eerste build en de andere builds. Hierdoor wordt er rekening gehouden met de cache van de IDE.
 
 \subsubsection{\IfLanguageName{dutch}{Eerste compilatie}{First compilation}}
 \label{sec:M-test-1-comp}
-Tabel \ref{T:1e-compile} toont de resultaten van de eerste compilatie van de applicaties. Hierbij kan worden opgemerkt dat KMM significant sneller is dan native Android en iOS, zeker wetende dat KMM automatisch gebuild is voor beide varianten. De eerste builds bevatten nog geen cache in de IDE dus de performantie is puur afhankelijk van het framework en hoe efficiënt dit werkt. Uit deze resultaten kan dus geconcludeerd worden dat voor deze studie KMM sneller was dan de native varianten.
+Tabel \ref{T:1e-compile} toont de resultaten van de eerste compilatie van de applicaties. Hierbij kan worden opgemerkt dat KMM significant sneller is dan native Android en iOS, zeker in het bijzonder gezien dat KMM automatisch gebuild is voor beide varianten. De eerste builds bevatten nog geen cache in de IDE dus de performantie is puur afhankelijk van het framework en hoe efficiënt dit werkt. Uit deze resultaten kon dus geconcludeerd worden dat voor deze studie KMM sneller is dan de native varianten.
 
 \begin{table}[H]
     \centering
@@ -539,11 +539,11 @@ Tabel \ref{T:1e-compile} toont de resultaten van de eerste compilatie van de app
 \label{sec:M-test-andere-comp}
 
 
-Grafiek \ref{G:tijd} toont de resultaten voor de drie applicaties voor compilatie twee tot en met 100:
+Grafiek \ref{G:tijd} toont de resultaten voor de drie applicaties voor compilatie 2 tot en met 100:
 \\ \\ 
 \begin{tikzpicture}
     \begin{axis}[
-        title={Resulaten van de compilatie twee tot honderd},
+        title={Resulaten van de compilatie 2 tot 100},
         xlabel={Build},
         ylabel={Tijd [seconden]},
         xmin=2, xmax=100,
@@ -981,7 +981,7 @@ Grafiek \ref{G:tijd} toont de resultaten voor de drie applicaties voor compilati
 Tabel \ref{T:compileer-andere} is gebaseerd op dezelfde gegevens als grafiek \ref{G:tijd}.
 \begin{table}[H]
     \centering
-    \caption{Resulaten van de compilatie twee tot honderd}
+    \caption{Resulaten van de compilatie 2 tot 100}
     \begin{tabular}{|l|c|c|c|c|}
         \hline
         {\textbf{Factor}} & {\textbf{Android}}  & {\textbf{iOS}} & {\textbf{KMM - AS}} & {\textbf{KMM - Xcode}}\\ \hline \hline
@@ -995,11 +995,11 @@ Tabel \ref{T:compileer-andere} is gebaseerd op dezelfde gegevens als grafiek \re
     \label{T:compileer-andere}
 \end{table}
 
-Uit voorgaande gegevens kunnen we afleiden dat Android Studio de meest performante IDE is voor KMM en dat er dus geen tijdswinst id door Xcode te gebruiken. Daarnaast valt ook op dat de IDE na de tweede build niet veel meer versnellen en de waarden stagneren.
+Uit voorgaande gegevens kan afleiden worden dat Android Studio de meest performante IDE is voor KMM en dat er dus geen tijdswinst id door Xcode te gebruiken. Daarnaast valt ook op dat de IDE na de tweede build niet veel meer versnellen en de waarden stagneren.
 
 \subsubsection{\IfLanguageName{dutch}{Conclusie}{Conclusion}}
 \label{sec:M-test-compileersnelheid-conclusie}
-Tabellen \ref{T:compileer-eerste-overzicht} en \ref{T:compileer-andere-overzicht} tonen een overzicht van de resultaten in verband met de compileersnelheid bij vergelijking tussen native en KMM. De waarden voor native zijn bekomen door voor elke build iteratie de waarden op te tellen en nadien deze waarden te gebruiken voor de statistiek. Voor de waarden van KMM worden de waarden uit tabel \ref{T:compileer-andere} van `KMM - AS' gebruikt.
+Tabellen \ref{T:compileer-eerste-overzicht} en \ref{T:compileer-andere-overzicht} geven een overzicht van de resultaten in verband met de compileersnelheid bij vergelijking tussen native en KMM. Om de waarden voor native te bekomen werd voor elke build iteratie de waarde opgeteld en nadien gebruikt voor de statistische berekening. Voor de waarden van KMM worden de waarden uit tabel \ref{T:compileer-andere} van `KMM - AS' gebruikt.
 \\ \\
 \begin{table}[H]
     \centering
@@ -1034,19 +1034,19 @@ Hieronder wordt een overzicht getoond van de conclusies die getrokken kunnen wor
     \item Native heeft een sneller gemiddelde na de eerste build.
     \item De waarden van Xcode zijn veel stabieler dan die van Android Studio
 \end{itemize}
-Enkele zaken rond de conclusies, KMM staat nog in alfa dit kan verklaren waarom de cache van de native applicaties beter is. De stabiliteit van Xcode kan te verklaren zijn door een afronding die Xcode intern doet op de compileertijden.
+Er dienen echter enkele bemerkingen toegevoegd te worden aan deze resultaten. KMM bevindt zich nog in alfa dit kan verklaren waarom de cache van de native applicaties beter is. De stabiliteit van Xcode kan te verklaren zijn door een afronding die Xcode intern doet op de compileertijden.
 \\ \\ 
-De conclusie van deze test is dat KMM sneller is dan de native varianten en dus de betere keuze is op vlak van compileertijden.
+De conclusie van deze test is dat de compileertijd van KMM korter is dan van de native varianten. 
 
 
 \subsection{\IfLanguageName{dutch}{Voetafdruk}{Application size}}
 \label{sec:M-test-voetafdruk}
-Een ander gegeven dat bekeken wordt is de voetafdruk van de verschillende applicaties. Hierbij is een lagere waarde te verkiezen,  gezien de applicaties dezelfde functionaliteit hebben. Hogere waarden zouden wijzen op nutteloze gegevens/bestanden die mogelijks overbodig zijn in het project.
+Een ander gegeven dat bekeken wordt is de voetafdruk van de verschillende applicaties. Hierbij is een lagere waarde te verkiezen,  gezien de applicaties dezelfde functionaliteit hebben. Hogere waarden wijzen op nutteloze gegevens/bestanden die mogelijks overbodig zijn in het project.
 
 
 \subsubsection{\IfLanguageName{dutch}{Android}{Android}}
 \label{sec:M-test-voetafdruk-android}
-Op figuur \ref{fig:M-voetafdruk-android} wordt de voetafdruk voor de Android applicatie getoond. Deze werd via Android Studio werd geïnstalleerd op de emulator gekozen voor het project. Op een Android toestel is het mogelijk de persoonlijke gegevens en de cache van de applicatie apart te zien en te verwijderen. Het verwijderen van deze zaken had echter geen invloed op de grootte van de applicatie zelf. Op de figuren van figuur \ref{fig:M-voetafdruk-android} kunnen de waarden teruggevonden worden.
+Op figuur \ref{fig:M-voetafdruk-android} wordt de voetafdruk voor de Android applicatie getoond. Deze werd via Android Studio geïnstalleerd op de emulator gekozen voor het project. Op een Android toestel is het mogelijk de persoonlijke gegevens en de cache van de applicatie apart te zien en te verwijderen. Het verwijderen van deze zaken had echter geen invloed op de grootte van de applicatie zelf. Op de figuren van figuur \ref{fig:M-voetafdruk-android} kunnen de waarden teruggevonden worden.
 
 \begin{figure}
     \centering
@@ -1063,7 +1063,7 @@ Op figuur \ref{fig:M-voetafdruk-android} wordt de voetafdruk voor de Android app
 
 \subsubsection{\IfLanguageName{dutch}{iOS}{iOS}}
 \label{sec:M-test-voetafdruk-ios}
-De voetafdruk van een iOS applicatie meten is echter niet mogelijk via de emulators binnen Xcode. Om onderstaande resultaten te verzamelen werd gewerkt met een fysiek toestel namelijk de iPhone 11 Pro Max\footnote{support.apple.com/kb/SP806}. De applicatie werd via Xcode op het toestel geïnstalleerd. Daarna kan via de instellingen van de iPhone de grootte van de applicatie bekeken worden.
+De voetafdruk van een iOS applicatie meten is echter niet mogelijk via de emulators binnen Xcode. Om onderstaande resultaten te verzamelen werd gewerkt met een fysiek toestel namelijk de iPhone 11 Pro Max\footnote{support.apple.com/kb/SP806}. De applicatie werd via Xcode op het toestel geïnstalleerd. Daarna kon via de instellingen van de iPhone de grootte van de applicatie bekeken worden.
 
 \begin{figure}
     \centering
@@ -1092,7 +1092,7 @@ Zoals reeds vermeld, zal de iOS applicatie geïnstalleerd worden op de fysieke i
 
 \subsubsection{\IfLanguageName{dutch}{Conclusie}{Conclusion}}
 \label{sec:M-test-voetafdruk-conclusie}
-Bij evaluatie van de resultaten op vlak van voetafdruk, wordt gezien dat KMM Android iets beter scoort dan native, maar dat KMM iOS veel slechter scoort dan native iOS. Tabel \ref{T:voetafruk-overzicht} geeft een overzicht van de voetafdrukken. Om een ander beeld te krijgen, kunnen de waarden van native en KMM opgeteld worden. Hieruit kan dan wel geconcludeerd worden dat native net iets meer performant is op het vlak van de voetafdrukken op de toestellen.
+Bij evaluatie van de resultaten op vlak van voetafdruk, wordt gezien dat KMM Android iets beter scoort dan native, maar dat KMM iOS veel slechter scoort dan native iOS. Tabel \ref{T:voetafruk-overzicht} geeft een overzicht van de voetafdrukken. Om een ander beeld te krijgen, kunnen de waarden van native en KMM opgeteld worden.
 
 
 \begin{table}[H]
@@ -1108,11 +1108,11 @@ Bij evaluatie van de resultaten op vlak van voetafdruk, wordt gezien dat KMM And
     \label{T:voetafruk-overzicht}
 \end{table}
 
-Deze resultaten en conclusie geven een indicatie over wat de verhouding is tussen native en KMM op vlak van de voetafdruk. De waarden zijn echter irrelevant gezien deze aan de hand van meerdere applicaties en over een langere periode dient getest te worden vooraleer hieruit een conclusie kan getrokken worden.
+Deze resultaten en conclusie geven een indicatie over wat de verhouding is tussen native en KMM op vlak van de voetafdruk. De waarden zijn echter irrelevant gezien deze aan de hand van meerdere applicaties en over een langere periode dienen getest te worden vooraleer hieruit een conclusie kan getrokken worden.
 
 \subsection{\IfLanguageName{dutch}{Ontwikkeltijd}{Development time}}
 \label{sec:M-test-ontwikkeltijd}
-De ontwikkeltijd is een eerder subjectief gegeven, gezien dit zeer afhankelijk is van de persoon die deze test afneemt. Voor deze studie had de ontwikkelaar geen ervaring met KMM maar wel met Kotlin en Swift. Door de ontwikkelaar waren in het verleden reeds applicaties geschreven voor Android en iOS. De ontwikkeltijden zijn een schatting en omvatten het hele traject van opstart tot het builden van de laatste correcte versie. Deze waarden zijn gebaseerd op commit history en local history binnen de IDE's alsook timetracking van de ontwikkelaar zelf.
+De ontwikkeltijd is een eerder subjectief criterium, gezien dit zeer afhankelijk is van de persoon die deze test afneemt. Voor deze studie had de ontwikkelaar geen ervaring met KMM maar wel met Kotlin en Swift. De ontwikkelaar had in het verleden reeds applicaties geschreven voor Android en iOS. De ontwikkeltijden zijn een schatting en omvatten het hele traject van opstart tot het builden van de laatste correcte versie. Deze waarden zijn gebaseerd op commit history en local history binnen de IDE's alsook timetracking van de ontwikkelaar zelf.
 
 \begin{table}[H]
     \centering
@@ -1129,11 +1129,11 @@ De ontwikkeltijd is een eerder subjectief gegeven, gezien dit zeer afhankelijk i
 
 Aan de hand van de resultaten kan geconcludeerd worden dat het voor de ontwikkelaar in de studie net sneller was om een KMM applicatie te maken dan twee native varianten. Een van de belangrijkste zaken hierbij is het feit dat voor native twee projecten moeten opgestart worden. Daarnaast bevatte de KMM applicatie al wat logica op voorhand die kon hergebruikt worden.
 \\ \\ 
-Indien deze studie zou uitgevoerd worden door een meer ervaren ontwikkelaar die ervaring heeft met Kotlin, Swift en KMM kan verwacht worden dat de KMM applicatie nog sneller ontwikkeld kan worden. De gedeelde domeinlogica kan een heel stuk tijd besparen dit gegeven kwam in dit project ook naar boven kwam.
+Indien deze studie zou uitgevoerd worden door een ontwikkelaar die meer ervaring heeft met Kotlin, Swift en KMM kan verwacht worden dat de KMM applicatie nog sneller ontwikkeld kan worden. De gedeelde domeinlogica kan een heel stuk tijd besparen. Dit gegeven kwam in dit project ook naar boven.
 
 \subsection{\IfLanguageName{dutch}{Kostprijs}{Cost}}
 \label{sec:M-test-lijnen-kostprijs}
-Voor de kostprijs zal gebaseerd worden op gegevens die aangereikt werden door Endare, het ondersteunende bedrijf voor deze bachelorproef. Tabel \ref{T:prijzen-overzicht} toont een overzicht van de geschatte kosten. De ontwikkelingstijd wordt gebruikt als basis voor de andere zaken als design, analyse... in te schatten. Deze inschatting gebeurd aan de hand van de ontwikkelingstijd te vermenigvuldigen met een factor van 1,7. Voor de prijs te berekenen werkt Endare met een uurtarief van \euro{} 85 excl. btw.
+Voor de kostprijs wordt gebaseerd op gegevens die aangereikt werden door Endare, het ondersteunende bedrijf voor deze bachelorproef. Tabel \ref{T:prijzen-overzicht} geeft een overzicht van de geschatte kosten. De ontwikkelingstijd wordt gebruikt als basis om de andere zaken zoals design en analyse in te schatten. Deze inschatting gebeurt aan de hand van de ontwikkelingstijd te vermenigvuldigd met een factor van 1,7. Om de prijs te berekenen werkt Endare met een uurtarief van \euro{} 85 excl. btw.
 
 \begin{table}[H]
     \centering
@@ -1148,7 +1148,7 @@ Voor de kostprijs zal gebaseerd worden op gegevens die aangereikt werden door En
     \label{T:prijzen-overzicht}
 \end{table}
 
-De totale kostprijs voor de twee native applicaties komt dus op \euro{} 500,93 en de KMM applicatie komt op \euro{} 496,12. Het kleine verschil tussen de resultaten is te verklaren door het feit dat gebruik gemaakt is van de resultaten van deel \ref{sec:M-test-ontwikkeltijd}: `Ontwikkeltijd'. Daar werd op het einde ook gewezen op het feit dat bij meer ervaren developers een KMM applicatie interessanter zou zijn. Dit gegeven heeft ook rechtstreeks effect op de prijs, gezien een snellere ontwikkeltijd zorgt voor een lagere prijs.
+De totale kostprijs voor de twee native applicaties bedraagt in totaal \euro{} 500,93 en de KMM applicatie bedraagt \euro{} 496,12. Het kleine verschil tussen de resultaten is te verklaren door dat gebruik gemaakt werd van de resultaten van deel \ref{sec:M-test-ontwikkeltijd}: `Ontwikkeltijd'. Daar werd op het einde ook gewezen op het feit dat bij meer ervaren developers een KMM applicatie interessanter zou zijn. Dit gegeven heeft ook rechtstreeks effect op de prijs, gezien een snellere ontwikkeltijd zorgt voor een lagere prijs.
 
 Uiteindelijk zou ook met het kleine verschil nu de KMM variant goedkoper uitkomen gezien de factor 1,7 geen projectmanagement kosten bevat. Deze kosten zouden in het native verhaal dus twee keer dienen aangerekend te worden en bij de KMM variant maar één keer. Dit maakt dus dat de KMM applicaties goedkoper zal zijn dan de native applicaties.
 
