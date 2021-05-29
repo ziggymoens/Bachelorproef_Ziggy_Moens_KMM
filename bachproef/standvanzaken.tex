@@ -42,7 +42,7 @@ Nadat de basis rond Kotlin is besproken, zullen de mogelijkheden binnen het ontw
 \subsection{\IfLanguageName{dutch}{Platform}{Platform}}
 \label{sec:SVZplatform}
 
-Eerst zal er bekeken worden wat de term platform inhoudt, daarvoor wordt gebruikt gemaakt van een artikel van \textcite{Bishop2006}. Belangrijk te vermelden is dat de term platform nog niet strikt gedefinieerd is, er kunnen echter wel enkele zaken gelinkt worden aan de term. Een platform zal meestal een bepaalde programmeertaal, bepaald besturingssysteem of bepaalde hardware beschrijven. Hierbij is belangrijk te vermelden dat het niet enkel over een van deze zaken kan gaan maar ook over een combinatie van meerdere factoren. Een voorbeeld hiervan is een platform dat beschreven wordt door een bepaald besturingssysteem in combinatie met specifieke hardware. Enkele voorbeelden van platformen in de praktijk:
+Eerst zal er bekeken worden wat de term platform inhoudt, daarvoor wordt gebruik gemaakt van een artikel van \textcite{Bishop2006}. Belangrijk te vermelden is dat de term platform nog niet strikt gedefinieerd is, er kunnen echter wel enkele zaken gelinkt worden aan de term. Een platform zal meestal een bepaalde programmeertaal, bepaald besturingssysteem of bepaalde hardware beschrijven. Hierbij is belangrijk te vermelden dat het niet enkel over een van deze zaken kan gaan maar ook over een combinatie van meerdere factoren. Een voorbeeld hiervan is een platform dat beschreven wordt door een bepaald besturingssysteem in combinatie met specifieke hardware. Enkele voorbeelden van platformen in de praktijk:
 \begin{itemize}
 \item Programmeertaal als platform:\\
 Hierbij zal een specifieke programmeertaal en eventueel bijhorende libraries dienen als het platform waarvoor er bepaalde software voor gemaakt wordt. Enkele voorbeelden hiervan zijn Java SE 16 \footnote{oracle.com/java/technologies/javase-downloads.html}, AdoptOpenJDK 11\footnote{adoptopenjdk.net/index.html}... Hiervan zijn nog vele voorbeelden op te sommen, ook de voorgaande versies van deze software worden als andere platformen gezien.
@@ -77,7 +77,7 @@ Als tweede vorm van applicatieontwikkeling zal er gekeken worden naar cross-plat
 Cross-platform ontwikkeling is echter een zeer ruim gegeven en kan opgesplitst worden in een aantal categorieën. Uit de studie van \textcite{Xanthopoulos2013} komen volgende categorieen:
 \begin{itemize}
     \item Web applicaties\\
-    Web applicaties zijn applicaties die gebruikers kunnen gebruiken binnen de webbrowser en maken gebruik van HTML\footnote{html.spec.whatwg.org}, CSS\footnote{w3.org/Style/CSS} en JavaScript\footnote{developer.mozilla.org/en-US/docs/Web/JavaScript}. Een groot voordeel aan dit soort applicaties is dat deze geen installatie vereisen wat het makkelijker maakt voor de eindgebruiker. Deze applicaties kunnen echter wel een soort van installatie\footnote{support.google.com/chrome/answer/9658361?co=GENIE.Platform\%3DDesktop\&hl=en} krijgen waarbij er een link voorzien word naar de online versie. Daar hangt wel een nadeel aan vast, aangezien de applicaties niet geïnstalleerd worden op het toestel kunnen ze geen gebruik maken van de hardware van het platform. Een ander belangrijk gegeven is dat deze applicaties vereisen dat de eindgebruiker een internetverbinding heeft minstens voor het eerste gebruik. Deze kunnen echter voorzien worden om een bepaalde periode te werken zonder internet. Recente technologieën proberen aan de hand van APIs de ontwikkelaar toch de mogelijkheid te geven om bepaalde platform specifieke hardware of software te gebruiken. Door deze oplossing wordt deze variant al veel interessanter voor potentiële gebruikers en ontwikkelaars. Indien een web applicatie voldoet aan volgende tien voorwaarden \autocite{Osmani2015} dan kunnen we spreken van een progressive web applicatie (PWA). Deze tien voorwaarden zijn: 
+    Web applicaties zijn applicaties die gebruikt kunnen worden binnen de webbrowser en maken gebruik van HTML\footnote{html.spec.whatwg.org}, CSS\footnote{w3.org/Style/CSS} en JavaScript\footnote{developer.mozilla.org/en-US/docs/Web/JavaScript}. Een groot voordeel aan dit soort applicaties is dat deze geen installatie vereisen wat het makkelijker maakt voor de eindgebruiker. Deze applicaties kunnen echter wel een soort van installatie\footnote{support.google.com/chrome/answer/9658361?co=GENIE.Platform\%3DDesktop\&hl=en} krijgen waarbij er een link voorzien word naar de online versie. Daar hangt wel een nadeel aan vast, aangezien de applicaties niet geïnstalleerd worden op het toestel kunnen ze geen gebruik maken van de hardware van het platform. Een ander belangrijk gegeven is dat deze applicaties vereisen dat de eindgebruiker een internetverbinding heeft minstens voor het eerste gebruik. Deze kunnen echter voorzien worden om een bepaalde periode te werken zonder internet. Recente technologieën proberen aan de hand van APIs de ontwikkelaar toch de mogelijkheid te geven om bepaalde platform specifieke hardware of software te gebruiken. Door deze oplossing wordt deze variant al veel interessanter voor potentiële gebruikers en ontwikkelaars. Indien een web applicatie voldoet aan volgende tien voorwaarden \autocite{Osmani2015} dan kunnen we spreken van een progressive web applicatie (PWA). Deze tien voorwaarden zijn: 
     \begin{enumerate}
        \item Progressief
        \begin{itemize}
@@ -122,7 +122,7 @@ Cross-platform ontwikkeling is echter een zeer ruim gegeven en kan opgesplitst w
     \end{enumerate} 
 
     \item Hybride applicaties\\
-    Deze applicaties zijn een combinatie van native applicaties en web applicaties. Voor deze applicaties wordt er meestal gebruik gemaakt van een HTML5\footnote{developer.mozilla.org/nl/docs/Web/Guide/HTML/HTML5} web applicatie in combinatie met JavaScript. Deze applicatie zal dan in een native webcontainer container getoond worden. Binnen deze container zal de web applicatie gewoon werken zoals binnen een browser. Doordat deze vorm van applicaties geïnstalleerd worden op het platform is het wel mogelijk om bepaalde platform specifieke hardware of software aan te spreken en te gebruiken.
+    Deze applicaties zijn een combinatie van native applicaties en web applicaties. Voor deze applicaties wordt er meestal gebruik gemaakt van een HTML5\footnote{developer.mozilla.org/nl/docs/Web/Guide/HTML/HTML5} web applicatie in combinatie met JavaScript. Deze applicatie zal dan in een native webcontainer container getoond worden. Binnen deze container zal de web applicatie gewoon werken zoals binnen een browser. Doordat deze vorm van applicaties geïnstalleerd wordt op het platform is het wel mogelijk om bepaalde platform specifieke hardware of software aan te spreken en te gebruiken.
     \\
     
     \item Geïnterpreteerde applicaties\\
@@ -212,7 +212,7 @@ Na het overzicht van de SWOT-analyse zal elk element nog even besproken worden.
     \\
     
     \item Bedreigingen of Threats:
-    Een van de grote bedreigingen voor cross-platform applicaties is de afhankelijkheid van de gekozen software toolkit of omgeving. Indien door updates binnen deze toolkits of omgevingen bepaalde code niet meer zou werken, zullen alle platformen daar de problemen ondervinden. Dit is een gegeven dat binnen native applicaties geen probleem aangezien elke applicatie voor elk platform een eigen afzonderlijk geheel vormt los van de andere platformen en hun applicaties. 
+    Een van de grote bedreigingen voor cross-platform applicaties is de afhankelijkheid van de gekozen software toolkit of omgeving. Indien door updates binnen deze toolkits of omgevingen bepaalde code niet meer zou werken, zullen alle platformen daar de problemen van ondervinden. Dit is een gegeven dat binnen native applicaties geen probleem aangezien elke applicatie voor elk platform een eigen afzonderlijk geheel vormt los van de andere platformen en hun applicaties. 
 \end{itemize}
 
 Hierbij moet nogmaals vermeld worden dat deze factoren gelden voor cross-platform applicaties in het algemeen. Hierdoor zijn sommige factoren mogelijks niet toepasbaar op bepaalde software toolkits of omgevingen. 
@@ -222,7 +222,7 @@ Hierbij moet nogmaals vermeld worden dat deze factoren gelden voor cross-platfor
 \section{\IfLanguageName{dutch}{Kotlin Multiplatform}{Kotlin Multiplatform}}
 \label{sec:SVZKM}
 
-Kotlin Multiplatform (KM) is een cross-platform software development kit (SDK) dat verwerkt zit in Kotlin en kan geplaatst worden onder de gegenereerde applicaties. Dit wil zeggen dat Kotlin compiler de geschreven code zal kunnen omzetten naar native code voor de gekozen platformen.\autocite{Evert2019} Deze SDK werd voor het eerst verwerkt in Kotlin 1.2 in november 2017 als experimentele functie.\autocite{Jemerov2017} Naast KM werd ook een SDK uitgebracht specifiek gericht op de mobiele toestellen namelijk Kotlin Multiplatform Mobile (KMM). 
+Kotlin Multiplatform (KM) is een cross-platform software development kit (SDK) dat verwerkt zit in Kotlin en kan geplaatst worden onder de gegenereerde applicaties. Dit wil zeggen dat Kotlin compiler de geschreven code zal kunnen omzetten naar native code voor de gekozen platformen.\autocite{Evert2019} Deze SDK werd voor het eerst verwerkt in Kotlin 1.2 in november 2017 als experimentele functie.\autocite{Jemerov2017} Naast KM werd ook een SDK uitgebracht specifiek gericht op mobiele toestellen namelijk Kotlin Multiplatform Mobile (KMM). 
 
 Deze SDK's zullen het concept van cross-platform anders aanpakken dan andere alternatieven binnen het huidige landschap van cross-platform ontwikkeling. Hierbij zit het verschil vooral in welke code van de applicatie gedeeld wordt tussen de verschillende platformen. In de Kotlin documentatie staat beschreven hoe bepaalde delen van de code correct kunnen gedeeld worden tussen verschillende platformen. KM zal anders dan andere alternatieven de business logica delen tussen de verschillende platformen.\autocite{Kotlin2021} Hierbij wordt ook vermeld dat men enkel de business logica moet delen die gebruikt kan worden op alle platformen. De andere alternatieven worden besproken binnen \ref{sec:SVZKMMvsandere} Kotlin Multiplatform versus alternatieven.
 
@@ -276,7 +276,7 @@ In figuur \ref{fig:SVZkmm-code} kan bekeken worden hoe KMM geïmplementeerd zal 
 \section{\IfLanguageName{dutch}{Kotlin Multiplatform versus alternatieven}{Kotlin Multiplatform versus alternatives}}
 \label{sec:SVZKMMvsandere}
 
-Nu duidelijk is wat Kotlin Multiplatform (KM) en Kotlin Multiplatform Mobile (KMM) omvat kan er bekeken welke andere alternatieven er zijn binnen het huidige landschap van cross-platform ontwikkeling. Een van de alternatieven die besproken zal worden is Flutter\footnote{flutter.dev}.
+Nu duidelijk is wat Kotlin Multiplatform (KM) en Kotlin Multiplatform Mobile (KMM) omvatten kan er bekeken welke andere alternatieven er zijn binnen het huidige landschap van cross-platform ontwikkeling. Een van de alternatieven die besproken zal worden is Flutter\footnote{flutter.dev}.
 
 Flutter is een user interface toolkit ontwikkeld door Google en zit aan versie 1.22 sinds oktober 2020.\autocite{Sells2020} De toolkit richt zich op mobile, web en desktop applicaties en zal de code native compileren. Zoals reeds beschreven is Flutter een user interface toolkit en zal dus de user interface delen over de verschillende platformen. Hiervoor zal Flutter widgets gebruiken die geïnspireerd zijn door React.\autocite{FlutterWidgets} Dit impliceert dus dat hierbij de business logica zal moeten verwerkt worden per platform.
 
@@ -304,7 +304,7 @@ Om een goede vergelijkende studie te maken is het belangrijk om op voorhand bepa
     \end{itemize}
     \item Ontwikkeltijd
     \begin{itemize}
-        \item Deze tijd beschrijft het aantal werkuren dat een ontwikkelaar nodig heeft om een specifieke applicatie te schrijven. Hierbij kan onder andere gebruik gemaakt worden van platformen zoals GitHub om deze tijd te meten of inschatten.
+        \item Deze tijd beschrijft het aantal werkuren dat een ontwikkelaar nodig heeft om een specifieke applicatie te schrijven. Hierbij kan onder andere gebruik gemaakt worden van platformen zoals GitHub om deze tijd te meten of in te schatten.
     \end{itemize}
     \item Kostprijs
     \begin{itemize}
