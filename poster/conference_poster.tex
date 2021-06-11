@@ -38,6 +38,7 @@
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{wrapfig} % Allows wrapping text around tables and figures
 \usepackage[export]{adjustbox}
+\usepackage{subfig}
 
 \begin{document}
 
@@ -51,11 +52,11 @@
 % The widths of these boxes can be easily edited to accommodate your content as you see fit
 
 \begin{minipage}[t]{0.75\linewidth}
-\VeryHuge \color{HoGentAccent1} \textbf{Titel van uw bachelorproef} \color{Black}\\ % Title
-\Huge\textit{Ondertitel (eventueel)}\\[2.4cm] % Subtitle
-\huge \textbf{Naam Voornaam, co-promotor, promotor}\\[0.5cm] % Author(s)
+\VeryHuge \color{HoGentAccent1} \textbf{Kotlin Multiplatform Mobile als alternatief voor native applicaties} \color{Black}\\ % Title
+\Huge\textit{een vergelijkende studie en proof-of-concept}\\[2.4cm] % Subtitle
+\huge \textbf{Ziggy Moens, Kenneth Saey, Ludwig Stroobant}\\[0.5cm] % Author(s)
 \huge Hogeschool Gent, Valentin Vaerwyckweg 1, 9000 Gent\\[0.4cm] % University/organization
-\Large \texttt{voornaam.naam@hogent.be} \\
+\Large \texttt{ziggy.moens@hogent.be} \\
 \end{minipage}
 %
 \begin{minipage}[t]{0.25\linewidth}
@@ -76,9 +77,7 @@
 \color{HoGentAccent1} % Navy color for the abstract
 
 \begin{abstract}
-It's only a model.
-You don't vote for kings. Who's that then? We found them. Ni! Ni! Ni! Ni!
-The nose? On second thoughts, let's not go there. It is a silly place. Bloody Peasant! And the hat. She's a witch! Where'd you get the coconuts?
+Kotlin Multiplatform Mobile, de nieuwste software development kit van JetBrains, toont momenteel een geschikt alternatief te zijn voor native applicatie ontwikkeling. Zaken die in het voordeel van Kotlin Multiplatform Mobile zijn onder andere snelheid, performantie en ontwikkelsnelheid.
 \end{abstract}
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
@@ -88,15 +87,8 @@ The nose? On second thoughts, let's not go there. It is a silly place. Bloody Pe
 \section*{Introductie}
 \color{black}
 \color{black}
-Be quiet! Found them? In Mercia?! The coconut's tropical! But you are dressed as one… Well, what do you want? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
 
-Well, what do you want? It's only a model. Camelot! We found them. We shall say 'Ni' again to you, if you do not appease us.
-
-The nose? Shut up! Burn her! I am your king. You don't vote for kings.
-
-You can't expect to wield supreme power just 'cause some watery tart threw a sword at you! Well, we did do the nose. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
-
-Why do you think that she is a witch? We want a shrubbery!! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
+Binnen deze bachelorproef wordt nagegaan of Kotlin Multiplatform Mobile een alternatief kan bieden voor native applicatieontwikkeling. Cross-platform ontwikkeling lijkt de laatste tijd steeds interessanter gezien de doorgaans lagere kosten en snellere ontwikkeltijden. 
 %----------------------------------------------------------------------------------------
 %	GEOLOGY
 %----------------------------------------------------------------------------------------
@@ -105,25 +97,32 @@ Why do you think that she is a witch? We want a shrubbery!! I don't want to talk
 \color{HoGentAccent1} 
 \section*{Experimenten}
 \color{black}
-A newt? Camelot! Why? No, no, no! Yes, yes. A bit. But she's got a wart.
+ In deze studie worden gebruikt gemaakt van volgende applicaties:
+ \begin{itemize}
+     \item Native Android applicatie
+     \item Native iOS applicatie
+     \item Kotlin Multiplatform Mobile applicatie met ondersteuning voor Android en iOS
+ \end{itemize}
+Deze applicaties waren vooral gefocust op het vergelijken van de core van de applicaties, hierdoor hadden deze echter niet veel inhoud. Met deze applicaties werden de verschillen en gelijkenissen opgemeten tussen de native en cross-platform applicaties. Hiervoor werden volgende testcriteria gebruikt: het aantal lijnen code, kostprijs, ontwikkeltijd, compileertijd en de voetafdruk.
 
-Shut up! I dunno. Must be a king. Who's that then? Look, my liege! On second thoughts, let's not go there. It is a silly place.
-
-Shut up! Will you shut up?! No, no, no! Yes, yes. A bit. But she's got a wart. He hasn't got shit all over him. It's only a model. It's only a model.
-
-Bring her forward! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave 
+\begin{center}
+\includegraphics[width=0.45\linewidth]{kmm-basic-android}
+\includegraphics[width=0.45\linewidth]{kmm-basic-ios}
+\end{center}
 
 
 
 \color{HoGentAccent1} 
-\section*{Sectie met figuur}
+\section*{Resulaten}
 \color{black}
+Uit deze resultaten is gebleken dat Kotlin Multiplatform Mobile veel potentieel toont als alternatief voor native applicaties. Bij het evalueren van deze resultaten dient wel het feit dat Kotlin Multiplatform Mobile zich nog altijd in het alfa stadium bevindt, in het achterhoofd gehouden te worden. Volgende testen speelden in het voordeel van Kotlin Multiplatform Mobile: het aantal lijnen code en de eerste compilatie. Daarnaast waren de native applicaties iets performanter op vlak van voetafdruk.
+\\ \\
+De testcriteria die de ontwikkelingstijd en de kostprijs evalueerden toonden een klein voordeel voor Kotlin Multiplatform Mobile. Aangezien Kotlin Multiplatform Mobile net sneller te ontwikkelen was kwam deze dus ook als goedkoopste naar boven. Eens de projectmanagementkosten werden ingecalculeerd, was het verschil groter in het voordeel van Kotlin Multiplatform Mobile.
 
-
-\begin{center}\vspace{1cm}
-\includegraphics[width=1.0\linewidth]{grail}
-\captionof{figure}{\color{HoGentAccent5} He hasn't got shit all over him. The nose? Where'd you get the coconuts? What do you mean? We shall say 'Ni' again to you, if you do not appease us}
-\end{center}\vspace{1cm}
+\begin{center}
+    \includegraphics[width=1.0\linewidth]{kmm}
+    \captionof{figure}{Grafische voorstelling Kotlin Multiplatform Mobile, https://kotlinlang.org/lp/mobile}
+\end{center}
 
 %------------------------------------------------
 
@@ -132,7 +131,7 @@ Bring her forward! I don't want to talk to you no more, you empty-headed animal 
 \color{HoGentAccent1} 
 \section*{Conclusies}
 \color{black}
-on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+Uiteindelijk kenden de cross-platform applicaties dezelfde look en feel als de native applicaties en hadden ongeveer gelijke of zelfs betere resultaten op vlak van snelheid, performantie en ontwikkelingstijd. Dit maakt dat Kotlin Multiplatform Mobile een interessant alternatief kan zijn voor native applicatieontwikkeling. Eens Kotlin Multiplatform Mobile in productie gaat en bedrijven maken de overstap, wordt verondersteld dat Kotlin Multiplatform Mobile hier zeker een voordeel kan bieden.
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
 %----------------------------------------------------------------------------------------
@@ -140,9 +139,21 @@ on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this
 \section*{Toekomstig onderzoek}
 \color{black}
 
-I care. So, what do you think of her, Han? No! Alderaan is peaceful. We have no weapons. You can't possibly… I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
-
-Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. You are a part of the Rebel Alliance and a traitor! Take her away! 
+Volgend op deze studie zijn er enkele zaken die verder kunnen onderzocht worden, hieronder enkele mogelijke onderzoeksvragen.
+\begin{itemize}
+    \item Voor de test in verband met de voetafdruk zou een uitgebreidere studie kunnen uitgevoerd worden die meerdere applicaties maakt over een langere periode. Op deze manier zou de voetafdruk van native ten opzichte van KMM beter in kaart kunnen gebracht worden.
+    \item De huidige applicatie kan verder uitgebreid worden, aangezien dit een zeer ruim gegeven is, worden al enkele mogelijke uitbreidingen gegeven.
+        \begin{itemize}
+            \item Toevoegen van tekstvelden en user interface elementen
+            \item Off-line data en de verwerking ervan
+            \item On-line data aan de hand van API-calls
+            \item Toevoegen van wiskundige berekeningen
+        \end{itemize}
+    Daarnaast kan uitbreiding ook gezien worden als het uitbreiden naar meerdere devices zoals Apple Watch\footnote{apple.com/benl/watch}, iPad\footnote{apple.com/benl/ipad}, Android Auto\footnote{android.com/auto}...
+    \item Herhaling van het huidig onderzoek door developers met verschillende graden van
+    ervaring binnen het ontwikkelen met Kotlin, Swift en KMM. Aan de hand van deze test zou de impact van de developer op de testresultaten kunnen in kaart gebracht worden.
+    \item Kotlin Multiplatform Mobile vergelijken met andere cross-platform frameworks zoals Flutter\footnote{flutter.dev} en React Native\footnote{reactnative.dev}. Aan de hand van deze test zal bepaald kunnen worden of KMM de meest interessante variant is tussen alle cross-platform oplossingen.
+\end{itemize}
 
 
 %----------------------------------------------------------------------------------------
